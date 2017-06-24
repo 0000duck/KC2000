@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C# Express 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillCommando", "OpenTKPortation\KillCommando.csproj", "{0F775024-2AE7-4963-9A54-E841ADDA8840}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameworkContracts", "..\FrameworkContracts\FrameworkContracts.csproj", "{5A81427F-FAA5-4F9F-88D8-946060744FC1}"
@@ -68,8 +70,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Profile.Contracts", "..\Profile.Contracts\Profile.Contracts.csproj", "{C999D5E5-46E8-4A85-945C-EF30124399D5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Profile", "Profile\Profile.csproj", "{D33EA6C9-AF89-4062-B793-050C6BC09E88}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsSound", "WindowsSound\WindowsSound.csproj", "{52E0A5C9-C037-436D-8606-0DEC861564C4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillCommandoSetup", "..\KillCommandoSetup\KillCommandoSetup.csproj", "{9AEB81FE-3AF0-4A5B-AE5C-F4890ADA1388}"
 EndProject
@@ -423,16 +423,6 @@ Global
 		{D33EA6C9-AF89-4062-B793-050C6BC09E88}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{D33EA6C9-AF89-4062-B793-050C6BC09E88}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{D33EA6C9-AF89-4062-B793-050C6BC09E88}.Release|x86.ActiveCfg = Release|Any CPU
-		{52E0A5C9-C037-436D-8606-0DEC861564C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52E0A5C9-C037-436D-8606-0DEC861564C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52E0A5C9-C037-436D-8606-0DEC861564C4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{52E0A5C9-C037-436D-8606-0DEC861564C4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{52E0A5C9-C037-436D-8606-0DEC861564C4}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{52E0A5C9-C037-436D-8606-0DEC861564C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52E0A5C9-C037-436D-8606-0DEC861564C4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{52E0A5C9-C037-436D-8606-0DEC861564C4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{52E0A5C9-C037-436D-8606-0DEC861564C4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{52E0A5C9-C037-436D-8606-0DEC861564C4}.Release|x86.ActiveCfg = Release|Any CPU
 		{9AEB81FE-3AF0-4A5B-AE5C-F4890ADA1388}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{9AEB81FE-3AF0-4A5B-AE5C-F4890ADA1388}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{9AEB81FE-3AF0-4A5B-AE5C-F4890ADA1388}.Debug|Mixed Platforms.Build.0 = Debug|x86
