@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using BaseTypes;
+
+namespace GameInteractionContracts
+{
+    public interface IExplosiveSpawner
+    {
+        void CreateNewExplosive(Position3D position, VectorWithDegree directionVector);
+    }
+}

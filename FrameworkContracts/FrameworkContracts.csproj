@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5A81427F-FAA5-4F9F-88D8-946060744FC1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FrameworkContracts</RootNamespace>
+    <AssemblyName>FrameworkContracts</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="C64Colors.cs" />
+    <Compile Include="GameMode.cs" />
+    <Compile Include="IAmmoObserver.cs" />
+    <Compile Include="IAnimation.cs" />
+    <Compile Include="IAnimationImage.cs" />
+    <Compile Include="IAnimationLoader.cs" />
+    <Compile Include="IAnimationParticle.cs" />
+    <Compile Include="IAverageFrameTimeCalculator.cs" />
+    <Compile Include="ICache.cs" />
+    <Compile Include="ICamera.cs" />
+    <Compile Include="IColorProvider.cs" />
+    <Compile Include="IColorToPercentMapper.cs" />
+    <Compile Include="IContentDisposer.cs" />
+    <Compile Include="ICountRenderer.cs" />
+    <Compile Include="IDegreeCalculator.cs" />
+    <Compile Include="IDegreeMapper.cs" />
+    <Compile Include="IDrawable.cs" />
+    <Compile Include="IDynamicWallEffectManager.cs" />
+    <Compile Include="IEventToSoundMapper.cs" />
+    <Compile Include="IFader.cs" />
+    <Compile Include="IFlyingShellFactory.cs" />
+    <Compile Include="IGameModeObserver.cs" />
+    <Compile Include="IGameModeProvider.cs" />
+    <Compile Include="IGameStartInitializer.cs" />
+    <Compile Include="IGunFire.cs" />
+    <Compile Include="IImageElementSorter.cs" />
+    <Compile Include="IDrawableList.cs" />
+    <Compile Include="IKeyPressedOnceDetector.cs" />
+    <Compile Include="ILevelElementSplitter.cs" />
+    <Compile Include="ILevelIdProvider.cs" />
+    <Compile Include="ILevelIdSwitcher.cs" />
+    <Compile Include="ILevelLoader.cs" />
+    <Compile Include="ILevelLoadObserver.cs" />
+    <Compile Include="ILevelRenderLayerProvider.cs" />
+    <Compile Include="IMenuElement.cs" />
+    <Compile Include="IMessageRenderer.cs" />
+    <Compile Include="IMessageRendererFactory.cs" />
+    <Compile Include="IMirroredDrawable.cs" />
+    <Compile Include="IMouseController.cs" />
+    <Compile Include="IParticle.cs" />
+    <Compile Include="IParticleFactory.cs" />
+    <Compile Include="IPercentDrivenSprite.cs" />
+    <Compile Include="IPhysicalParameterUpdater.cs" />
+    <Compile Include="IPlayerCamera.cs" />
+    <Compile Include="IPlayerCameraConnection.cs" />
+    <Compile Include="IPlayerDistanceAnalyser.cs" />
+    <Compile Include="IPlayerDeathObserver.cs" />
+    <Compile Include="IPlayerHealthObserver.cs" />
+    <Compile Include="IPolygonCreator.cs" />
+    <Compile Include="IPressedKeyDetector.cs" />
+    <Compile Include="IRectangle.cs" />
+    <Compile Include="IRectangleFactory.cs" />
+    <Compile Include="IRectanglePolygonBuilder.cs" />
+    <Compile Include="IResolutionToSizeMapper.cs" />
+    <Compile Include="IResourceCleaner.cs" />
+    <Compile Include="IScenarioProvider.cs" />
+    <Compile Include="IScreenText.cs" />
+    <Compile Include="ISimpleTestRay.cs" />
+    <Compile Include="ISkillLevelProvider.cs" />
+    <Compile Include="ISkillLevelSetter.cs" />
+    <Compile Include="ISongProvider.cs" />
+    <Compile Include="ITextFactory.cs" />
+    <Compile Include="ITextureRotater.cs" />
+    <Compile Include="IVisualParameterUpdater.cs" />
+    <Compile Include="ISideMarker.cs" />
+    <Compile Include="IStaticTexture.cs" />
+    <Compile Include="ITheme.cs" />
+    <Compile Include="IThemeLoader.cs" />
+    <Compile Include="IVisualParameterized.cs" />
+    <Compile Include="IVisualParameters.cs" />
+    <Compile Include="IWeaponRenderer.cs" />
+    <Compile Include="IWeaponThemeObserver.cs" />
+    <Compile Include="IXmlFileSerializer.cs" />
+    <Compile Include="MouseEvents.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scenario.cs" />
+    <Compile Include="SkillLevel.cs" />
+    <Compile Include="SpriteVertices.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseTypes\BaseTypes.csproj">
+      <Project>{85C4C778-8674-4275-A5E4-EEE02A52F9D7}</Project>
+      <Name>BaseTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameInteractionContracts\GameInteractionContracts.csproj">
+      <Project>{97E55DEA-CA4B-464B-A4C4-631052966AB4}</Project>
+      <Name>GameInteractionContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IOInterface\IOInterface.csproj">
+      <Project>{240EB218-8FA1-432D-9C75-BC15CD42E750}</Project>
+      <Name>IOInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Render.Contracts\Render.Contracts.csproj">
+      <Project>{A13C5A44-3305-4BD0-9D83-5106A360C30F}</Project>
+      <Name>Render.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sound.Contracts\Sound.Contracts.csproj">
+      <Project>{83C3F491-7792-4F4F-9D86-9B540707667E}</Project>
+      <Name>Sound.Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

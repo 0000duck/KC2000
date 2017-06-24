@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{85C4C778-8674-4275-A5E4-EEE02A52F9D7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BaseTypes</RootNamespace>
+    <AssemblyName>BaseTypes</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcceleratedSpeedProvider.cs" />
+    <Compile Include="CollisionProtocol.cs" />
+    <Compile Include="Degree.cs" />
+    <Compile Include="DegreeFader.cs" />
+    <Compile Include="DegreeToImpulseConverter.cs" />
+    <Compile Include="Direction.cs" />
+    <Compile Include="DirectionHelper.cs" />
+    <Compile Include="DistanceBetweenTwoPositions.cs" />
+    <Compile Include="IComposition.cs" />
+    <Compile Include="IDegreeToImpulseConverter.cs" />
+    <Compile Include="IElementGroup.cs" />
+    <Compile Include="IGroupElement.cs" />
+    <Compile Include="IHighLevelOfDetail.cs" />
+    <Compile Include="IMovableByImpulse.cs" />
+    <Compile Include="Impulse.cs" />
+    <Compile Include="ImpulseCollection.cs" />
+    <Compile Include="IPositionProvider.cs" />
+    <Compile Include="ISimpleCollisionModel.cs" />
+    <Compile Include="IWorldElement.cs" />
+    <Compile Include="IWorldElementProvider.cs" />
+    <Compile Include="LargePositionOnRoomFieldModel.cs" />
+    <Compile Include="MathHelper.cs" />
+    <Compile Include="NoPositionOnRoomFieldModel.cs" />
+    <Compile Include="PercentFader.cs" />
+    <Compile Include="PercentLooper.cs" />
+    <Compile Include="Position3D.cs" />
+    <Compile Include="PositionOnRoomFieldModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shape.cs" />
+    <Compile Include="StandardWorldElement.cs" />
+    <Compile Include="TestQuality.cs" />
+    <Compile Include="ThreadPausingPercentFader.cs" />
+    <Compile Include="TimeAndSpeedManager.cs" />
+    <Compile Include="Vector2D.cs" />
+    <Compile Include="Vector3D.cs" />
+    <Compile Include="VectorCreator.cs" />
+    <Compile Include="VectorToDegreeConverter.cs" />
+    <Compile Include="VectorWithDegree.cs" />
+    <Compile Include="WaveSimulator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseContracts\BaseContracts.csproj">
+      <Project>{42754A9D-D7E3-454C-BAC5-75DC8D63BE80}</Project>
+      <Name>BaseContracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

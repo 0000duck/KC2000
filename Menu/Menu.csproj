@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0B659A25-2EB4-44AF-B589-52205C388047}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Menu</RootNamespace>
+    <AssemblyName>Menu</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EpisodeSelection.cs" />
+    <Compile Include="MainMenu.cs" />
+    <Compile Include="MenuElement.cs" />
+    <Compile Include="MenuPage.cs" />
+    <Compile Include="MenuPopUp.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SkillSelection.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseTypes\BaseTypes.csproj">
+      <Project>{85C4C778-8674-4275-A5E4-EEE02A52F9D7}</Project>
+      <Name>BaseTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FrameworkContracts\FrameworkContracts.csproj">
+      <Project>{5A81427F-FAA5-4F9F-88D8-946060744FC1}</Project>
+      <Name>FrameworkContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameInteractionContracts\GameInteractionContracts.csproj">
+      <Project>{97E55DEA-CA4B-464B-A4C4-631052966AB4}</Project>
+      <Name>GameInteractionContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InitializationContracts\InitializationContracts.csproj">
+      <Project>{4D37EB9D-655A-4D3A-809D-865610BFC96E}</Project>
+      <Name>InitializationContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Profile.Contracts\Profile.Contracts.csproj">
+      <Project>{C999D5E5-46E8-4A85-945C-EF30124399D5}</Project>
+      <Name>Profile.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Render.Contracts\Render.Contracts.csproj">
+      <Project>{A13C5A44-3305-4BD0-9D83-5106A360C30F}</Project>
+      <Name>Render.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SaveGames\SaveGames.csproj">
+      <Project>{479DDDC3-EE4C-42D5-9052-DFF1760771D0}</Project>
+      <Name>SaveGames</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Settings\Settings.csproj">
+      <Project>{D1D5E534-ECF2-45AC-949F-6720DFE54E61}</Project>
+      <Name>Settings</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

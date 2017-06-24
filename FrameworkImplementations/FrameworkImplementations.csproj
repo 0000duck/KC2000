@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FEF1B235-C631-4C89-A432-870D3A0BA826}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FrameworkImplementations</RootNamespace>
+    <AssemblyName>FrameworkImplementations</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animation\Animation.cs" />
+    <Compile Include="Animation\AnimationImage.cs" />
+    <Compile Include="Animation\AnimationLoader.cs" />
+    <Compile Include="BloodRenderer.cs" />
+    <Compile Include="ColorProvider.cs" />
+    <Compile Include="EventToTextMapper.cs" />
+    <Compile Include="Fader.cs" />
+    <Compile Include="FinalAnimationRenderer.cs" />
+    <Compile Include="FlyingShells\FlyingShell.cs" />
+    <Compile Include="FlyingShells\FlyingShellFactory.cs" />
+    <Compile Include="EventToSoundAndTextMapper.cs" />
+    <Compile Include="IntroRenderer.cs" />
+    <Compile Include="LoadTextRenderer.cs" />
+    <Compile Include="LoopedVisualSound.cs" />
+    <Compile Include="Mainframe\AverageFrameTimeCalculator.cs" />
+    <Compile Include="Mainframe\AverageTimeResetter.cs" />
+    <Compile Include="Mainframe\FrameTimeProvider.cs" />
+    <Compile Include="Mainframe\SongProvider.cs" />
+    <Compile Include="Mainframe\GameStartInitializer.cs" />
+    <Compile Include="Mainframe\LevelElementSplitter.cs" />
+    <Compile Include="Mainframe\SkillLevelRepository.cs" />
+    <Compile Include="Player\AmmoCountRenderer.cs" />
+    <Compile Include="Player\AmmoPerWeaponCounter.cs" />
+    <Compile Include="Player\PlayerDeathObserver.cs" />
+    <Compile Include="Player\PlayerHealthObserver.cs" />
+    <Compile Include="Screen\ColorToPercentMapper.cs" />
+    <Compile Include="Screen\CountIncrementer.cs" />
+    <Compile Include="Screen\CountRenderer.cs" />
+    <Compile Include="Screen\Rectangle2DImage.cs" />
+    <Compile Include="Screen\MovingCountRenderer.cs" />
+    <Compile Include="Screen\MovingRenderer.cs" />
+    <Compile Include="Screen\Rectangle2D.cs" />
+    <Compile Include="Screen\RectangleFactory.cs" />
+    <Compile Include="Screen\RectanglePolygonBuilder.cs" />
+    <Compile Include="Screen\Text.cs" />
+    <Compile Include="Screen\TextFactory.cs" />
+    <Compile Include="SoundComposition.cs" />
+    <Compile Include="TextRenderer.cs" />
+    <Compile Include="VaryingVisualSound.cs" />
+    <Compile Include="VisualSoundAnimation.cs" />
+    <Compile Include="LevelShutDown.cs" />
+    <Compile Include="Mainframe\BackgroundSwitcher.cs" />
+    <Compile Include="Mainframe\Fader.cs" />
+    <Compile Include="Mainframe\LoopedFader.cs" />
+    <Compile Include="Mainframe\FrameWorkflow.cs" />
+    <Compile Include="Mainframe\LevelFadeInTriggerer.cs" />
+    <Compile Include="Mainframe\LevelLoader.cs" />
+    <Compile Include="Mainframe\LoadingRenderer.cs" />
+    <Compile Include="Mainframe\MainRenderer.cs" />
+    <Compile Include="Mainframe\MusicPlayer.cs" />
+    <Compile Include="Mainframe\StandardResourcePreloader.cs" />
+    <Compile Include="Mainframe\Updater.cs" />
+    <Compile Include="Player\PlayerCamera.cs" />
+    <Compile Include="Player\PlayerHealth.cs" />
+    <Compile Include="Player\PlayerInstructionCache.cs" />
+    <Compile Include="Player\PlayerInstructionMapper.cs" />
+    <Compile Include="Player\PlayerObserver.cs" />
+    <Compile Include="PolygonCreator.cs" />
+    <Compile Include="PressedKeyEncapsulator.cs" />
+    <Compile Include="ScalingImageSprite.cs" />
+    <Compile Include="Theme\FloorAnimationThemeDecorator.cs" />
+    <Compile Include="Mainframe\GameModeProvider.cs" />
+    <Compile Include="Mainframe\LevelIdSwitcher.cs" />
+    <Compile Include="Animation\PerspectiveAnimation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResourceComposition.cs" />
+    <Compile Include="Animation\ScenarioAnimationLoader.cs" />
+    <Compile Include="ScenarioProvider.cs" />
+    <Compile Include="StrategyRemover.cs" />
+    <Compile Include="TextureCache.cs" />
+    <Compile Include="Theme\Theme.cs" />
+    <Compile Include="Theme\ThemeLoader.cs" />
+    <Compile Include="VisualSound.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArtificialIntelligence.Contracts\ArtificialIntelligence.Contracts.csproj">
+      <Project>{975F9D20-9967-40F1-A210-08E8BB2F1A44}</Project>
+      <Name>ArtificialIntelligence.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BaseContracts\BaseContracts.csproj">
+      <Project>{42754A9D-D7E3-454C-BAC5-75DC8D63BE80}</Project>
+      <Name>BaseContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BaseTypes\BaseTypes.csproj">
+      <Project>{85C4C778-8674-4275-A5E4-EEE02A52F9D7}</Project>
+      <Name>BaseTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FrameworkContracts\FrameworkContracts.csproj">
+      <Project>{5A81427F-FAA5-4F9F-88D8-946060744FC1}</Project>
+      <Name>FrameworkContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameInteractionContracts\GameInteractionContracts.csproj">
+      <Project>{97E55DEA-CA4B-464B-A4C4-631052966AB4}</Project>
+      <Name>GameInteractionContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InitializationContracts\InitializationContracts.csproj">
+      <Project>{4D37EB9D-655A-4D3A-809D-865610BFC96E}</Project>
+      <Name>InitializationContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IOImplementation\IOImplementation.csproj">
+      <Project>{BEECFDB6-19B7-4536-A6AE-BB29BB756483}</Project>
+      <Name>IOImplementation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IOInterface\IOInterface.csproj">
+      <Project>{240EB218-8FA1-432D-9C75-BC15CD42E750}</Project>
+      <Name>IOInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Profile.Contracts\Profile.Contracts.csproj">
+      <Project>{C999D5E5-46E8-4A85-945C-EF30124399D5}</Project>
+      <Name>Profile.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Render.Contracts\Render.Contracts.csproj">
+      <Project>{A13C5A44-3305-4BD0-9D83-5106A360C30F}</Project>
+      <Name>Render.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sound.Contracts\Sound.Contracts.csproj">
+      <Project>{83C3F491-7792-4F4F-9D86-9B540707667E}</Project>
+      <Name>Sound.Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

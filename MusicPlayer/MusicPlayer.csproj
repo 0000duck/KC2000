@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{87B347A1-41AB-4371-B6EA-240F3055D113}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MusicPlayer</RootNamespace>
+    <AssemblyName>MusicPlayer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BassMapper.cs" />
+    <Compile Include="BassNotes.cs" />
+    <Compile Include="Converter.cs" />
+    <Compile Include="DrumNotes.cs" />
+    <Compile Include="MelodyMapper.cs" />
+    <Compile Include="MelodyNotes.cs" />
+    <Compile Include="Player\CompositionPlayer.cs" />
+    <Compile Include="Player\TimeBoxedElementPlayer.cs" />
+    <Compile Include="Player\FragmentPlayer.cs" />
+    <Compile Include="Player\FragmentPlayerV2.cs" />
+    <Compile Include="Player\InstrumentPlayer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Provider\BassCreator.cs" />
+    <Compile Include="Provider\DrumCreator.cs" />
+    <Compile Include="Provider\MelodyCreator.cs" />
+    <Compile Include="Song.cs" />
+    <Compile Include="Songs\BassNoteCollection.cs" />
+    <Compile Include="Songs\Composition.cs" />
+    <Compile Include="Songs\DrumCollection.cs" />
+    <Compile Include="Songs\MelodyNoteCollection.cs" />
+    <Compile Include="Songs\ML\Bass.cs" />
+    <Compile Include="Songs\ML\Drums.cs" />
+    <Compile Include="Songs\ML\Guitar.cs" />
+    <Compile Include="Songs\ML\Guitar2.cs" />
+    <Compile Include="Songs\Music\Song21.cs" />
+    <Compile Include="Songs\Music\Song20.cs" />
+    <Compile Include="Songs\Music\Song19.cs" />
+    <Compile Include="Songs\Music\Song14.cs" />
+    <Compile Include="Songs\Music\FinalSpeedMetal.cs" />
+    <Compile Include="Songs\Music\Song10.cs" />
+    <Compile Include="Songs\Music\Song11.cs" />
+    <Compile Include="Songs\Music\Song12.cs" />
+    <Compile Include="Songs\Music\Song15.cs" />
+    <Compile Include="Songs\Music\Song16.cs" />
+    <Compile Include="Songs\Music\Song17.cs" />
+    <Compile Include="Songs\Music\Song18.cs" />
+    <Compile Include="Songs\Music\Song8.cs" />
+    <Compile Include="Songs\Music\Song9.cs" />
+    <Compile Include="Songs\Music\SongFive.cs" />
+    <Compile Include="Songs\Music\SongFour.cs" />
+    <Compile Include="Songs\Music\SongOne.cs" />
+    <Compile Include="Songs\Music\SongSeven.cs" />
+    <Compile Include="Songs\Music\SongSix.cs" />
+    <Compile Include="Songs\Music\SongThree.cs" />
+    <Compile Include="Songs\Music\SongTwo.cs" />
+    <Compile Include="Songs\Music\SongTwoMelody.cs" />
+    <Compile Include="Songs\SongElement.cs" />
+    <Compile Include="Songs\Instrument.cs" />
+    <Compile Include="Songs\SoundType.cs" />
+    <Compile Include="Songs\TestSong.cs" />
+    <Compile Include="SoundLoader.cs" />
+    <Compile Include="VolumeAdapter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FrameworkContracts\FrameworkContracts.csproj">
+      <Project>{5A81427F-FAA5-4F9F-88D8-946060744FC1}</Project>
+      <Name>FrameworkContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sound.Contracts\Sound.Contracts.csproj">
+      <Project>{83C3F491-7792-4F4F-9D86-9B540707667E}</Project>
+      <Name>Sound.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sound\Sound.csproj">
+      <Project>{577CCCE9-CD97-4BD7-A29E-D23A6665C57B}</Project>
+      <Name>Sound</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

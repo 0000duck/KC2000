@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<LevelContent>
+  <Element Theme="PlayerOne" Orientation="Degree_0" PosX="145.242595406472" PosY="150.296535314669" PosZ="0.24336000000003">
+    <Element Theme="Fist" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+    <Element Theme="Pistol" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0">
+      <Element Theme="PistolBullets" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+      <Element Theme="PistolBullets" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+      <Element Theme="PistolBullets" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+      <Element Theme="PistolBullets" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+      <Element Theme="PistolBullets" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+      <Element Theme="PistolBullets" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+      <Element Theme="PistolBullets" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+      <Element Theme="PistolBullets" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+    </Element>
+    <Element Theme="ShotGun" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0">
+      <Element Theme="ShotShells" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+      <Element Theme="ShotShells" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+    </Element>
+    <Element Theme="RocketThrower" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0">
+      <Element Theme="RocketTriggerer" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+      <Element Theme="RocketTriggerer" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+      <Element Theme="RocketTriggerer" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+    </Element>
+    <Element Theme="MG" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0">
+      <Element Theme="MGChain" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+      <Element Theme="MGChain" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+      <Element Theme="MGChain" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+      <Element Theme="MGChain" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+      <Element Theme="MGChain" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+    </Element>
+  </Element>
+  <Element Theme="SoldierPistol" Orientation="Degree_315" PosX="112" PosY="151" PosZ="0" />
+  <Element Theme="SoldierShotGunF" Orientation="Degree_0" PosX="127.5" PosY="151.5" PosZ="0" />
+  <Element Theme="SoldierShotGun" Orientation="Degree_180" PosX="110" PosY="168" PosZ="0" />
+  <Element Theme="SoldierRocket" Orientation="Degree_45" PosX="120" PosY="167" PosZ="0" />
+  <Element Theme="Dog" Orientation="Degree_0" PosX="119" PosY="170" PosZ="0" />
+  <Element Theme="SoldierPistolF" Orientation="Degree_45" PosX="121.5" PosY="140" PosZ="0" />
+  <Element Theme="SoldierPistolF" Orientation="Degree_45" PosX="114" PosY="141.65" PosZ="1.4" />
+  <Element Theme="SoldierRocketF" Orientation="Degree_0" PosX="108" PosY="157" PosZ="1.4" />
+  <Element Theme="SoldierRocketF" Orientation="Degree_315" PosX="113" PosY="161" PosZ="0" />
+  <Element Theme="SoldierShotGunR" Orientation="Degree_0" PosX="115" PosY="132" PosZ="0" />
+  <Element Theme="SoldierPistolR" Orientation="Degree_0" PosX="115.5" PosY="154.5" PosZ="0" />
+  <Element Theme="SoldierPistolF" Orientation="Degree_45" PosX="115.7" PosY="138" PosZ="0" />
+  <Element Theme="SoldierPistolF" Orientation="Degree_45" PosX="107" PosY="132.2" PosZ="0" />
+  <Element Theme="SoldierPistolR" Orientation="Degree_315" PosX="124.65" PosY="161" PosZ="0" />
+  <Element Theme="SoldierPistolF" Orientation="Degree_45" PosX="110" PosY="129" PosZ="0" />
+</LevelContent>
