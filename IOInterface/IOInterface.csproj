@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{240EB218-8FA1-432D-9C75-BC15CD42E750}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IOInterface</RootNamespace>
+    <AssemblyName>IOInterface</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animation.cs" />
+    <Compile Include="Behaviour.cs" />
+    <Compile Include="BodyPart.cs" />
+    <Compile Include="Events\GameEvent.cs" />
+    <Compile Include="Events\IFireEventObserver.cs" />
+    <Compile Include="IActivationInstruction.cs" />
+    <Compile Include="IActivationManager.cs" />
+    <Compile Include="IBloodParticleByBodyPartTriggerer.cs" />
+    <Compile Include="IBloodParticleByCaliberTriggerer.cs" />
+    <Compile Include="IExplosionSizeMapper.cs" />
+    <Compile Include="IMultiWeaponRenderer.cs" />
+    <Compile Include="IOncePerFrameCalculator.cs" />
+    <Compile Include="IPhysicalParameters.cs" />
+    <Compile Include="IBulletManager.cs" />
+    <Compile Include="ICommunicationElement.cs" />
+    <Compile Include="ICommunicationElementFactory.cs" />
+    <Compile Include="IDynamicAppearanceMapper.cs" />
+    <Compile Include="IElement.cs" />
+    <Compile Include="IExplosionManager.cs" />
+    <Compile Include="IInitInformation.cs" />
+    <Compile Include="IParticleManager.cs" />
+    <Compile Include="IPlayerInstructionProvider.cs" />
+    <Compile Include="IPlayerObserver.cs" />
+    <Compile Include="IPlayerCameraInformation.cs" />
+    <Compile Include="IPlayerInformation.cs" />
+    <Compile Include="ElementTheme.cs" />
+    <Compile Include="IPlayerInstruction.cs" />
+    <Compile Include="ISphereBloodTriggerer.cs" />
+    <Compile Include="IWeaponInstructions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseContracts\BaseContracts.csproj">
+      <Project>{42754A9D-D7E3-454C-BAC5-75DC8D63BE80}</Project>
+      <Name>BaseContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BaseTypes\BaseTypes.csproj">
+      <Project>{85C4C778-8674-4275-A5E4-EEE02A52F9D7}</Project>
+      <Name>BaseTypes</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

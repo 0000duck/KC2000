@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0F775024-2AE7-4963-9A54-E841ADDA8840}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KillCommando</RootNamespace>
+    <AssemblyName>KillCommando</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>killcommando.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommunicationElementFactoy.cs" />
+    <Compile Include="GameWindowInitializer.cs" />
+    <Compile Include="GifCamera.cs" />
+    <Compile Include="Implementations\MessageRenderer.cs" />
+    <Compile Include="Implementations\MessageRendererFactory.cs" />
+    <Compile Include="Implementations\MouseController.cs" />
+    <Compile Include="Implementations\PressedKeyDetector.cs" />
+    <Compile Include="Implementations\Providers\BackgroundColorProvider.cs" />
+    <Compile Include="Implementations\Providers\FloorProvider.cs" />
+    <Compile Include="Implementations\Providers\LevelIdListProvider.cs" />
+    <Compile Include="Implementations\Providers\MusicDictionaryProvider.cs" />
+    <Compile Include="Implementations\Providers\SkylineElementProvider.cs" />
+    <Compile Include="LevelInitializer.cs" />
+    <Compile Include="Configuration\Configuration.cs" />
+    <Compile Include="Configuration\ConfigurationReader.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WorkFlowInitializer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ArtificialIntelligence.Contracts\ArtificialIntelligence.Contracts.csproj">
+      <Project>{975F9D20-9967-40F1-A210-08E8BB2F1A44}</Project>
+      <Name>ArtificialIntelligence.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ArtificialIntelligence\ArtificialIntelligence.csproj">
+      <Project>{EF9E926F-86BE-4B37-9EEB-490D39E44A72}</Project>
+      <Name>ArtificialIntelligence</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\BaseContracts\BaseContracts.csproj">
+      <Project>{42754A9D-D7E3-454C-BAC5-75DC8D63BE80}</Project>
+      <Name>BaseContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\BaseTypes\BaseTypes.csproj">
+      <Project>{85C4C778-8674-4275-A5E4-EEE02A52F9D7}</Project>
+      <Name>BaseTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\BloodEffects.Contracts\BloodEffects.Contracts.csproj">
+      <Project>{CDFC7AAF-3673-419D-9090-8EAE585F60DB}</Project>
+      <Name>BloodEffects.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\BloodEffects\BloodEffects.csproj">
+      <Project>{39727E4A-E363-49E1-B5D8-23589D252B0D}</Project>
+      <Name>BloodEffects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CollisionDetection.Contracts\CollisionDetection.Contracts.csproj">
+      <Project>{327427B9-3205-4FA2-B11D-4F59DF6B1B31}</Project>
+      <Name>CollisionDetection.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CollisionDetection\CollisionDetection\CollisionDetection.csproj">
+      <Project>{22E7B988-E66C-4453-8016-2455162B5F11}</Project>
+      <Name>CollisionDetection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ElementImplementations\ElementImplementations.csproj">
+      <Project>{7A4F9264-8B9A-48DF-B944-CAC7ABF024C8}</Project>
+      <Name>ElementImplementations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\EnvironmentAnalysis\EnvironmentAnalysis.csproj">
+      <Project>{AC1E75FD-8932-4655-BC85-9C926ECBE6E1}</Project>
+      <Name>EnvironmentAnalysis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FrameworkContracts\FrameworkContracts.csproj">
+      <Project>{5A81427F-FAA5-4F9F-88D8-946060744FC1}</Project>
+      <Name>FrameworkContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FrameworkImplementations\FrameworkImplementations.csproj">
+      <Project>{FEF1B235-C631-4C89-A432-870D3A0BA826}</Project>
+      <Name>FrameworkImplementations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GameInteractionContracts\GameInteractionContracts.csproj">
+      <Project>{97E55DEA-CA4B-464B-A4C4-631052966AB4}</Project>
+      <Name>GameInteractionContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GameInteraction\GameInteraction\GameInteraction.csproj">
+      <Project>{5209DB96-9FD1-4F89-8A3A-6D77CD1E7305}</Project>
+      <Name>GameInteraction</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Gravitation\Gravity.csproj">
+      <Project>{74B474AF-E1D8-4F58-839A-4290DEA89BC5}</Project>
+      <Name>Gravity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\InitializationContracts\InitializationContracts.csproj">
+      <Project>{4D37EB9D-655A-4D3A-809D-865610BFC96E}</Project>
+      <Name>InitializationContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\IOImplementation\IOImplementation.csproj">
+      <Project>{BEECFDB6-19B7-4536-A6AE-BB29BB756483}</Project>
+      <Name>IOImplementation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\IOInterface\IOInterface.csproj">
+      <Project>{240EB218-8FA1-432D-9C75-BC15CD42E750}</Project>
+      <Name>IOInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\KillCommandoSetup\KillCommandoSetup.csproj">
+      <Project>{9AEB81FE-3AF0-4A5B-AE5C-F4890ADA1388}</Project>
+      <Name>KillCommandoSetup</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LevelEditor\LevelEditor.csproj">
+      <Project>{DAE95A83-234A-4850-9C1B-D2854A69ABEC}</Project>
+      <Name>LevelEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Menu\Menu.csproj">
+      <Project>{0B659A25-2EB4-44AF-B589-52205C388047}</Project>
+      <Name>Menu</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Profile.Contracts\Profile.Contracts.csproj">
+      <Project>{C999D5E5-46E8-4A85-945C-EF30124399D5}</Project>
+      <Name>Profile.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Render.Contracts\Render.Contracts.csproj">
+      <Project>{A13C5A44-3305-4BD0-9D83-5106A360C30F}</Project>
+      <Name>Render.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Render\Render.csproj">
+      <Project>{96B83948-E522-4FFD-B3E6-93D4080288FE}</Project>
+      <Name>Render</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SaveGames\SaveGames.csproj">
+      <Project>{479DDDC3-EE4C-42D5-9052-DFF1760771D0}</Project>
+      <Name>SaveGames</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Settings\Settings.csproj">
+      <Project>{D1D5E534-ECF2-45AC-949F-6720DFE54E61}</Project>
+      <Name>Settings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Sound.Contracts\Sound.Contracts.csproj">
+      <Project>{83C3F491-7792-4F4F-9D86-9B540707667E}</Project>
+      <Name>Sound.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Sound\Sound.csproj">
+      <Project>{577CCCE9-CD97-4BD7-A29E-D23A6665C57B}</Project>
+      <Name>Sound</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ThemeMapping\ThemeMapping.csproj">
+      <Project>{85E96D70-7D20-4F0C-A6F8-0B3422432022}</Project>
+      <Name>ThemeMapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DrawableElements\DrawableElements.csproj">
+      <Project>{3C72413D-AF1E-4394-937B-08CA1E2D630A}</Project>
+      <Name>DrawableElements</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Profile\Profile.csproj">
+      <Project>{D33EA6C9-AF89-4062-B793-050C6BC09E88}</Project>
+      <Name>Profile</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="killcommando.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 und x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

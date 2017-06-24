@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<LevelContent>
+  <Element Theme="PlayerOne" Orientation="Degree_90" PosX="149.910000626755" PosY="222.622994295705" PosZ="0">
+    <Element Theme="Fist" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+    <Element Theme="Pistol" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0">
+      <Element Theme="PistolBullets" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+      <Element Theme="PistolBullets" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+      <Element Theme="PistolBullets" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+      <Element Theme="PistolBullets" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+    </Element>
+    <Element Theme="ShotGun" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0">
+      <Element Theme="ShotShells" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+      <Element Theme="ShotShells" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
+    </Element>
+  </Element>
+  <Element Theme="Dog" Orientation="Degree_0" PosX="91" PosY="222" PosZ="0" />
+  <Element Theme="Dog" Orientation="Degree_0" PosX="126" PosY="239" PosZ="0" />
+  <Element Theme="AutoMG" Orientation="Degree_0" PosX="111.5" PosY="232.25" PosZ="15" />
+  <Element Theme="AutoMG" Orientation="Degree_0" PosX="188.5" PosY="232" PosZ="15" />
+  <Element Theme="Dog" Orientation="Degree_0" PosX="204" PosY="197" PosZ="0" />
+  <Element Theme="SoldierShotGun" Orientation="Degree_180" PosX="177" PosY="239" PosZ="0" />
+  <Element Theme="SoldierShotGun" Orientation="Degree_0" PosX="198" PosY="207" PosZ="0" />
+  <Element Theme="SoldierPistol" Orientation="Degree_0" PosX="145" PosY="179" PosZ="0" />
+  <Element Theme="SoldierPistol" Orientation="Degree_0" PosX="100" PosY="206" PosZ="0" />
+</LevelContent>

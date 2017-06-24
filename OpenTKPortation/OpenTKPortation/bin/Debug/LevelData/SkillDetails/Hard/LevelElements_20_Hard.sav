@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<LevelContent>
+  <Element Theme="SoldierRocketF" Orientation="Degree_270" PosX="97.5" PosY="155" PosZ="15.65" />
+  <Element Theme="SoldierPistolF" Orientation="Degree_135" PosX="123.5" PosY="155" PosZ="15.65" />
+  <Element Theme="SoldierPistolF" Orientation="Degree_135" PosX="144" PosY="155" PosZ="15.65" />
+  <Element Theme="SoldierRocketF" Orientation="Degree_270" PosX="161.5" PosY="155.5" PosZ="15.65" />
+  <Element Theme="SoldierPistolF" Orientation="Degree_270" PosX="186" PosY="155.5" PosZ="15.65" />
+  <Element Theme="SoldierPistolF" Orientation="Degree_270" PosX="235.5" PosY="155" PosZ="15.65" />
+  <Element Theme="SoldierPistolF" Orientation="Degree_45" PosX="287" PosY="144" PosZ="15.7" />
+  <Element Theme="AutoMG" Orientation="Degree_0" PosX="284" PosY="140.5" PosZ="20.5" />
+  <Element Theme="SoldierShotGunF" Orientation="Degree_135" PosX="239.5" PosY="155" PosZ="15.65" />
+  <Element Theme="SoldierShotGunF" Orientation="Degree_270" PosX="163" PosY="156" PosZ="15.65" />
+  <Element Theme="SoldierRocketF" Orientation="Degree_225" PosX="145.5" PosY="155" PosZ="15.65" />
+  <Element Theme="SoldierShotGunF" Orientation="Degree_270" PosX="189" PosY="156" PosZ="15.65" />
+  <Element Theme="SoldierRocketF" Orientation="Degree_270" PosX="237.5" PosY="156" PosZ="15.65" />
+  <Element Theme="SoldierRocketF" Orientation="Degree_135" PosX="281.5" PosY="143.5" PosZ="15.65" />
+  <Element Theme="SoldierRocketF" Orientation="Degree_225" PosX="123.5" PosY="156.5" PosZ="18.2" />
+  <Element Theme="SoldierPistolF" Orientation="Degree_180" PosX="100.5" PosY="155" PosZ="15.65" />
+  <Element Theme="AutoMG" Orientation="Degree_0" PosX="48" PosY="170" PosZ="20.5" />
+  <Element Theme="SoldierRocketF" Orientation="Degree_315" PosX="53" PosY="168.05" PosZ="15.65" />
+  <Element Theme="SoldierRocketF" Orientation="Degree_270" PosX="120.15" PosY="155" PosZ="15.65" />
+  <Element Theme="SoldierRocketF" Orientation="Degree_45" PosX="165" PosY="156.5" PosZ="18.2" />
+  <Element Theme="SoldierPistolF" Orientation="Degree_90" PosX="285" PosY="143" PosZ="15.7" />
+</LevelContent>

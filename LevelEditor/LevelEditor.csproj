@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DAE95A83-234A-4850-9C1B-D2854A69ABEC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LevelEditor</RootNamespace>
+    <AssemblyName>LevelEditor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommunicationElements\EditorAnimationSprite.cs" />
+    <Compile Include="CommunicationElements\EditorImageSprite.cs" />
+    <Compile Include="Contracts\IDoorWayCreator.cs" />
+    <Compile Include="Contracts\IEditorCommunicationElement.cs" />
+    <Compile Include="Contracts\ITextureNormalizer.cs" />
+    <Compile Include="Elements\AnimationListProvider.cs" />
+    <Compile Include="Elements\BoxElementPlaceHolder.cs" />
+    <Compile Include="Elements\BoxSideManipulator.cs" />
+    <Compile Include="Elements\Constants.cs" />
+    <Compile Include="Elements\DoorWayCreator.cs" />
+    <Compile Include="Elements\GenericElementPlaceHolder.cs" />
+    <Compile Include="Elements\ImageListProvider.cs" />
+    <Compile Include="Elements\InvisibleElement.cs" />
+    <Compile Include="Elements\TextureNormalizer.cs" />
+    <Compile Include="Elements\WorldEditor.cs" />
+    <Compile Include="Contracts\INameListProvider.cs" />
+    <Compile Include="Contracts\IOptionProvider.cs" />
+    <Compile Include="IAutoSaveGameSerializer.cs" />
+    <Compile Include="LevelStateGrabberDecorator.cs" />
+    <Compile Include="OptionSelection.cs" />
+    <Compile Include="CommunicationElementFactory.cs" />
+    <Compile Include="ComplexElementLevelEditorBuilder.cs" />
+    <Compile Include="ElementaryLevelEditorFactory.cs" />
+    <Compile Include="Elements\ElementCopier.cs" />
+    <Compile Include="Elements\ElementCreator.cs" />
+    <Compile Include="Elements\ElementManipulator.cs" />
+    <Compile Include="Elements\ElementPicker.cs" />
+    <Compile Include="Elements\ElementPlaceHolder.cs" />
+    <Compile Include="Elements\GhostPlayer.cs" />
+    <Compile Include="Elements\IElementCopier.cs" />
+    <Compile Include="Elements\IRotateble.cs" />
+    <Compile Include="Elements\ITranslatable.cs" />
+    <Compile Include="Elements\RotatableComposition.cs" />
+    <Compile Include="Contracts\ILevelEditorInstruction.cs" />
+    <Compile Include="LevelEditorInitializer.cs" />
+    <Compile Include="LevelEditorPlayerInstruction.cs" />
+    <Compile Include="LevelEditorPlayerInstructionMapper.cs" />
+    <Compile Include="LevelSaveTriggerer.cs" />
+    <Compile Include="LevelSerializer.cs" />
+    <Compile Include="OptionSelectionChange.cs" />
+    <Compile Include="PlayerCommunicationElement.cs" />
+    <Compile Include="PressedKeyEncapsulator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseContracts\BaseContracts.csproj">
+      <Project>{42754A9D-D7E3-454C-BAC5-75DC8D63BE80}</Project>
+      <Name>BaseContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BaseTypes\BaseTypes.csproj">
+      <Project>{85C4C778-8674-4275-A5E4-EEE02A52F9D7}</Project>
+      <Name>BaseTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CollisionDetection.Contracts\CollisionDetection.Contracts.csproj">
+      <Project>{327427B9-3205-4FA2-B11D-4F59DF6B1B31}</Project>
+      <Name>CollisionDetection.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CollisionDetection\CollisionDetection\CollisionDetection.csproj">
+      <Project>{22E7B988-E66C-4453-8016-2455162B5F11}</Project>
+      <Name>CollisionDetection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ElementImplementations\ElementImplementations.csproj">
+      <Project>{7A4F9264-8B9A-48DF-B944-CAC7ABF024C8}</Project>
+      <Name>ElementImplementations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EnvironmentAnalysis\EnvironmentAnalysis.csproj">
+      <Project>{AC1E75FD-8932-4655-BC85-9C926ECBE6E1}</Project>
+      <Name>EnvironmentAnalysis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FrameworkContracts\FrameworkContracts.csproj">
+      <Project>{5A81427F-FAA5-4F9F-88D8-946060744FC1}</Project>
+      <Name>FrameworkContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameInteractionContracts\GameInteractionContracts.csproj">
+      <Project>{97E55DEA-CA4B-464B-A4C4-631052966AB4}</Project>
+      <Name>GameInteractionContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameInteraction\GameInteraction\GameInteraction.csproj">
+      <Project>{5209DB96-9FD1-4F89-8A3A-6D77CD1E7305}</Project>
+      <Name>GameInteraction</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InitializationContracts\InitializationContracts.csproj">
+      <Project>{4D37EB9D-655A-4D3A-809D-865610BFC96E}</Project>
+      <Name>InitializationContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IOImplementation\IOImplementation.csproj">
+      <Project>{BEECFDB6-19B7-4536-A6AE-BB29BB756483}</Project>
+      <Name>IOImplementation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IOInterface\IOInterface.csproj">
+      <Project>{240EB218-8FA1-432D-9C75-BC15CD42E750}</Project>
+      <Name>IOInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenTKPortation\DrawableElements\DrawableElements.csproj">
+      <Project>{3C72413D-AF1E-4394-937B-08CA1E2D630A}</Project>
+      <Name>DrawableElements</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Render.Contracts\Render.Contracts.csproj">
+      <Project>{A13C5A44-3305-4BD0-9D83-5106A360C30F}</Project>
+      <Name>Render.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SaveGames\SaveGames.csproj">
+      <Project>{479DDDC3-EE4C-42D5-9052-DFF1760771D0}</Project>
+      <Name>SaveGames</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThemeMapping\ThemeMapping.csproj">
+      <Project>{85E96D70-7D20-4F0C-A6F8-0B3422432022}</Project>
+      <Name>ThemeMapping</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

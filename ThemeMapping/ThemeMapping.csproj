@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{85E96D70-7D20-4F0C-A6F8-0B3422432022}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ThemeMapping</RootNamespace>
+    <AssemblyName>ThemeMapping</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppearanceRotater.cs" />
+    <Compile Include="Contracts\IBodyBuilder.cs" />
+    <Compile Include="Contracts\ICharacterRemoverBuilder.cs" />
+    <Compile Include="Contracts\ICollapseStrategyFactory.cs" />
+    <Compile Include="Contracts\IEnemyProviderCreator.cs" />
+    <Compile Include="Contracts\IStrategyBuilder.cs" />
+    <Compile Include="Contracts\IWeaponFirererBuilder.cs" />
+    <Compile Include="Contracts\IWeaponLooserFactory.cs" />
+    <Compile Include="DestructionStrength.cs" />
+    <Compile Include="EnemyCreation\BodyBuilders\CapitalistBodyBuilder.cs" />
+    <Compile Include="EnemyCreation\BodyBuilders\DogBodyBuilder.cs" />
+    <Compile Include="EnemyCreation\BodyBuilders\FlyingGiantBuilder.cs" />
+    <Compile Include="EnemyCreation\BodyBuilders\GiantSoldierBodyBuilder.cs" />
+    <Compile Include="EnemyCreation\BodyBuilders\HelicopterBuilder.cs" />
+    <Compile Include="EnemyCreation\BodyBuilders\LastRobotBuilder.cs" />
+    <Compile Include="EnemyCreation\BodyBuilders\MGBuilder.cs" />
+    <Compile Include="EnemyCreation\BodyBuilders\PistolSoldierBodyBuilder.cs" />
+    <Compile Include="EnemyCreation\BodyBuilders\RobotBuilder.cs" />
+    <Compile Include="EnemyCreation\BodyBuilders\RocketSoldierBodyBuilder.cs" />
+    <Compile Include="EnemyCreation\BodyBuilders\ShotGunSoldierBodyBuilder.cs" />
+    <Compile Include="EnemyCreation\BodyBuilders\TankBuilder.cs" />
+    <Compile Include="EnemyCreation\CharacterRemovers\DogCharacterRemoverBuilder.cs" />
+    <Compile Include="EnemyCreation\CharacterRemovers\GiantCharacterRemoverBuilder.cs" />
+    <Compile Include="EnemyCreation\CharacterRemovers\HelicopterRemoverBuilder.cs" />
+    <Compile Include="EnemyCreation\CharacterRemovers\MGRemoverBuilder.cs" />
+    <Compile Include="EnemyCreation\CharacterRemovers\RobotRemoverBuilder.cs" />
+    <Compile Include="EnemyCreation\CharacterRemovers\StandardSoldierCharacterRemoverBuilder.cs" />
+    <Compile Include="EnemyCreation\CollapseStrategyFactory.cs" />
+    <Compile Include="EnemyCreation\EnemyBuilder.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\CapitalistBuilder.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\DistanceEnemyProviderCreator.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\EmptyDestructionObserver.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\EmptyStrategyBuilder.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\FixStrategyBuilder.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\GiantWalkForwardStrategyBuilder.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\FlyingGiantStrategyBuilder.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\HelicopterStrategyBuilder.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\FixDuckStrategyBuilder.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\HelicopterBackwardStrategyBuilder.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\LastRobotWalkForwardStrategyBuilder.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\RobotWalkForwardStrategyBuilder.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\MGEnemyProviderCreator.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\MGStrategyBuilder.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\NinjaStrategyBuilder.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\RotationStrategyBuilder.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\StandardDogMovementStrategyBuilder.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\TankStrategyBuilder.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\VisualMindEnemyProviderCreator.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\WalkForwardStrategyBuilder.cs" />
+    <Compile Include="EnemyCreation\StrategyBuilders\WalkSidewardStrategyBuilder.cs" />
+    <Compile Include="EnemyCreation\WeaponCreator.cs" />
+    <Compile Include="EnemyCreation\WeaponLooserFactory.cs" />
+    <Compile Include="EnemyFactory.cs" />
+    <Compile Include="GroupBuildingFactory.cs" />
+    <Compile Include="ComplexElementBuilder.cs" />
+    <Compile Include="AppearanceMapper.cs" />
+    <Compile Include="ElementFactory.cs" />
+    <Compile Include="ListFillingFactory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArtificialIntelligence.Contracts\ArtificialIntelligence.Contracts.csproj">
+      <Project>{975F9D20-9967-40F1-A210-08E8BB2F1A44}</Project>
+      <Name>ArtificialIntelligence.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ArtificialIntelligence\ArtificialIntelligence.csproj">
+      <Project>{EF9E926F-86BE-4B37-9EEB-490D39E44A72}</Project>
+      <Name>ArtificialIntelligence</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BaseContracts\BaseContracts.csproj">
+      <Project>{42754A9D-D7E3-454C-BAC5-75DC8D63BE80}</Project>
+      <Name>BaseContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BloodEffects.Contracts\BloodEffects.Contracts.csproj">
+      <Project>{CDFC7AAF-3673-419D-9090-8EAE585F60DB}</Project>
+      <Name>BloodEffects.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BloodEffects\BloodEffects.csproj">
+      <Project>{39727E4A-E363-49E1-B5D8-23589D252B0D}</Project>
+      <Name>BloodEffects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CollisionDetection.Contracts\CollisionDetection.Contracts.csproj">
+      <Project>{327427B9-3205-4FA2-B11D-4F59DF6B1B31}</Project>
+      <Name>CollisionDetection.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CollisionDetection\CollisionDetection\CollisionDetection.csproj">
+      <Project>{22E7B988-E66C-4453-8016-2455162B5F11}</Project>
+      <Name>CollisionDetection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ElementImplementations\ElementImplementations.csproj">
+      <Project>{7A4F9264-8B9A-48DF-B944-CAC7ABF024C8}</Project>
+      <Name>ElementImplementations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EnvironmentAnalysis\EnvironmentAnalysis.csproj">
+      <Project>{AC1E75FD-8932-4655-BC85-9C926ECBE6E1}</Project>
+      <Name>EnvironmentAnalysis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FrameworkContracts\FrameworkContracts.csproj">
+      <Project>{5A81427F-FAA5-4F9F-88D8-946060744FC1}</Project>
+      <Name>FrameworkContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameInteractionContracts\GameInteractionContracts.csproj">
+      <Project>{97E55DEA-CA4B-464B-A4C4-631052966AB4}</Project>
+      <Name>GameInteractionContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameInteraction\GameInteraction\GameInteraction.csproj">
+      <Project>{5209DB96-9FD1-4F89-8A3A-6D77CD1E7305}</Project>
+      <Name>GameInteraction</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BaseTypes\BaseTypes.csproj">
+      <Project>{85C4C778-8674-4275-A5E4-EEE02A52F9D7}</Project>
+      <Name>BaseTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gravitation\Gravity.csproj">
+      <Project>{74B474AF-E1D8-4F58-839A-4290DEA89BC5}</Project>
+      <Name>Gravity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IOImplementation\IOImplementation.csproj">
+      <Project>{BEECFDB6-19B7-4536-A6AE-BB29BB756483}</Project>
+      <Name>IOImplementation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IOInterface\IOInterface.csproj">
+      <Project>{240EB218-8FA1-432D-9C75-BC15CD42E750}</Project>
+      <Name>IOInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sound.Contracts\Sound.Contracts.csproj">
+      <Project>{83C3F491-7792-4F4F-9D86-9B540707667E}</Project>
+      <Name>Sound.Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

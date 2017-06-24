@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{39727E4A-E363-49E1-B5D8-23589D252B0D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BloodEffects</RootNamespace>
+    <AssemblyName>BloodEffects</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BloodAnimationSizeMapper.cs" />
+    <Compile Include="BloodCreationQueue.cs" />
+    <Compile Include="BloodEffect.cs" />
+    <Compile Include="BloodEffectCreator.cs" />
+    <Compile Include="BloodEffectFilter.cs" />
+    <Compile Include="BloodParticleByBodyPartTriggerer.cs" />
+    <Compile Include="BloodParticleByCaliberTriggerer.cs" />
+    <Compile Include="DogBodyPartThrower.cs" />
+    <Compile Include="GiantBodyPartThrower.cs" />
+    <Compile Include="SphereBloodTriggerer.cs" />
+    <Compile Include="MGPartThrower.cs" />
+    <Compile Include="PlayerDistanceAnalyser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueuedWallEffect.cs" />
+    <Compile Include="RandomDirectionThrower.cs" />
+    <Compile Include="SphereBloodTriggererV0.cs" />
+    <Compile Include="SphereBodyPartByBodyStatusTriggerer.cs" />
+    <Compile Include="SphereTriggererComposition.cs" />
+    <Compile Include="SpriteCreaterImplementations\BloodParameterCalculators\NegativeXSpriteParameterCalculator.cs" />
+    <Compile Include="SpriteCreaterImplementations\BloodParameterCalculators\NegativeYSpriteParameterCalculator.cs" />
+    <Compile Include="SpriteCreaterImplementations\BloodParameterCalculators\NegativeZSpriteParameterCalculator.cs" />
+    <Compile Include="SpriteCreaterImplementations\BloodParameterCalculators\PositiveXSpriteParameterCalculator.cs" />
+    <Compile Include="SpriteCreaterImplementations\BloodParameterCalculators\PositiveYSpriteParameterCalculator.cs" />
+    <Compile Include="SpriteCreaterImplementations\BloodParameterCalculators\PositiveZSpriteParameterCalculator.cs" />
+    <Compile Include="SpriteCreaterImplementations\TextureRotater.cs" />
+    <Compile Include="SpriteCreaterImplementations\VertexCalculators\XWallSpriteCalculator.cs" />
+    <Compile Include="SpriteCreaterImplementations\VertexCalculators\YWallSpriteCalculator.cs" />
+    <Compile Include="SpriteCreaterImplementations\VertexCalculators\ZWallSpriteCalculator.cs" />
+    <Compile Include="WallEffectListFilter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArtificialIntelligence.Contracts\ArtificialIntelligence.Contracts.csproj">
+      <Project>{975F9D20-9967-40F1-A210-08E8BB2F1A44}</Project>
+      <Name>ArtificialIntelligence.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BaseContracts\BaseContracts.csproj">
+      <Project>{42754A9D-D7E3-454C-BAC5-75DC8D63BE80}</Project>
+      <Name>BaseContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BaseTypes\BaseTypes.csproj">
+      <Project>{85C4C778-8674-4275-A5E4-EEE02A52F9D7}</Project>
+      <Name>BaseTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BloodEffects.Contracts\BloodEffects.Contracts.csproj">
+      <Project>{CDFC7AAF-3673-419D-9090-8EAE585F60DB}</Project>
+      <Name>BloodEffects.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CollisionDetection.Contracts\CollisionDetection.Contracts.csproj">
+      <Project>{327427B9-3205-4FA2-B11D-4F59DF6B1B31}</Project>
+      <Name>CollisionDetection.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FrameworkContracts\FrameworkContracts.csproj">
+      <Project>{5A81427F-FAA5-4F9F-88D8-946060744FC1}</Project>
+      <Name>FrameworkContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameInteractionContracts\GameInteractionContracts.csproj">
+      <Project>{97E55DEA-CA4B-464B-A4C4-631052966AB4}</Project>
+      <Name>GameInteractionContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IOImplementation\IOImplementation.csproj">
+      <Project>{BEECFDB6-19B7-4536-A6AE-BB29BB756483}</Project>
+      <Name>IOImplementation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IOInterface\IOInterface.csproj">
+      <Project>{240EB218-8FA1-432D-9C75-BC15CD42E750}</Project>
+      <Name>IOInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Render.Contracts\Render.Contracts.csproj">
+      <Project>{A13C5A44-3305-4BD0-9D83-5106A360C30F}</Project>
+      <Name>Render.Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

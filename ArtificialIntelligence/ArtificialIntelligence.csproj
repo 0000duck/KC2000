@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EF9E926F-86BE-4B37-9EEB-490D39E44A72}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ArtificialIntelligence</RootNamespace>
+    <AssemblyName>ArtificialIntelligence</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BehaviourMapper.cs" />
+    <Compile Include="BodyPartShapes\CenteredHipDependentShape.cs" />
+    <Compile Include="BodyPartShapes\DegreeBasedShape.cs" />
+    <Compile Include="BodyPartShapes\DustEmittingBodyPart.cs" />
+    <Compile Include="BodyPartShapes\ExplosiveBodyPart.cs" />
+    <Compile Include="BodyPartShapes\HipDependentShape.cs" />
+    <Compile Include="BodyPartShapes\CollapsingBody.cs" />
+    <Compile Include="BodyPartShapes\OnlyInnerDestructionBodyPart.cs" />
+    <Compile Include="BodyPartShapes\VulnerableBodyPart.cs" />
+    <Compile Include="DegreeRotater\CounterClockwiseRotater.cs" />
+    <Compile Include="DestructibleBody.cs" />
+    <Compile Include="DestructibleBodyProvider.cs" />
+    <Compile Include="DirectionDecider.cs" />
+    <Compile Include="DoubleWeaponFirerer.cs" />
+    <Compile Include="Ducker.cs" />
+    <Compile Include="EmptyDucker.cs" />
+    <Compile Include="EmptyObserver.cs" />
+    <Compile Include="EnemyDestructionObserver.cs" />
+    <Compile Include="EnemyProvider\DegreeFilter.cs" />
+    <Compile Include="EnemyProvider\SoundTriggeredThoughtToTextAdapter.cs" />
+    <Compile Include="EnemyProvider\LostVisibilityTriggeredThoughtToTextAdapter.cs" />
+    <Compile Include="EnemyProvider\CachingEnemyProvider.cs" />
+    <Compile Include="EnemyProvider\DiffusePositionProvider.cs" />
+    <Compile Include="EnemyProvider\EarAndEyeCombiner.cs" />
+    <Compile Include="EnemyProvider\EnemyByDistanceFilter.cs" />
+    <Compile Include="EnemyProvider\EnemyBySoundProvider.cs" />
+    <Compile Include="EnemyProvider\HearableEnemyProvider.cs" />
+    <Compile Include="EnemyProvider\PositionProvider.cs" />
+    <Compile Include="EnemyProvider\ProviderWithoutHeadAndLegs.cs" />
+    <Compile Include="EnemyProvider\RandomProviderWithoutHead.cs" />
+    <Compile Include="EnemyProvider\SimpleEnemyProvider.cs" />
+    <Compile Include="EnemyProvider\SoundConnector.cs" />
+    <Compile Include="EnemyProvider\SoundEvent.cs" />
+    <Compile Include="EnemyProvider\VisibleEnemyProvider.cs" />
+    <Compile Include="EnemyProvider\WorldElementDegreeAndDistanceFilter.cs" />
+    <Compile Include="ExplosionDamageSharer.cs" />
+    <Compile Include="LoopedSoundStopper.cs" />
+    <Compile Include="Rotation\Degree90Rotator.cs" />
+    <Compile Include="SoundPlayingWeaponFirerer.cs" />
+    <Compile Include="Strategies\AttackStrategies\DuckAttackStrategy.cs" />
+    <Compile Include="Strategies\DeadRobotStrategy.cs" />
+    <Compile Include="Strategies\FocusStrategies\AlwaysFocusStrategy.cs" />
+    <Compile Include="Strategies\LoopedSoundUpdater.cs" />
+    <Compile Include="Strategies\PatrolStrategies\BackwardMovementStrategy.cs" />
+    <Compile Include="Strategies\SpinningGravityStrategy.cs" />
+    <Compile Include="FollowDecider.cs" />
+    <Compile Include="FootSwitcher.cs" />
+    <Compile Include="CollapsedBodyShrinker.cs" />
+    <Compile Include="HipHeightProvider.cs" />
+    <Compile Include="PathTesting\FreeSpaceTester.cs" />
+    <Compile Include="PathTesting\StepFreeSpaceTester.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomDurationGenerator.cs" />
+    <Compile Include="Rotation\Rotater.cs" />
+    <Compile Include="Rotation\FullRotationBehaviourMapper.cs" />
+    <Compile Include="Rotation\SimpleStandardBehaviourMapper.cs" />
+    <Compile Include="Smoker.cs" />
+    <Compile Include="StandardBehaviourMapper.cs" />
+    <Compile Include="Strategies\AttackStrategies\AirLineFollowStrategy.cs" />
+    <Compile Include="Strategies\AttackStrategies\DogRunDecorator.cs" />
+    <Compile Include="Strategies\AttackStrategies\FollowOrRotateStrategy.cs" />
+    <Compile Include="Strategies\AttackStrategies\HoverStrategy.cs" />
+    <Compile Include="Strategies\AttackStrategies\JumpDecorator.cs" />
+    <Compile Include="Strategies\AttackStrategies\MGRotationDecoratorStrategy.cs" />
+    <Compile Include="Strategies\AttackStrategies\RotateAndDuckAttackStrategy.cs" />
+    <Compile Include="Strategies\AttackStrategies\SideWalkControlStrategy.cs" />
+    <Compile Include="Strategies\AttackStrategies\SidewardWalkerStrategy.cs" />
+    <Compile Include="Strategies\AttackStrategies\SimpleFollowStrategy.cs" />
+    <Compile Include="Strategies\AttackStrategies\SimpleAttackStrategy.cs" />
+    <Compile Include="Strategies\CollapseStrategy.cs" />
+    <Compile Include="Strategies\HelicopterCollapseStrategy.cs" />
+    <Compile Include="Strategies\PriorizedStrategy.cs" />
+    <Compile Include="Strategies\EmptyStrategy.cs" />
+    <Compile Include="Strategies\FocusStrategies\FocusWithRotationStrategy.cs" />
+    <Compile Include="Strategies\PatrolStrategies\CircleWalkStrategy.cs" />
+    <Compile Include="Strategies\PatrolStrategies\RotateStrategy.cs" />
+    <Compile Include="Strategies\SpinningExplodeStrategy.cs" />
+    <Compile Include="Strategies\Spinning\Exploder.cs" />
+    <Compile Include="Strategies\Spinning\SpinningAccelerator.cs" />
+    <Compile Include="Strategies\StepQuakeStrategy.cs" />
+    <Compile Include="TargetDegreeCalculator.cs" />
+    <Compile Include="UpdateTimer.cs" />
+    <Compile Include="ViewFieldElementListProvider.cs" />
+    <Compile Include="ViewFieldElementProvider.cs" />
+    <Compile Include="VisibilityTester.cs" />
+    <Compile Include="SimpleWeaponFirerer.cs" />
+    <Compile Include="WeaponLooser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArtificialIntelligence.Contracts\ArtificialIntelligence.Contracts.csproj">
+      <Project>{975F9D20-9967-40F1-A210-08E8BB2F1A44}</Project>
+      <Name>ArtificialIntelligence.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BaseContracts\BaseContracts.csproj">
+      <Project>{42754A9D-D7E3-454C-BAC5-75DC8D63BE80}</Project>
+      <Name>BaseContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BaseTypes\BaseTypes.csproj">
+      <Project>{85C4C778-8674-4275-A5E4-EEE02A52F9D7}</Project>
+      <Name>BaseTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CollisionDetection.Contracts\CollisionDetection.Contracts.csproj">
+      <Project>{327427B9-3205-4FA2-B11D-4F59DF6B1B31}</Project>
+      <Name>CollisionDetection.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CollisionDetection\CollisionDetection\CollisionDetection.csproj">
+      <Project>{22E7B988-E66C-4453-8016-2455162B5F11}</Project>
+      <Name>CollisionDetection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EnvironmentAnalysis\EnvironmentAnalysis.csproj">
+      <Project>{AC1E75FD-8932-4655-BC85-9C926ECBE6E1}</Project>
+      <Name>EnvironmentAnalysis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameInteractionContracts\GameInteractionContracts.csproj">
+      <Project>{97E55DEA-CA4B-464B-A4C4-631052966AB4}</Project>
+      <Name>GameInteractionContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gravitation\Gravity.csproj">
+      <Project>{74B474AF-E1D8-4F58-839A-4290DEA89BC5}</Project>
+      <Name>Gravity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IOImplementation\IOImplementation.csproj">
+      <Project>{BEECFDB6-19B7-4536-A6AE-BB29BB756483}</Project>
+      <Name>IOImplementation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IOInterface\IOInterface.csproj">
+      <Project>{240EB218-8FA1-432D-9C75-BC15CD42E750}</Project>
+      <Name>IOInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sound.Contracts\Sound.Contracts.csproj">
+      <Project>{83C3F491-7792-4F4F-9D86-9B540707667E}</Project>
+      <Name>Sound.Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

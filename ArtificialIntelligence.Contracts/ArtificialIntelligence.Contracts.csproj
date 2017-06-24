@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{975F9D20-9967-40F1-A210-08E8BB2F1A44}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ArtificialIntelligence.Contracts</RootNamespace>
+    <AssemblyName>ArtificialIntelligence.Contracts</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BehaviourInstruction.cs" />
+    <Compile Include="BehaviourParameters.cs" />
+    <Compile Include="DuckResult.cs" />
+    <Compile Include="IBehaviourMapper.cs" />
+    <Compile Include="IBehaviourStrategy.cs" />
+    <Compile Include="ICharacterRemover.cs" />
+    <Compile Include="ICollapseObserver.cs" />
+    <Compile Include="IDegreeRotater.cs" />
+    <Compile Include="IDestructibleBody.cs" />
+    <Compile Include="IDestructibleBodyPart.cs" />
+    <Compile Include="IDestructibleBodyProvider.cs" />
+    <Compile Include="IDestructionNotifier.cs" />
+    <Compile Include="IDestructionObserver.cs" />
+    <Compile Include="IDirectionDecider.cs" />
+    <Compile Include="IDucker.cs" />
+    <Compile Include="IExitWoundObserver.cs" />
+    <Compile Include="IExploder.cs" />
+    <Compile Include="IExplosionDamageSharer.cs" />
+    <Compile Include="IExplosionVulnerable.cs" />
+    <Compile Include="IFollowDecider.cs" />
+    <Compile Include="IFootSwitcher.cs" />
+    <Compile Include="IFreeSpaceTester.cs" />
+    <Compile Include="IFullVulnerable.cs" />
+    <Compile Include="IHipHeightProvider.cs" />
+    <Compile Include="IRandomDurationGenerator.cs" />
+    <Compile Include="IRotationBehaviourMapper.cs" />
+    <Compile Include="IRotater.cs" />
+    <Compile Include="ISmoker.cs" />
+    <Compile Include="ISoundObserver.cs" />
+    <Compile Include="ISoundSharer.cs" />
+    <Compile Include="ISpinningAccelerator.cs" />
+    <Compile Include="IStepFreeSpaceTester.cs" />
+    <Compile Include="ITargetDegreeCalculator.cs" />
+    <Compile Include="IUpdateTimer.cs" />
+    <Compile Include="IViewFieldElementProvider.cs" />
+    <Compile Include="IVisibilityTester.cs" />
+    <Compile Include="IVulnerable.cs" />
+    <Compile Include="IWeaponFirerer.cs" />
+    <Compile Include="MainBodyStatus.cs" />
+    <Compile Include="NoiseLevel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RotationResult.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseContracts\BaseContracts.csproj">
+      <Project>{42754A9D-D7E3-454C-BAC5-75DC8D63BE80}</Project>
+      <Name>BaseContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BaseTypes\BaseTypes.csproj">
+      <Project>{85C4C778-8674-4275-A5E4-EEE02A52F9D7}</Project>
+      <Name>BaseTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IOInterface\IOInterface.csproj">
+      <Project>{240EB218-8FA1-432D-9C75-BC15CD42E750}</Project>
+      <Name>IOInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
