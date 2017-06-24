@@ -44,11 +44,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\FrameworkContracts\FrameworkContracts.csproj">
+    <ProjectReference Include="..\FrameworkContracts\FrameworkContracts.csproj">
       <Project>{5A81427F-FAA5-4F9F-88D8-946060744FC1}</Project>
       <Name>FrameworkContracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Profile.Contracts\Profile.Contracts.csproj">
+    <ProjectReference Include="..\Profile.Contracts\Profile.Contracts.csproj">
       <Project>{C999D5E5-46E8-4A85-945C-EF30124399D5}</Project>
       <Name>Profile.Contracts</Name>
     </ProjectReference>

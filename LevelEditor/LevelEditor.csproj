@@ -102,6 +102,10 @@
       <Project>{22E7B988-E66C-4453-8016-2455162B5F11}</Project>
       <Name>CollisionDetection</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DrawableElements\DrawableElements.csproj">
+      <Project>{3c72413d-af1e-4394-937b-08ca1e2d630a}</Project>
+      <Name>DrawableElements</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ElementImplementations\ElementImplementations.csproj">
       <Project>{7A4F9264-8B9A-48DF-B944-CAC7ABF024C8}</Project>
       <Name>ElementImplementations</Name>
@@ -133,10 +137,6 @@
     <ProjectReference Include="..\IOInterface\IOInterface.csproj">
       <Project>{240EB218-8FA1-432D-9C75-BC15CD42E750}</Project>
       <Name>IOInterface</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\OpenTKPortation\DrawableElements\DrawableElements.csproj">
-      <Project>{3C72413D-AF1E-4394-937B-08CA1E2D630A}</Project>
-      <Name>DrawableElements</Name>
     </ProjectReference>
     <ProjectReference Include="..\Render.Contracts\Render.Contracts.csproj">
       <Project>{A13C5A44-3305-4BD0-9D83-5106A360C30F}</Project>
