@@ -7,10 +7,6 @@ namespace FrameworkContracts
 {
     public enum SkillLevel
     {
-        Easy = 0,
-
-        Normal = 1,
-
-        Hard = 2
+        Easy = 0
     }
 }

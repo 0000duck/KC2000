@@ -7,16 +7,6 @@ namespace FrameworkContracts
 {
     public enum Scenario
     {
-        DessertLight,
-
-        DessertDark,
-
-        Snow,
-
-        JungleDark,
-
-        CityBlue,
-
-        CityBlack
+        CityBlue
     }
 }

@@ -17,18 +17,6 @@ namespace Menu
                 gameStartInitializer.Start();
                 jumpBackToFrontPage();
             });
-            MenuElements.Add(new MenuElement(textFactory.CreateText(0, 0.55, "NORMAL")), () =>
-            {
-                gameStartInitializer.SetSkillLevel(SkillLevel.Normal);
-                gameStartInitializer.Start();
-                jumpBackToFrontPage();
-            });
-            MenuElements.Add(new MenuElement(textFactory.CreateText(0, 0.7, "HARD")), () =>
-            {
-                gameStartInitializer.SetSkillLevel(SkillLevel.Hard);
-                gameStartInitializer.Start();
-                jumpBackToFrontPage();
-            });
         }
     }
 }

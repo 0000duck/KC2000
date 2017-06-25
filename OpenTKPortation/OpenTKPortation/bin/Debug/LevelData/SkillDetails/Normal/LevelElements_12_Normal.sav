@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<LevelContent>
- <Element Theme="PlayerOne" Orientation="Degree_180" PosX="159.392843707545" PosY="143.0266671449" PosZ="0">
-    <Element Theme="Fist" Orientation="Degree_180" PosX="159.695494413337" PosY="142.95012818186" PosZ="0" />
-  </Element>
-  <Element Theme="PistolPlaceHolder" Orientation="Degree_0" PosX="159.75" PosY="122.15" PosZ="0" />
-  <Element Theme="SoldierPistol" Orientation="Degree_225" PosX="150" PosY="138.050000000001" PosZ="0" />
-  <Element Theme="SoldierShotGunF" Orientation="Degree_90" PosX="141.95" PosY="135.100000000001" PosZ="0" />
-</LevelContent>
