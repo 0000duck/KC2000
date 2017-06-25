@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using FrameworkContracts;
 using OpenTK;
 using Render.Contracts;
 
@@ -123,17 +120,17 @@ namespace DrawableElements
         {
             double rad = degree / 180 * Math.PI;
 
-            Matrix4 matrixRotation = Matrix4.CreateRotationY((float)rad);
-            Matrix4 matrixTranslation = Matrix4.CreateTranslation(0, 0, distance);
-            Matrix4 fullMatrix = Matrix4.Mult(matrixTranslation, matrixRotation);
+            //Matrix3 matrixRotation = Matrix3.CreateRotationY((float)rad);
+            //Matrix3 matrixTranslation = Matrix3.CreateTranslation(0, 0, distance);
+            //Matrix3 fullMatrix = Matrix3.Mult(matrixTranslation, matrixRotation);
 
-            Vector3 vector = Vector3.Transform(new Vector3(vertex.Position.X, vertex.Position.Y, vertex.Position.Z), fullMatrix);
+            //Vector3 vector = Vector3.Transform(new Vector3(vertex.Position.X, vertex.Position.Y, vertex.Position.Z), fullMatrix);
 
             Vertex rotatedVertex = new Vertex();
             rotatedVertex.Position = new VertexPosition();
-            rotatedVertex.Position.X = vector.X + (float)centerX;
-            rotatedVertex.Position.Z = vector.Z + (float)centerZ;
-            rotatedVertex.Position.Y = vector.Y;
+            //rotatedVertex.Position.X = vector.X + (float)centerX;
+            //rotatedVertex.Position.Z = vector.Z + (float)centerZ;
+            //rotatedVertex.Position.Y = vector.Y;
             rotatedVertex.TextureCoordinate = vertex.TextureCoordinate;
 
             return rotatedVertex;
