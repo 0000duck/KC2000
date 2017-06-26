@@ -55,8 +55,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sound", "..\Sound\Sound.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameworkImplementations", "..\FrameworkImplementations\FrameworkImplementations.csproj", "{FEF1B235-C631-4C89-A432-870D3A0BA826}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayer", "..\MusicPlayer\MusicPlayer.csproj", "{87B347A1-41AB-4371-B6EA-240F3055D113}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gravity", "..\Gravitation\Gravity.csproj", "{74B474AF-E1D8-4F58-839A-4290DEA89BC5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodEffects.Contracts", "..\BloodEffects.Contracts\BloodEffects.Contracts.csproj", "{CDFC7AAF-3673-419D-9090-8EAE585F60DB}"
@@ -339,16 +337,6 @@ Global
 		{FEF1B235-C631-4C89-A432-870D3A0BA826}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{FEF1B235-C631-4C89-A432-870D3A0BA826}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{FEF1B235-C631-4C89-A432-870D3A0BA826}.Release|x86.ActiveCfg = Release|Any CPU
-		{87B347A1-41AB-4371-B6EA-240F3055D113}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{87B347A1-41AB-4371-B6EA-240F3055D113}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{87B347A1-41AB-4371-B6EA-240F3055D113}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{87B347A1-41AB-4371-B6EA-240F3055D113}.Debug|x86.ActiveCfg = Debug|x86
-		{87B347A1-41AB-4371-B6EA-240F3055D113}.Debug|x86.Build.0 = Debug|x86
-		{87B347A1-41AB-4371-B6EA-240F3055D113}.Release|Any CPU.ActiveCfg = Release|x86
-		{87B347A1-41AB-4371-B6EA-240F3055D113}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{87B347A1-41AB-4371-B6EA-240F3055D113}.Release|Mixed Platforms.Build.0 = Release|x86
-		{87B347A1-41AB-4371-B6EA-240F3055D113}.Release|x86.ActiveCfg = Release|x86
-		{87B347A1-41AB-4371-B6EA-240F3055D113}.Release|x86.Build.0 = Release|x86
 		{74B474AF-E1D8-4F58-839A-4290DEA89BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{74B474AF-E1D8-4F58-839A-4290DEA89BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74B474AF-E1D8-4F58-839A-4290DEA89BC5}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
