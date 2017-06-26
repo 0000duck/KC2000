@@ -1,0 +1,833 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="C:\Code\KC2000\GameInteraction\GameInteraction\bin\Debug\GameInteraction.dll">
+   <Modules>
+    <Module Name="gameinteraction.dll">
+     <Namespaces>
+      <Namespace Name="GameInteraction">
+       <Types>
+        <Type Name="CharacterRemover" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ArtificialIntelligence.Contracts.IDestructionObserver.NotifyFullDestruction(IOInterface.BodyPart,BaseTypes.Position3D)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="CharacterRemover.cs" Line="86">Versiegeln Sie "'CharacterRemover'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IDestructionObserver.NotifyFullDestruction(BodyPart, Position3D)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ArtificialIntelligence.Contracts.IDestructionObserver.NotifyInnerDestruction()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="CharacterRemover.cs" Line="95">Versiegeln Sie "'CharacterRemover'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IDestructionObserver.NotifyInnerDestruction()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ArtificialIntelligence.Contracts.IExplosionVulnerable.YouGotHit(BaseTypes.Position3D,System.Double)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="CharacterRemover.cs" Line="39">Versiegeln Sie "'CharacterRemover'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IExplosionVulnerable.YouGotHit(Position3D, double)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ElementLogicComposition" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IExecuteble.ExecuteLogic()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="ElementLogicComposition.cs" Line="21">Versiegeln Sie "'ElementLogicComposition'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IExecuteble.ExecuteLogic()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ElementMovementComposition" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IExecuteble.ExecuteLogic()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="ElementMovementComposition.cs" Line="29">Versiegeln Sie "'ElementMovementComposition'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IExecuteble.ExecuteLogic()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ElementRenderComposition" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IExecuteble.ExecuteLogic()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="ElementRenderComposition.cs" Line="21">Versiegeln Sie "'ElementRenderComposition'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IExecuteble.ExecuteLogic()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ExecutebleComposition" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IExecuteble.ExecuteLogic()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="ExecutebleComposition.cs" Line="21">Versiegeln Sie "'ExecutebleComposition'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IExecuteble.ExecuteLogic()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FireEventObserverComposition" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#IOInterface.Events.IFireEventObserver.NotifyShot(BaseTypes.Position3D)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="FireEventObserverDecorator.cs" Line="22">Versiegeln Sie "'FireEventObserverComposition'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IFireEventObserver.NotifyShot(Position3D)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GravityTransportationElement" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IExecuteble.ExecuteLogic()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="GravityTransportationElement.cs" Line="46">Versiegeln Sie "'GravityTransportationElement'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IExecuteble.ExecuteLogic()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GameInteractionContracts.IStraightMovingElement.StartMovement(BaseTypes.Vector3D,System.Double)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="GravityTransportationElement.cs" Line="37">Versiegeln Sie "'GravityTransportationElement'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IStraightMovingElement.StartMovement(Vector3D, double)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="HalfCharacterRemover" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ArtificialIntelligence.Contracts.IDestructionObserver.NotifyFullDestruction(IOInterface.BodyPart,BaseTypes.Position3D)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="HalfCharacterRemover.cs" Line="48">Versiegeln Sie "'HalfCharacterRemover'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IDestructionObserver.NotifyFullDestruction(BodyPart, Position3D)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ArtificialIntelligence.Contracts.IDestructionObserver.NotifyInnerDestruction()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="HalfCharacterRemover.cs" Line="53">Versiegeln Sie "'HalfCharacterRemover'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IDestructionObserver.NotifyInnerDestruction()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ArtificialIntelligence.Contracts.IExplosionVulnerable.YouGotHit(BaseTypes.Position3D,System.Double)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="HalfCharacterRemover.cs" Line="38">Versiegeln Sie "'HalfCharacterRemover'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IExplosionVulnerable.YouGotHit(Position3D, double)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="HeavyWeaponFireObserver" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#IOInterface.Events.IFireEventObserver.NotifyShot(BaseTypes.Position3D)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="HeavyWeaponFireObserver.cs" Line="26">Versiegeln Sie "'HeavyWeaponFireObserver'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IFireEventObserver.NotifyShot(Position3D)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MGCharacterRemover" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ArtificialIntelligence.Contracts.IDestructionObserver.NotifyFullDestruction(IOInterface.BodyPart,BaseTypes.Position3D)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="MGCharacterRemover.cs" Line="67">Versiegeln Sie "'MGCharacterRemover'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IDestructionObserver.NotifyFullDestruction(BodyPart, Position3D)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ArtificialIntelligence.Contracts.IDestructionObserver.NotifyInnerDestruction()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="MGCharacterRemover.cs" Line="71">Versiegeln Sie "'MGCharacterRemover'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IDestructionObserver.NotifyInnerDestruction()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ArtificialIntelligence.Contracts.IExplosionVulnerable.YouGotHit(BaseTypes.Position3D,System.Double)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="MGCharacterRemover.cs" Line="35">Versiegeln Sie "'MGCharacterRemover'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IExplosionVulnerable.YouGotHit(Position3D, double)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PositionUpdatingSoundPlayer" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#IOInterface.Events.IFireEventObserver.NotifyShot(BaseTypes.Position3D)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="PositionUpdatingSoundPlayer.cs" Line="21">Versiegeln Sie "'PositionUpdatingSoundPlayer'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IFireEventObserver.NotifyShot(Position3D)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SoundPlayer" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#IOInterface.Events.IFireEventObserver.NotifyShot(BaseTypes.Position3D)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="SoundPlayer.cs" Line="26">Versiegeln Sie "'SoundPlayer'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IFireEventObserver.NotifyShot(Position3D)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="StraightTransportationElement" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IExecuteble.ExecuteLogic()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="StraightTransportationElement.cs" Line="43">Versiegeln Sie "'StraightTransportationElement'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IExecuteble.ExecuteLogic()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GameInteractionContracts.IStraightMovingElement.StartMovement(BaseTypes.Vector3D,System.Double)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction" File="StraightTransportationElement.cs" Line="34">Versiegeln Sie "'StraightTransportationElement'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IStraightMovingElement.StartMovement(Vector3D, double)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="GameInteraction.LevelManagement">
+       <Types>
+        <Type Name="EnemyObserver" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IEnemyCreationObserver.EnemyCreated()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\LevelManagement" File="EnemyObserver.cs" Line="21">Versiegeln Sie "'EnemyObserver'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IEnemyCreationObserver.EnemyCreated()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GameInteractionContracts.IEnemyDestructionObserver.EnemyDestroyed()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\LevelManagement" File="EnemyObserver.cs" Line="26">Versiegeln Sie "'EnemyObserver'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IEnemyDestructionObserver.EnemyDestroyed()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="GameInteraction.ThemeMapping">
+       <Types>
+        <Type Name="ThemeFacade" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IElementCreator.DeleteElement(BaseTypes.IWorldElement)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\ThemeMapping" File="ThemeFacade.cs" Line="46">Versiegeln Sie "'ThemeFacade'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IElementCreator.DeleteElement(IWorldElement)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GameInteractionContracts.IElementCreator.EnqueueNewElement(IOInterface.IElement,System.Action`1&lt;BaseTypes.IWorldElement&gt;)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\ThemeMapping" File="ThemeFacade.cs" Line="41">Versiegeln Sie "'ThemeFacade'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IElementCreator.EnqueueNewElement(IElement, Action&lt;IWorldElement&gt;)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GameInteractionContracts.IElementCreator.GetNewElement(IOInterface.IElement)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\ThemeMapping" File="ThemeFacade.cs" Line="36">Versiegeln Sie "'ThemeFacade'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IElementCreator.GetNewElement(IElement)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GameInteractionContracts.IExecuteble.ExecuteLogic()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\ThemeMapping" File="ThemeFacade.cs" Line="66">Versiegeln Sie "'ThemeFacade'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IExecuteble.ExecuteLogic()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="GameInteraction.Weapons">
+       <Types>
+        <Type Name="AmmoFirerer" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#BaseTypes.IElementGroup.AddChild(BaseTypes.IGroupElement)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="AmmoFirerer.cs" Line="51">Versiegeln Sie "'AmmoFirerer'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IElementGroup.AddChild(IGroupElement)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BaseTypes.IElementGroup.Children" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#BaseTypes.IElementGroup.get_Children()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="AmmoFirerer.cs" Line="40">Versiegeln Sie "'AmmoFirerer'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IElementGroup.Children.get()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#BaseTypes.IElementGroup.RemoveChild(BaseTypes.IGroupElement)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="AmmoFirerer.cs" Line="57">Versiegeln Sie "'AmmoFirerer'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IElementGroup.RemoveChild(IGroupElement)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GameInteractionContracts.IComplexAmmo.Count" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#GameInteractionContracts.IComplexAmmo.get_Count()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="AmmoFirerer.cs" Line="65">Versiegeln Sie "'AmmoFirerer'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexAmmo.Count.get()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#GameInteractionContracts.IComplexAmmo.Fire(BaseTypes.Position3D,BaseTypes.VectorWithDegree)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="AmmoFirerer.cs" Line="20">Versiegeln Sie "'AmmoFirerer'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexAmmo.Fire(Position3D, VectorWithDegree)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="BulletManager" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IExecuteble.ExecuteLogic()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="BulletManager.cs" Line="90">Versiegeln Sie "'BulletManager'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IExecuteble.ExecuteLogic()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="BulletManagerDecorator" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#IOInterface.IBulletManager.AddNewBullet(BaseTypes.Position3D,BaseTypes.IWorldElement,BaseTypes.VectorWithDegree,System.Boolean,System.Double,BaseTypes.TestQuality,BaseContracts.IListProvider`1&lt;BaseTypes.IWorldElement&gt;)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="BulletManagerDecorator.cs" Line="28">Versiegeln Sie "'BulletManagerDecorator'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IBulletManager.AddNewBullet(Position3D, IWorldElement, VectorWithDegree, bool, double, TestQuality, IListProvider&lt;IWorldElement&gt;)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ComplexAmmo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IComplexAmmo.Count" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#GameInteractionContracts.IComplexAmmo.get_Count()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ComplexAmmo.cs" Line="46">Versiegeln Sie "'ComplexAmmo'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexAmmo.Count.get()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#GameInteractionContracts.IComplexAmmo.Fire(BaseTypes.Position3D,BaseTypes.VectorWithDegree)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ComplexAmmo.cs" Line="34">Versiegeln Sie "'ComplexAmmo'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexAmmo.Fire(Position3D, VectorWithDegree)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GameInteractionContracts.IVisualAppearance.ElementTheme" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#GameInteractionContracts.IVisualAppearance.get_ElementTheme()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ComplexAmmo.cs" Line="49">Versiegeln Sie "'ComplexAmmo'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IVisualAppearance.ElementTheme.get()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+            <Accessor Name="#GameInteractionContracts.IVisualAppearance.set_ElementTheme(IOInterface.ElementTheme)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ComplexAmmo.cs" Line="49">Versiegeln Sie "'ComplexAmmo'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IVisualAppearance.ElementTheme.set(ElementTheme)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#GameInteractionContracts.IVisualAppearance.IsMarked" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#GameInteractionContracts.IVisualAppearance.get_IsMarked()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ComplexAmmo.cs" Line="53">Versiegeln Sie "'ComplexAmmo'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IVisualAppearance.IsMarked.get()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+            <Accessor Name="#GameInteractionContracts.IVisualAppearance.set_IsMarked(System.Boolean)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ComplexAmmo.cs" Line="53">Versiegeln Sie "'ComplexAmmo'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IVisualAppearance.IsMarked.set(bool)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#GameInteractionContracts.IVisualAppearance.Orientation" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#GameInteractionContracts.IVisualAppearance.get_Orientation()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ComplexAmmo.cs" Line="51">Versiegeln Sie "'ComplexAmmo'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IVisualAppearance.Orientation.get()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+            <Accessor Name="#GameInteractionContracts.IVisualAppearance.set_Orientation(BaseTypes.Degree)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ComplexAmmo.cs" Line="51">Versiegeln Sie "'ComplexAmmo'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IVisualAppearance.Orientation.set(Degree)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ComplexWeapon" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#BaseTypes.IElementGroup.AddChild(BaseTypes.IGroupElement)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ComplexWeapon.cs" Line="29">Versiegeln Sie "'ComplexWeapon'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IElementGroup.AddChild(IGroupElement)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BaseTypes.IElementGroup.Children" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#BaseTypes.IElementGroup.get_Children()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ComplexWeapon.cs" Line="25">Versiegeln Sie "'ComplexWeapon'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IElementGroup.Children.get()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#BaseTypes.IElementGroup.RemoveChild(BaseTypes.IGroupElement)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ComplexWeapon.cs" Line="34">Versiegeln Sie "'ComplexWeapon'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IElementGroup.RemoveChild(IGroupElement)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GameInteractionContracts.IComplexWeapon.GetWeaponResult(System.Boolean,BaseTypes.Position3D,BaseTypes.VectorWithDegree)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ComplexWeapon.cs" Line="45">Versiegeln Sie "'ComplexWeapon'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexWeapon.GetWeaponResult(bool, Position3D, VectorWithDegree)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GameInteractionContracts.IVisualAppearance.ElementTheme" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#GameInteractionContracts.IVisualAppearance.get_ElementTheme()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ComplexWeapon.cs" Line="38">Versiegeln Sie "'ComplexWeapon'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IVisualAppearance.ElementTheme.get()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+            <Accessor Name="#GameInteractionContracts.IVisualAppearance.set_ElementTheme(IOInterface.ElementTheme)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ComplexWeapon.cs" Line="38">Versiegeln Sie "'ComplexWeapon'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IVisualAppearance.ElementTheme.set(ElementTheme)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#GameInteractionContracts.IVisualAppearance.IsMarked" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#GameInteractionContracts.IVisualAppearance.get_IsMarked()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ComplexWeapon.cs" Line="42">Versiegeln Sie "'ComplexWeapon'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IVisualAppearance.IsMarked.get()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+            <Accessor Name="#GameInteractionContracts.IVisualAppearance.set_IsMarked(System.Boolean)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ComplexWeapon.cs" Line="42">Versiegeln Sie "'ComplexWeapon'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IVisualAppearance.IsMarked.set(bool)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#GameInteractionContracts.IVisualAppearance.Orientation" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#GameInteractionContracts.IVisualAppearance.get_Orientation()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ComplexWeapon.cs" Line="40">Versiegeln Sie "'ComplexWeapon'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IVisualAppearance.Orientation.get()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+            <Accessor Name="#GameInteractionContracts.IVisualAppearance.set_Orientation(BaseTypes.Degree)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ComplexWeapon.cs" Line="40">Versiegeln Sie "'ComplexWeapon'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IVisualAppearance.Orientation.set(Degree)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DelayedFireringWeapon" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IComplexWeapon.GetWeaponResult(System.Boolean,BaseTypes.Position3D,BaseTypes.VectorWithDegree)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="DelayedFireringWeapon.cs" Line="30">Versiegeln Sie "'DelayedFireringWeapon'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexWeapon.GetWeaponResult(bool, Position3D, VectorWithDegree)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DiagonalExplosiveSpawner" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IExplosiveSpawner.CreateNewExplosive(BaseTypes.Position3D,BaseTypes.VectorWithDegree)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="DiagonalExplosiveSpawner.cs" Line="34">Versiegeln Sie "'DiagonalExplosiveSpawner'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IExplosiveSpawner.CreateNewExplosive(Position3D, VectorWithDegree)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ExplosionManager" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#IOInterface.IExplosionManager.StartNewExplosion(BaseTypes.IWorldElement,BaseTypes.Position3D,System.Double,System.Double)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ExplosionManager.cs" Line="34">Versiegeln Sie "'ExplosionManager'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IExplosionManager.StartNewExplosion(IWorldElement, Position3D, double, double)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ExplosionSizeMapper" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#IOInterface.IExplosionSizeMapper.MapSizeOfExplosion(System.Double)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ExplosionSizeMapper.cs" Line="21">Versiegeln Sie "'ExplosionSizeMapper'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IExplosionSizeMapper.MapSizeOfExplosion(double)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ExplosiveAmmo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IComplexAmmo.Count" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#GameInteractionContracts.IComplexAmmo.get_Count()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ExplosiveAmmo.cs" Line="25">Versiegeln Sie "'ExplosiveAmmo'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexAmmo.Count.get()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#GameInteractionContracts.IComplexAmmo.Fire(BaseTypes.Position3D,BaseTypes.VectorWithDegree)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ExplosiveAmmo.cs" Line="29">Versiegeln Sie "'ExplosiveAmmo'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexAmmo.Fire(Position3D, VectorWithDegree)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GameInteractionContracts.IVisualAppearance.ElementTheme" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#GameInteractionContracts.IVisualAppearance.get_ElementTheme()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ExplosiveAmmo.cs" Line="39">Versiegeln Sie "'ExplosiveAmmo'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IVisualAppearance.ElementTheme.get()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+            <Accessor Name="#GameInteractionContracts.IVisualAppearance.set_ElementTheme(IOInterface.ElementTheme)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ExplosiveAmmo.cs" Line="39">Versiegeln Sie "'ExplosiveAmmo'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IVisualAppearance.ElementTheme.set(ElementTheme)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#GameInteractionContracts.IVisualAppearance.IsMarked" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#GameInteractionContracts.IVisualAppearance.get_IsMarked()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ExplosiveAmmo.cs" Line="43">Versiegeln Sie "'ExplosiveAmmo'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IVisualAppearance.IsMarked.get()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+            <Accessor Name="#GameInteractionContracts.IVisualAppearance.set_IsMarked(System.Boolean)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ExplosiveAmmo.cs" Line="43">Versiegeln Sie "'ExplosiveAmmo'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IVisualAppearance.IsMarked.set(bool)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#GameInteractionContracts.IVisualAppearance.Orientation" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#GameInteractionContracts.IVisualAppearance.get_Orientation()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ExplosiveAmmo.cs" Line="41">Versiegeln Sie "'ExplosiveAmmo'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IVisualAppearance.Orientation.get()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+            <Accessor Name="#GameInteractionContracts.IVisualAppearance.set_Orientation(BaseTypes.Degree)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ExplosiveAmmo.cs" Line="41">Versiegeln Sie "'ExplosiveAmmo'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IVisualAppearance.Orientation.set(Degree)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ExplosiveSpawner" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IExplosiveSpawner.CreateNewExplosive(BaseTypes.Position3D,BaseTypes.VectorWithDegree)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="ExplosiveSpawner.cs" Line="26">Versiegeln Sie "'ExplosiveSpawner'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IExplosiveSpawner.CreateNewExplosive(Position3D, VectorWithDegree)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FirePositionCalculator" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IComplexAmmo.Count" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#GameInteractionContracts.IComplexAmmo.get_Count()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="FirePositionCalculator.cs" Line="38">Versiegeln Sie "'FirePositionCalculator'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexAmmo.Count.get()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#GameInteractionContracts.IComplexAmmo.Fire(BaseTypes.Position3D,BaseTypes.VectorWithDegree)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="FirePositionCalculator.cs" Line="24">Versiegeln Sie "'FirePositionCalculator'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexAmmo.Fire(Position3D, VectorWithDegree)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="InfiniteNearrangeAmmo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IComplexAmmo.Count" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#GameInteractionContracts.IComplexAmmo.get_Count()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="InfiniteNearrangeAmmo.cs" Line="26">Versiegeln Sie "'InfiniteNearrangeAmmo'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexAmmo.Count.get()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#GameInteractionContracts.IComplexAmmo.Fire(BaseTypes.Position3D,BaseTypes.VectorWithDegree)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="InfiniteNearrangeAmmo.cs" Line="30">Versiegeln Sie "'InfiniteNearrangeAmmo'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexAmmo.Fire(Position3D, VectorWithDegree)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="LoadingWeapon" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IComplexWeapon.GetWeaponResult(System.Boolean,BaseTypes.Position3D,BaseTypes.VectorWithDegree)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="LoadingWeapon.cs" Line="30">Versiegeln Sie "'LoadingWeapon'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexWeapon.GetWeaponResult(bool, Position3D, VectorWithDegree)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PermanentFireringWeapon" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IComplexWeapon.GetWeaponResult(System.Boolean,BaseTypes.Position3D,BaseTypes.VectorWithDegree)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="PermanentFireringWeapon.cs" Line="27">Versiegeln Sie "'PermanentFireringWeapon'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexWeapon.GetWeaponResult(bool, Position3D, VectorWithDegree)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WeaponCollector" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IExecuteble.ExecuteLogic()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="WeaponCollector.cs" Line="41">Versiegeln Sie "'WeaponCollector'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IExecuteble.ExecuteLogic()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GameInteractionContracts.IWeaponCollector.AddWeaponOwner(BaseTypes.IElementGroup)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="WeaponCollector.cs" Line="31">Versiegeln Sie "'WeaponCollector'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IWeaponCollector.AddWeaponOwner(IElementGroup)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GameInteractionContracts.IWeaponCollector.AddWeaponPlaceHolder(GameInteractionContracts.IWeaponPlaceHolder)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="WeaponCollector.cs" Line="36">Versiegeln Sie "'WeaponCollector'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IWeaponCollector.AddWeaponPlaceHolder(IWeaponPlaceHolder)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WeaponManager" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#BaseTypes.IElementGroup.AddChild(BaseTypes.IGroupElement)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="WeaponManager.cs" Line="168">Versiegeln Sie "'WeaponManager'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IElementGroup.AddChild(IGroupElement)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BaseTypes.IElementGroup.Children" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#BaseTypes.IElementGroup.get_Children()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="WeaponManager.cs" Line="156">Versiegeln Sie "'WeaponManager'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IElementGroup.Children.get()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#BaseTypes.IElementGroup.RemoveChild(BaseTypes.IGroupElement)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="WeaponManager.cs" Line="203">Versiegeln Sie "'WeaponManager'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IElementGroup.RemoveChild(IGroupElement)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GameInteractionContracts.IComplexWeaponFirerer.SetInstructions(IOInterface.IWeaponInstructions,BaseTypes.Position3D,BaseTypes.VectorWithDegree)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="WeaponManager.cs" Line="32">Versiegeln Sie "'WeaponManager'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexWeaponFirerer.SetInstructions(IWeaponInstructions, Position3D, VectorWithDegree)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WeaponSwitcher" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IWeaponSwitcher.GetResult()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="WeaponSwitcher.cs" Line="35">Versiegeln Sie "'WeaponSwitcher'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IWeaponSwitcher.GetResult()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GameInteractionContracts.IWeaponSwitcher.IsSwitching()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="WeaponSwitcher.cs" Line="30">Versiegeln Sie "'WeaponSwitcher'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IWeaponSwitcher.IsSwitching()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GameInteractionContracts.IWeaponSwitcher.StartSwitching(IOInterface.ElementTheme,IOInterface.ElementTheme)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:55Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\GameInteraction\GameInteraction\Weapons" File="WeaponSwitcher.cs" Line="23">Versiegeln Sie "'WeaponSwitcher'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IWeaponSwitcher.StartSwitching(ElementTheme, ElementTheme)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033">
+   <Name>Schnittstellenmethoden sollten von untergeordneten Typen aufgerufen werden können</Name>
+   <Description>Die Implementierungen expliziter Methoden sind mit privaten Zugriffsmöglichkeiten definiert. Klassen, die von Klassen mit expliziten Methodenimplementierungen abgeleitet werden und diese in der Klasse erneut deklarieren, können die Basisklassenimplementierung nur aufrufen, wenn die Basisklasse eine alternative Methode mit entsprechenden Zugriffsmöglichkeiten bereitgestellt hat. Bei der Überschreibung einer Basisklassenmethode, die von einer expliziten Schnittstellenimplementierung ausgeblendet wurde, muss eine abgeleitete Klasse den Basiszeiger zu der entsprechenden Schnittstelle umwandeln, damit die Basisklassenimplementierung aufgerufen wird. Wenn der Aufruf über diesen Verweis erfolgt, wird jedoch die Implementierung der abgeleiteten Klasse tatsächlich aufgerufen, was zu einer Rekursion und einem möglichen Stapelüberlauf führt.</Description>
+   <Resolution Name="Default">Versiegeln Sie "{0}" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "{1}" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182153.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Kategorie</String>
+  <String Key="Certainty">Sicherheit</String>
+  <String Key="CollapseAll">Alle zuklappen</String>
+  <String Key="CheckId">Prüf-ID</String>
+  <String Key="Error">Fehler</String>
+  <String Key="Errors">Fehler</String>
+  <String Key="ExpandAll">Alle aufklappen</String>
+  <String Key="Help">Hilfe</String>
+  <String Key="Line">Zeile</String>
+  <String Key="Messages">Meldung(en)</String>
+  <String Key="LocationNotStoredInPdb">[Nicht in PDB gespeicherter Speicherort]</String>
+  <String Key="Project">Projekt</String>
+  <String Key="Resolution">Auflösung</String>
+  <String Key="Rule">Regel</String>
+  <String Key="RuleFile">Regeldatei</String>
+  <String Key="RuleDescription">Regelbeschreibung</String>
+  <String Key="Source">Quelle</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Ziel</String>
+  <String Key="Warning">Warnung</String>
+  <String Key="Warnings">Warnung(en)</String>
+  <String Key="ReportTitle">Codeanalysebericht</String>
+ </Localized>
+</FxCopReport>

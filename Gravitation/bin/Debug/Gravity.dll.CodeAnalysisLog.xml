@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="C:\Code\KC2000\Gravitation\bin\Debug\Gravity.dll">
+   <Modules>
+    <Module Name="gravity.dll">
+     <Namespaces>
+      <Namespace Name="Gravity">
+       <Types>
+        <Type Name="GravitationCalculator" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Gravity.IGravitationCalculator.TriggerGravitation(BaseTypes.IWorldElement,Gravity.GravitationStatus)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:41Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Gravitation" File="GravitationCalculator.cs" Line="21">Versiegeln Sie "'GravitationCalculator'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IGravitationCalculator.TriggerGravitation(IWorldElement, GravitationStatus)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GravitationManagingElementFactory" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GameInteractionContracts.IElementFactory.CreateNewElement(IOInterface.IElement)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:41Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Gravitation" File="GravitationManagingElementFactory.cs" Line="24">Versiegeln Sie "'GravitationManagingElementFactory'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IElementFactory.CreateNewElement(IElement)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GameInteractionContracts.IElementFactory.DeleteElement(BaseTypes.IWorldElement)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:41Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Gravitation" File="GravitationManagingElementFactory.cs" Line="39">Versiegeln Sie "'GravitationManagingElementFactory'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IElementFactory.DeleteElement(IWorldElement)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GameInteractionContracts.IExecuteble.ExecuteLogic()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:41Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Gravitation" File="GravitationManagingElementFactory.cs" Line="47">Versiegeln Sie "'GravitationManagingElementFactory'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IExecuteble.ExecuteLogic()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033">
+   <Name>Schnittstellenmethoden sollten von untergeordneten Typen aufgerufen werden können</Name>
+   <Description>Die Implementierungen expliziter Methoden sind mit privaten Zugriffsmöglichkeiten definiert. Klassen, die von Klassen mit expliziten Methodenimplementierungen abgeleitet werden und diese in der Klasse erneut deklarieren, können die Basisklassenimplementierung nur aufrufen, wenn die Basisklasse eine alternative Methode mit entsprechenden Zugriffsmöglichkeiten bereitgestellt hat. Bei der Überschreibung einer Basisklassenmethode, die von einer expliziten Schnittstellenimplementierung ausgeblendet wurde, muss eine abgeleitete Klasse den Basiszeiger zu der entsprechenden Schnittstelle umwandeln, damit die Basisklassenimplementierung aufgerufen wird. Wenn der Aufruf über diesen Verweis erfolgt, wird jedoch die Implementierung der abgeleiteten Klasse tatsächlich aufgerufen, was zu einer Rekursion und einem möglichen Stapelüberlauf führt.</Description>
+   <Resolution Name="Default">Versiegeln Sie "{0}" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "{1}" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182153.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Kategorie</String>
+  <String Key="Certainty">Sicherheit</String>
+  <String Key="CollapseAll">Alle zuklappen</String>
+  <String Key="CheckId">Prüf-ID</String>
+  <String Key="Error">Fehler</String>
+  <String Key="Errors">Fehler</String>
+  <String Key="ExpandAll">Alle aufklappen</String>
+  <String Key="Help">Hilfe</String>
+  <String Key="Line">Zeile</String>
+  <String Key="Messages">Meldung(en)</String>
+  <String Key="LocationNotStoredInPdb">[Nicht in PDB gespeicherter Speicherort]</String>
+  <String Key="Project">Projekt</String>
+  <String Key="Resolution">Auflösung</String>
+  <String Key="Rule">Regel</String>
+  <String Key="RuleFile">Regeldatei</String>
+  <String Key="RuleDescription">Regelbeschreibung</String>
+  <String Key="Source">Quelle</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Ziel</String>
+  <String Key="Warning">Warnung</String>
+  <String Key="Warnings">Warnung(en)</String>
+  <String Key="ReportTitle">Codeanalysebericht</String>
+ </Localized>
+</FxCopReport>

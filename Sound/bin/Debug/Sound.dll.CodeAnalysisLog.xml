@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="C:\Code\KC2000\Sound\bin\Debug\Sound.dll">
+   <Modules>
+    <Module Name="sound.dll">
+     <Namespaces>
+      <Namespace Name="Sound">
+       <Types>
+        <Type Name="BufferLoader" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Sound.Contracts.IBufferLoader.LoadBuffer(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Sound" File="BufferLoader.cs" Line="20">Versiegeln Sie "'BufferLoader'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IBufferLoader.LoadBuffer(string)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Listener" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Sound.Contracts.IEar.SetPosition(System.Single,System.Single,System.Single)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Sound" File="Listener.cs" Line="14">Versiegeln Sie "'Listener'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IEar.SetPosition(float, float, float)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Sound" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Sound.Contracts.IComplexSound.Continue()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Sound" File="Sound.cs" Line="32">Versiegeln Sie "'Sound'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexSound.Continue()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Sound.Contracts.IComplexSound.Delete()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Sound" File="Sound.cs" Line="44">Versiegeln Sie "'Sound'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexSound.Delete()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Sound.Contracts.IComplexSound.Pause()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Sound" File="Sound.cs" Line="20">Versiegeln Sie "'Sound'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexSound.Pause()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Sound.Contracts.IComplexSound.SetSpeed(System.Single)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Sound" File="Sound.cs" Line="65">Versiegeln Sie "'Sound'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexSound.SetSpeed(float)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Sound.Contracts.IComplexSound.SetVolume(System.Single)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Sound" File="Sound.cs" Line="60">Versiegeln Sie "'Sound'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IComplexSound.SetVolume(float)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Sound.Contracts.ISound.Play()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Sound" File="Sound.cs" Line="75">Versiegeln Sie "'Sound'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ISound.Play()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Sound.Contracts.ISound.SetPosition(System.Single,System.Single,System.Single)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Sound" File="Sound.cs" Line="70">Versiegeln Sie "'Sound'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ISound.SetPosition(float, float, float)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Sound.Contracts.ISound.Stop()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Sound" File="Sound.cs" Line="49">Versiegeln Sie "'Sound'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ISound.Stop()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SoundFactory" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#FrameworkContracts.IResourceCleaner.Clear()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Sound" File="SoundFactory.cs" Line="65">Versiegeln Sie "'SoundFactory'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IResourceCleaner.Clear()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Sound.Contracts.ISoundFactory.DeleteSound(Sound.Contracts.ISound)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Sound" File="SoundFactory.cs" Line="70">Versiegeln Sie "'SoundFactory'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ISoundFactory.DeleteSound(ISound)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Sound.Contracts.ISoundFactory.LoadSound(System.String,System.Boolean,System.Boolean)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Sound" File="SoundFactory.cs" Line="31">Versiegeln Sie "'SoundFactory'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ISoundFactory.LoadSound(string, bool, bool)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Sound.Contracts.ISoundInterrupter.Continue()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Sound" File="SoundFactory.cs" Line="110">Versiegeln Sie "'SoundFactory'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ISoundInterrupter.Continue()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Sound.Contracts.ISoundInterrupter.Pause()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Sound" File="SoundFactory.cs" Line="99">Versiegeln Sie "'SoundFactory'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ISoundInterrupter.Pause()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WavFileReader" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Sound.Contracts.IWavFileReader.LoadWave(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Sound" File="WavFileReader.cs" Line="13">Versiegeln Sie "'WavFileReader'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IWavFileReader.LoadWave(string)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033">
+   <Name>Schnittstellenmethoden sollten von untergeordneten Typen aufgerufen werden können</Name>
+   <Description>Die Implementierungen expliziter Methoden sind mit privaten Zugriffsmöglichkeiten definiert. Klassen, die von Klassen mit expliziten Methodenimplementierungen abgeleitet werden und diese in der Klasse erneut deklarieren, können die Basisklassenimplementierung nur aufrufen, wenn die Basisklasse eine alternative Methode mit entsprechenden Zugriffsmöglichkeiten bereitgestellt hat. Bei der Überschreibung einer Basisklassenmethode, die von einer expliziten Schnittstellenimplementierung ausgeblendet wurde, muss eine abgeleitete Klasse den Basiszeiger zu der entsprechenden Schnittstelle umwandeln, damit die Basisklassenimplementierung aufgerufen wird. Wenn der Aufruf über diesen Verweis erfolgt, wird jedoch die Implementierung der abgeleiteten Klasse tatsächlich aufgerufen, was zu einer Rekursion und einem möglichen Stapelüberlauf führt.</Description>
+   <Resolution Name="Default">Versiegeln Sie "{0}" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "{1}" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182153.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Kategorie</String>
+  <String Key="Certainty">Sicherheit</String>
+  <String Key="CollapseAll">Alle zuklappen</String>
+  <String Key="CheckId">Prüf-ID</String>
+  <String Key="Error">Fehler</String>
+  <String Key="Errors">Fehler</String>
+  <String Key="ExpandAll">Alle aufklappen</String>
+  <String Key="Help">Hilfe</String>
+  <String Key="Line">Zeile</String>
+  <String Key="Messages">Meldung(en)</String>
+  <String Key="LocationNotStoredInPdb">[Nicht in PDB gespeicherter Speicherort]</String>
+  <String Key="Project">Projekt</String>
+  <String Key="Resolution">Auflösung</String>
+  <String Key="Rule">Regel</String>
+  <String Key="RuleFile">Regeldatei</String>
+  <String Key="RuleDescription">Regelbeschreibung</String>
+  <String Key="Source">Quelle</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Ziel</String>
+  <String Key="Warning">Warnung</String>
+  <String Key="Warnings">Warnung(en)</String>
+  <String Key="ReportTitle">Codeanalysebericht</String>
+ </Localized>
+</FxCopReport>

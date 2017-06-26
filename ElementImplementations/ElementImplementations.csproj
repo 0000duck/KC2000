@@ -40,16 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActivationManagerImplementations\BaseActivationManager.cs" />
     <Compile Include="ActivationManagerImplementations\DoorActivator.cs" />
     <Compile Include="ActivationManagerImplementations\IActivationObserver.cs" />
     <Compile Include="ActivationManagerImplementations\ISaveGameObserver.cs" />
     <Compile Include="AmmoImplementations\ElementFilter.cs" />
     <Compile Include="AmmoImplementations\ElementListFilter.cs" />
-    <Compile Include="AmmoImplementations\FireBall.cs" />
-    <Compile Include="AmmoImplementations\FireBallDestructionTriggerer.cs" />
-    <Compile Include="AmmoImplementations\Grenade.cs" />
-    <Compile Include="AmmoImplementations\Rocket.cs" />
     <Compile Include="Blood\ExitWoundBlood.cs" />
     <Compile Include="Blood\FlyingBlood.cs" />
     <Compile Include="Blood\FlyingBloodVisible.cs" />

@@ -1,24 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using GameInteractionContracts;
+﻿using GameInteractionContracts;
 using BaseTypes;
 using IOInterface;
 using ArtificialIntelligence.Contracts;
 using ArtificialIntelligence;
-using ArtificialIntelligence.BodyPartShapes;
-using ElementImplementations.CharacterImplementations;
 using ArtificialIntelligence.EnemyProvider;
 using BaseContracts;
-using CollisionDetection.CollisionDetectors;
-using ArtificialIntelligence.Strategies.PatrolStrategies;
-using ArtificialIntelligence.Strategies.FocusStrategies;
-using ArtificialIntelligence.Strategies.AttackStrategies;
-using ElementImplementations.WeaponImplementations;
-using ArtificialIntelligence.Strategies;
-using GameInteraction;
-using ArtificialIntelligence.DegreeRotater;
 using ThemeMapping.EnemyCreation;
 using ThemeMapping.EnemyCreation.BodyBuilders;
 using ThemeMapping.EnemyCreation.StrategyBuilders;
@@ -26,8 +12,6 @@ using ThemeMapping.Contracts;
 using IOInterface.Events;
 using FrameworkContracts;
 using ThemeMapping.EnemyCreation.CharacterRemovers;
-using ArtificialIntelligence.Strategies.Spinning;
-using Sound.Contracts;
 
 namespace ThemeMapping
 {
@@ -79,28 +63,8 @@ namespace ThemeMapping
 
             switch (element.ElementTheme)
             {
-                case ElementTheme.SoldierRocket:
-                    factory = new EnemyBuilder(new RocketSoldierBodyBuilder(), new WalkForwardStrategyBuilder(new SoundTriggeredThoughtToTextAdapter(_soundSharer, _eventToTextMapper.GetSound(GameEvent.PlayerHeard), 2, 10), _weaponCreator, _elementProviderCreator),
-                        _bloodParticleByCaliberTriggerer, _bloodParticleByBodyPartTriggerer, new StandardSoldierCharacterRemoverBuilder(_bloodParticleByBodyPartTriggerer),
-                        _weaponLooserFactory, _enemyDestructionObserver, _collapseStrategyFactory, _behaviourMapper);
-                    break;
-                case ElementTheme.SoldierRocketF:
-                    factory = new EnemyBuilder(new RocketSoldierBodyBuilder(), new FixStrategyBuilder(new SoundTriggeredThoughtToTextAdapter(_soundSharer, _eventToTextMapper.GetSound(GameEvent.PlayerHeard), 2, 10), _weaponCreator, _elementProviderCreator),
-                        _bloodParticleByCaliberTriggerer, _bloodParticleByBodyPartTriggerer, new StandardSoldierCharacterRemoverBuilder(_bloodParticleByBodyPartTriggerer),
-                        _weaponLooserFactory, _enemyDestructionObserver, _collapseStrategyFactory, _behaviourMapper);
-                    break;
-                case ElementTheme.SoldierRocketR:
-                    factory = new EnemyBuilder(new RocketSoldierBodyBuilder(), new RotationStrategyBuilder(new SoundTriggeredThoughtToTextAdapter(_soundSharer, _eventToTextMapper.GetSound(GameEvent.PlayerHeard), 2, 10), _weaponCreator, _elementProviderCreator),
-                        _bloodParticleByCaliberTriggerer, _bloodParticleByBodyPartTriggerer, new StandardSoldierCharacterRemoverBuilder(_bloodParticleByBodyPartTriggerer),
-                        _weaponLooserFactory, _enemyDestructionObserver, _collapseStrategyFactory, _behaviourMapper);
-                    break;
                 case ElementTheme.SoldierShotGun:
                     factory = new EnemyBuilder(new ShotGunSoldierBodyBuilder(), new WalkForwardStrategyBuilder(new SoundTriggeredThoughtToTextAdapter(_soundSharer, _eventToTextMapper.GetSound(GameEvent.PlayerHeard), 2, 10), _weaponCreator, _elementProviderCreator),
-                        _bloodParticleByCaliberTriggerer, _bloodParticleByBodyPartTriggerer, new StandardSoldierCharacterRemoverBuilder(_bloodParticleByBodyPartTriggerer),
-                        _weaponLooserFactory, _enemyDestructionObserver, _collapseStrategyFactory, _behaviourMapper);
-                    break;
-                case ElementTheme.Ninja:
-                    factory = new EnemyBuilder(new ShotGunSoldierBodyBuilder(), new NinjaStrategyBuilder(new SoundTriggeredThoughtToTextAdapter(_soundSharer, _eventToTextMapper.GetSound(GameEvent.PlayerHeard), 2, 10), _weaponCreator, _elementProviderCreator),
                         _bloodParticleByCaliberTriggerer, _bloodParticleByBodyPartTriggerer, new StandardSoldierCharacterRemoverBuilder(_bloodParticleByBodyPartTriggerer),
                         _weaponLooserFactory, _enemyDestructionObserver, _collapseStrategyFactory, _behaviourMapper);
                     break;
@@ -128,64 +92,11 @@ namespace ThemeMapping
                     factory = new EnemyBuilder(new PistolSoldierBodyBuilder(), new FixDuckStrategyBuilder(new SoundTriggeredThoughtToTextAdapter(_soundSharer, _eventToTextMapper.GetSound(GameEvent.PlayerHeard), 2, 10), _weaponCreator, _elementProviderCreator),
                         _bloodParticleByCaliberTriggerer, _bloodParticleByBodyPartTriggerer, new StandardSoldierCharacterRemoverBuilder(_bloodParticleByBodyPartTriggerer),
                         _weaponLooserFactory, _enemyDestructionObserver, _collapseStrategyFactory, _behaviourMapper);
-                    break;
-                case ElementTheme.Capitalist1:
-                case ElementTheme.Capitalist2:
-                case ElementTheme.Capitalist3:
-                    factory = new EnemyBuilder(new CapitalistBodyBuilder(), new CapitalistBuilder(new SoundTriggeredThoughtToTextAdapter(_soundSharer, _eventToTextMapper.GetSound(GameEvent.PlayerHeard), 2, 10), _weaponCreator, _elementProviderCreator),
-                        _bloodParticleByCaliberTriggerer, _bloodParticleByBodyPartTriggerer, new StandardSoldierCharacterRemoverBuilder(_bloodParticleByBodyPartTriggerer),
-                        _weaponLooserFactory, _enemyDestructionObserver, _collapseStrategyFactory, _behaviourMapper, 1.6);
-                    break;
-                case ElementTheme.SoldierMG:
-                    factory = new EnemyBuilder(new GiantSoldierBodyBuilder(), new GiantWalkForwardStrategyBuilder(new SoundTriggeredThoughtToTextAdapter(_soundSharer, _eventToTextMapper.GetSound(GameEvent.PlayerHeard), 4, 10), _weaponCreator, _elementProviderCreator, _quakeTriggerer),
-                        _bloodParticleByCaliberTriggerer, _bloodParticleByBodyPartTriggerer, new GiantCharacterRemoverBuilder(_bloodParticleByBodyPartTriggerer),
-                        _weaponLooserFactory, _enemyDestructionObserver, _collapseStrategyFactory, _behaviourMapper);
-                    break;
-                case ElementTheme.FlyingSoldierFlameThrower:
-                    factory = new EnemyBuilder(new FlyingGiantBuilder(_explosionManager, _particleManager), new FlyingGiantStrategyBuilder(new SoundTriggeredThoughtToTextAdapter(_soundSharer, _eventToTextMapper.GetSound(GameEvent.PlayerHeard), 4, 10), _weaponCreator, _elementProviderCreator),
-                        _bloodParticleByCaliberTriggerer, _bloodParticleByBodyPartTriggerer, new GiantCharacterRemoverBuilder(_bloodParticleByBodyPartTriggerer),
-                        _weaponLooserFactory, _enemyDestructionObserver, _collapseStrategyFactory, _onlyStandardBehaviourMapper);
-                    break;
-                case ElementTheme.SoldierTank:
-                    factory = new EnemyBuilder(new TankBuilder(_explosionManager, _particleManager), new TankStrategyBuilder(new SoundTriggeredThoughtToTextAdapter(_soundSharer, _eventToTextMapper.GetSound(GameEvent.PlayerHeard), 4, 10), _weaponCreator, _elementProviderCreator),
-                        _bloodParticleByCaliberTriggerer, _bloodParticleByBodyPartTriggerer, new GiantCharacterRemoverBuilder(_bloodParticleByBodyPartTriggerer),
-                        _weaponLooserFactory, _enemyDestructionObserver, _collapseStrategyFactory, _onlyStandardBehaviourMapper);
-                    break;
-                case ElementTheme.SoldierRobot:
-                    factory = new EnemyBuilder(new RobotBuilder(_particleManager), new RobotWalkForwardStrategyBuilder(new SoundTriggeredThoughtToTextAdapter(_soundSharer, _eventToTextMapper.GetSound(GameEvent.PlayerHeard), 4, 10), _weaponCreator, _elementProviderCreator, _quakeTriggerer),
-                        _bloodParticleByCaliberTriggerer, _bloodParticleByBodyPartTriggerer, new RobotRemoverBuilder(_bloodParticleByBodyPartTriggerer, _eventToSoundAndTextMapper.GetSound(GameEvent.Explosion)),
-                        _weaponLooserFactory, _enemyDestructionObserver, _collapseStrategyFactory, _behaviourMapper);
-                    break;
-                case ElementTheme.LastRobot:
-                    factory = new EnemyBuilder(new LastRobotBuilder(_particleManager), new LastRobotWalkForwardStrategyBuilder(new SoundTriggeredThoughtToTextAdapter(_soundSharer, _eventToTextMapper.GetSound(GameEvent.PlayerHeard), 4, 10), _weaponCreator, _elementProviderCreator, _quakeTriggerer),
-                        _bloodParticleByCaliberTriggerer, _bloodParticleByBodyPartTriggerer, new RobotRemoverBuilder(_bloodParticleByBodyPartTriggerer, _eventToSoundAndTextMapper.GetSound(GameEvent.Explosion)),
-                        _weaponLooserFactory, _enemyDestructionObserver, _collapseStrategyFactory, _behaviourMapper);
-                    break;
-                case ElementTheme.Helicopter:
-                    ISound helicopterSound = _eventToSoundAndTextMapper.GetSound(GameEvent.HelicopterRotor);
-                    HelicopterCollapseStrategy helicopterCollapseStrategy = new HelicopterCollapseStrategy(new Smoker(_particleManager, new UpdateTimer(0.3), Animation.Smoke, 3));
-                    factory = new EnemyBuilder(new HelicopterBuilder(helicopterCollapseStrategy, _particleManager), new HelicopterStrategyBuilder(_soundSharer, _weaponCreator,
-                        _elementProviderCreator, helicopterCollapseStrategy, _explosionManager, helicopterSound),
-                        _bloodParticleByCaliberTriggerer, _bloodParticleByBodyPartTriggerer, new HelicopterRemoverBuilder(_bloodParticleByBodyPartTriggerer, helicopterSound, false),
-                        _weaponLooserFactory, _enemyDestructionObserver, _collapseStrategyFactory, _onlyStandardBehaviourMapper);
-                    break;
-                case ElementTheme.HelicopterMGOnlyB:
-                    helicopterSound = _eventToSoundAndTextMapper.GetSound(GameEvent.HelicopterRotor);
-                    helicopterCollapseStrategy = new HelicopterCollapseStrategy(new Smoker(_particleManager, new UpdateTimer(0.3), Animation.Smoke, 3));
-                    factory = new EnemyBuilder(new HelicopterBuilder(helicopterCollapseStrategy, _particleManager), new HelicopterBackwardStrategyBuilder(_soundSharer, _weaponCreator,
-                        _elementProviderCreator, helicopterCollapseStrategy, _explosionManager, helicopterSound),
-                        _bloodParticleByCaliberTriggerer, _bloodParticleByBodyPartTriggerer, new HelicopterRemoverBuilder(_bloodParticleByBodyPartTriggerer, helicopterSound, true),
-                        _weaponLooserFactory, _enemyDestructionObserver, _collapseStrategyFactory, _onlyStandardBehaviourMapper);
-                    break;
+                    break;        
                 case ElementTheme.Dog:
                     factory = new EnemyBuilder(new DogBodyBuilder(), new StandardDogMovementStrategyBuilder(_soundSharer, _weaponCreator, new DistanceEnemyProviderCreator()),
                         _bloodParticleByCaliberTriggerer, _bloodParticleByBodyPartTriggerer, new DogCharacterRemoverBuilder(_bloodParticleByBodyPartTriggerer),
                         _weaponLooserFactory, _enemyDestructionObserver, _collapseStrategyFactory, _behaviourMapper);
-                    break;
-                case ElementTheme.DogF:
-                    factory = new EnemyBuilder(new DogBodyBuilder(), new EmptyStrategyBuilder(),
-                        _bloodParticleByCaliberTriggerer, _bloodParticleByBodyPartTriggerer, new DogCharacterRemoverBuilder(_bloodParticleByBodyPartTriggerer),
-                        _weaponLooserFactory, new EmptyDestructionObserver(), _collapseStrategyFactory, _behaviourMapper);
                     break;
                 case ElementTheme.AutoMG:
                     factory = new EnemyBuilder(new MGBuilder(_particleManager), new MGStrategyBuilder(new MGEnemyProviderCreator(), _weaponCreator),

@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="C:\Code\KC2000\Render\bin\Debug\Render.dll">
+   <Modules>
+    <Module Name="render.dll">
+     <Namespaces>
+      <Namespace Name="Render">
+       <Types>
+        <Type Name="AlphaBlender" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Render.Contracts.IAlphaBlender.BeginBlending()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="AlphaBlender.cs" Line="14">Versiegeln Sie "'AlphaBlender'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IAlphaBlender.BeginBlending()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render.Contracts.IAlphaBlender.EndBlending()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="AlphaBlender.cs" Line="20">Versiegeln Sie "'AlphaBlender'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IAlphaBlender.EndBlending()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render.Contracts.IAlphaBlender.SetOpacity(System.Double)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="AlphaBlender.cs" Line="26">Versiegeln Sie "'AlphaBlender'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IAlphaBlender.SetOpacity(double)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="AlphaTester" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Render.Contracts.IAlphaTester.Begin()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="AlphaTester.cs" Line="13">Versiegeln Sie "'AlphaTester'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IAlphaTester.Begin()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render.Contracts.IAlphaTester.End()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="AlphaTester.cs" Line="18">Versiegeln Sie "'AlphaTester'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IAlphaTester.End()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="BackgroundColor" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Render.Contracts.IBackgroundColor.SetColor()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="BackgroundColor.cs" Line="23">Versiegeln Sie "'BackgroundColor'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IBackgroundColor.SetColor()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Camera" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Render.Contracts.ICamera.SetDefaultPerspective()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="Camera.cs" Line="24">Versiegeln Sie "'Camera'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ICamera.SetDefaultPerspective()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render.Contracts.ICamera.SetInGamePerspective()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="Camera.cs" Line="41">Versiegeln Sie "'Camera'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ICamera.SetInGamePerspective()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DepthTestActivator" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Render.Contracts.IDepthTestActivator.Activate()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="DepthTestActivator.cs" Line="13">Versiegeln Sie "'DepthTestActivator'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IDepthTestActivator.Activate()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render.Contracts.IDepthTestActivator.Deactivate()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="DepthTestActivator.cs" Line="18">Versiegeln Sie "'DepthTestActivator'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IDepthTestActivator.Deactivate()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Light" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Render.Contracts.ILight.Disable()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="Light.cs" Line="39">Versiegeln Sie "'Light'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ILight.Disable()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render.Contracts.ILight.Enable()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="Light.cs" Line="34">Versiegeln Sie "'Light'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ILight.Enable()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render.Contracts.ILight.SetPosition()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="Light.cs" Line="44">Versiegeln Sie "'Light'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ILight.SetPosition()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="LightCollection" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Render.Contracts.ILightCollection.Disable()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="LightCollection.cs" Line="34">Versiegeln Sie "'LightCollection'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ILightCollection.Disable()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render.Contracts.ILightCollection.Enable()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="LightCollection.cs" Line="25">Versiegeln Sie "'LightCollection'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ILightCollection.Enable()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="LightCollectionProvider" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Render.Contracts.ILightCollectionProvider.GetCollection(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="LightCollectionProvider.cs" Line="12">Versiegeln Sie "'LightCollectionProvider'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ILightCollectionProvider.GetCollection(int)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="LightSwitch" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Render.Contracts.ILightSwitch.Off()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="LightSwitch.cs" Line="18">Versiegeln Sie "'LightSwitch'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ILightSwitch.Off()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render.Contracts.ILightSwitch.On()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="LightSwitch.cs" Line="13">Versiegeln Sie "'LightSwitch'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ILightSwitch.On()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PolygonRenderer" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Render.Contracts.IPolygonRenderer.RenderPolygons(System.Collections.Generic.List`1&lt;Render.Contracts.Polygon&gt;)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="PolygonRenderer.cs" Line="13">Versiegeln Sie "'PolygonRenderer'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IPolygonRenderer.RenderPolygons(List&lt;Polygon&gt;)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="RenderedSideSwitcher" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Render.Contracts.IRenderedSideSwitcher.SwitchToBackSide()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="RenderedSideSwitcher.cs" Line="18">Versiegeln Sie "'RenderedSideSwitcher'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IRenderedSideSwitcher.SwitchToBackSide()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render.Contracts.IRenderedSideSwitcher.SwitchToFrontSide()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="RenderedSideSwitcher.cs" Line="13">Versiegeln Sie "'RenderedSideSwitcher'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IRenderedSideSwitcher.SwitchToFrontSide()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Scaler" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Render.Contracts.IScaler.Scale(System.Double,System.Double,System.Double)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="Scaler.cs" Line="13">Versiegeln Sie "'Scaler'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IScaler.Scale(double, double, double)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TextureChanger" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Render.Contracts.ITextureChanger.SetTexture(System.Int32)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="TextureChanger.cs" Line="20">Versiegeln Sie "'TextureChanger'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ITextureChanger.SetTexture(int)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TextureTranslator" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Render.Contracts.ITextureTranslator.Reset()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="TextureTranslator.cs" Line="25">Versiegeln Sie "'TextureTranslator'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ITextureTranslator.Reset()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render.Contracts.ITextureTranslator.Store()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="TextureTranslator.cs" Line="19">Versiegeln Sie "'TextureTranslator'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ITextureTranslator.Store()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render.Contracts.ITextureTranslator.TranslateTexture(System.Double,System.Double)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="TextureTranslator.cs" Line="14">Versiegeln Sie "'TextureTranslator'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'ITextureTranslator.TranslateTexture(double, double)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TriangleRenderer" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Render.Contracts.IPolygonRenderer.RenderPolygons(System.Collections.Generic.List`1&lt;Render.Contracts.Polygon&gt;)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="TriangleRenderer.cs" Line="13">Versiegeln Sie "'TriangleRenderer'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IPolygonRenderer.RenderPolygons(List&lt;Polygon&gt;)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WorldRotator" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Render.Contracts.IWorldRotator.RotateX(System.Double)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="WorldRotator.cs" Line="13">Versiegeln Sie "'WorldRotator'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IWorldRotator.RotateX(double)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render.Contracts.IWorldRotator.RotateY(System.Double)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="WorldRotator.cs" Line="18">Versiegeln Sie "'WorldRotator'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IWorldRotator.RotateY(double)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render.Contracts.IWorldRotator.RotateZ(System.Double)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="WorldRotator.cs" Line="23">Versiegeln Sie "'WorldRotator'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IWorldRotator.RotateZ(double)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WorldTranslator" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Render.Contracts.IWorldTranslator.Reset()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="WorldTranslater.cs" Line="23">Versiegeln Sie "'WorldTranslator'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IWorldTranslator.Reset()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render.Contracts.IWorldTranslator.Store()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="WorldTranslater.cs" Line="18">Versiegeln Sie "'WorldTranslator'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IWorldTranslator.Store()'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Render.Contracts.IWorldTranslator.TranslateWorld(System.Double,System.Double,System.Double)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033" Status="Active" Created="2017-06-26 18:07:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Code\KC2000\Render" File="WorldTranslater.cs" Line="13">Versiegeln Sie "'WorldTranslator'" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "'IWorldTranslator.TranslateWorld(double, double, double)'" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="InterfaceMethodsShouldBeCallableByChildTypes" Category="Microsoft.Design" CheckId="CA1033">
+   <Name>Schnittstellenmethoden sollten von untergeordneten Typen aufgerufen werden können</Name>
+   <Description>Die Implementierungen expliziter Methoden sind mit privaten Zugriffsmöglichkeiten definiert. Klassen, die von Klassen mit expliziten Methodenimplementierungen abgeleitet werden und diese in der Klasse erneut deklarieren, können die Basisklassenimplementierung nur aufrufen, wenn die Basisklasse eine alternative Methode mit entsprechenden Zugriffsmöglichkeiten bereitgestellt hat. Bei der Überschreibung einer Basisklassenmethode, die von einer expliziten Schnittstellenimplementierung ausgeblendet wurde, muss eine abgeleitete Klasse den Basiszeiger zu der entsprechenden Schnittstelle umwandeln, damit die Basisklassenimplementierung aufgerufen wird. Wenn der Aufruf über diesen Verweis erfolgt, wird jedoch die Implementierung der abgeleiteten Klasse tatsächlich aufgerufen, was zu einer Rekursion und einem möglichen Stapelüberlauf führt.</Description>
+   <Resolution Name="Default">Versiegeln Sie "{0}" (eine fehlerhafte Änderung, die die Lauffähigkeit der Anwendung beeinträchtigt, wenn diese Klasse bereits veröffentlicht wurde), implementieren Sie die Methode nicht explizit, oder implementieren Sie eine neue Methode, die die Funktionalität von "{1}" verfügbar macht und für abgeleitete Klassen sichtbar ist.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182153.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Kategorie</String>
+  <String Key="Certainty">Sicherheit</String>
+  <String Key="CollapseAll">Alle zuklappen</String>
+  <String Key="CheckId">Prüf-ID</String>
+  <String Key="Error">Fehler</String>
+  <String Key="Errors">Fehler</String>
+  <String Key="ExpandAll">Alle aufklappen</String>
+  <String Key="Help">Hilfe</String>
+  <String Key="Line">Zeile</String>
+  <String Key="Messages">Meldung(en)</String>
+  <String Key="LocationNotStoredInPdb">[Nicht in PDB gespeicherter Speicherort]</String>
+  <String Key="Project">Projekt</String>
+  <String Key="Resolution">Auflösung</String>
+  <String Key="Rule">Regel</String>
+  <String Key="RuleFile">Regeldatei</String>
+  <String Key="RuleDescription">Regelbeschreibung</String>
+  <String Key="Source">Quelle</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Ziel</String>
+  <String Key="Warning">Warnung</String>
+  <String Key="Warnings">Warnung(en)</String>
+  <String Key="ReportTitle">Codeanalysebericht</String>
+ </Localized>
+</FxCopReport>
