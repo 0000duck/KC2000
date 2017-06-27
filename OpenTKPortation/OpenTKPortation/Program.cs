@@ -52,7 +52,6 @@ namespace KillCommando
                     pressedKeyDetector, 
                     config,
                     () => { run = false; }, 
-                    MusicDictionaryProvider.FullVersionSongs, 
                     LevelIdListProvider.ListFullVersion, 
                     screen,
                     () => { game.SwapBuffers(); screenClearer.CleanScreen(); });

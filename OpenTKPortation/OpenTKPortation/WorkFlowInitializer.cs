@@ -37,7 +37,6 @@ namespace KillCommando
             IPressedKeyDetector pressedKeyDetector, 
             Configuration.Configuration configuration, 
             Action clickedExit, 
-            Dictionary<FrameworkImplementations.Mainframe.SongProvider.SongType, List<string>> songs, 
             List<int> levelIds, 
             IScreen screen,
             Action swapBuffer
@@ -202,13 +201,9 @@ namespace KillCommando
             introRenderer.RenderAnimation();
             TimeAndSpeedManager.Reset();
 
-            ISongProvider songProvider = new SongProvider(songs);
-            MusicPlayer musicPlayer = new MusicPlayer(musicFactory, levelIdSwitcher, songProvider, ((ISoundFactory)musicFactory).LoadSound("Content\\Sound\\Music\\track2.wav", false, true));
-          
             GameModeProvider gameModeProvider = new GameModeProvider(new FrameworkImplementations.PressedKeyEncapsulator(Keys.Escape, pressedKeyDetector));
             gameModeProviderArray[0] = gameModeProvider;
 
-            gameModeProvider.AddObserver(musicPlayer);
             LevelLoader levelLoader = new LevelLoader(initializer, gameModeProvider, levelIdSwitcher, contentDisposer, new StandardResourcePreloader(animationLoader, "Content\\Animations", themeLoader), skillLevelRepository);
             loader.Add(levelLoader);
 
@@ -240,16 +235,11 @@ namespace KillCommando
             { 
                 new ImageRectangle(((ITextureLoader)textureCacheMenu).LoadTexture("Content\\Images\\blue.bmp", false), textureChanger,
                     new SurfaceRectangle(polygonRenderer, 0.3, 0.3, 0.4f, 0.1f, false)),
-                loadingRenderer,
-                new ImageRectangle(((ITextureLoader)textureCacheMenu).LoadTexture("Content\\Images\\loadframe.png", false), textureChanger,
-                    new SurfaceRectangle(polygonRenderer, 0.3, 0.3, 0.4f, 0.1f, false, 0, 1)),
-                    new LoadTextRenderer(textFactory, levelIdSwitcher)
+                loadingRenderer
             });
 
             IDrawable menuBackground = new ListRenderer(new List<IDrawable>
             {
-                new LoopedTranslation(new TranslationAnimatedSprite(new ImageRectangle(((ITextureLoader)textureCacheMenu).LoadTexture("Content\\MenuThemes\\philarm.png", false), textureChanger,
-                    new SurfaceRectangle(polygonRenderer, -0.2, 0, 2f, 2f, false)), worldTranslator, new Position3D { PositionX = 0 }, new Position3D { PositionY = -1 }), new PercentFader(20))
             });
 
             IDrawable renderer = new MainRenderer(gameModeProvider, new AlphaChannelListRenderer(new AlphaTester(),

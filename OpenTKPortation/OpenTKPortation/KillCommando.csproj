@@ -77,7 +77,6 @@
     <Compile Include="Implementations\Providers\BackgroundColorProvider.cs" />
     <Compile Include="Implementations\Providers\FloorProvider.cs" />
     <Compile Include="Implementations\Providers\LevelIdListProvider.cs" />
-    <Compile Include="Implementations\Providers\MusicDictionaryProvider.cs" />
     <Compile Include="Implementations\Providers\SkylineElementProvider.cs" />
     <Compile Include="LevelInitializer.cs" />
     <Compile Include="Configuration\Configuration.cs" />
