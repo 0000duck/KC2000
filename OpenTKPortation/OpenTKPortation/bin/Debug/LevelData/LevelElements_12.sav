@@ -556,7 +556,6 @@
   <Element Theme="ExplosiveBox" Orientation="Degree_0" PosX="157.65" PosY="121.05" PosZ="0" />
   <Element Theme="ExplosiveBox" Orientation="Degree_0" PosX="157" PosY="122.15" PosZ="0" />
   <Element Theme="AmmoBox" Orientation="Degree_0" PosX="158.9" PosY="122.85" PosZ="0" />
-  <Element Theme="RocketBox" Orientation="Degree_0" PosX="160" PosY="121.3" PosZ="0" />
   <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="141.899999999999" PosY="126.6" PosZ="0">
     <VP tf="Content\Images\gitter.png" ia="0" ad="0" sh="R" he="2" lx="1" ly="0.1" we="50">
       <nz TC1X="0.02" TC1Y="0.02" TC2X="1.02" TC2Y="0.02" TC3X="1.02" TC3Y="2.02" TC4X="0.02" TC4Y="2.02" />

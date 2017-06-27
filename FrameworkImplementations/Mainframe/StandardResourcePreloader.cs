@@ -26,7 +26,6 @@ namespace FrameworkImplementations.Mainframe
             {
                 IOInterface.Animation.Dust,
                 IOInterface.Animation.FistDust,
-                IOInterface.Animation.Smoke,
                 IOInterface.Animation.Explosion,
                 IOInterface.Animation.ExplosionSmall,
                 IOInterface.Animation.VerySmallBodyExplosion,
@@ -40,7 +39,6 @@ namespace FrameworkImplementations.Mainframe
                 IOInterface.Animation.BloodVerySmall1,
                 IOInterface.Animation.SmallBloodLowDensity,
                 IOInterface.Animation.Glass,
-                IOInterface.Animation.WaterParticle,
                 IOInterface.Animation.BloodSmall1,
                 IOInterface.Animation.BloodVerySmall2,
                 IOInterface.Animation.BloodVerySmall3,
@@ -68,8 +66,6 @@ namespace FrameworkImplementations.Mainframe
             _themeLoader.LoadTheme(IOInterface.ElementTheme.StraightFlyingBloodVerySmall);
             _themeLoader.LoadTheme(IOInterface.ElementTheme.FlyingShoe);
             _themeLoader.LoadTheme(IOInterface.ElementTheme.Skull);
-            _themeLoader.LoadTheme(IOInterface.ElementTheme.GiantSkull);
-            _themeLoader.LoadTheme(IOInterface.ElementTheme.GiantTorso);
             _themeLoader.LoadTheme(IOInterface.ElementTheme.DogBloodTorso);
             _themeLoader.LoadTheme(IOInterface.ElementTheme.Bowls);
             _themeLoader.LoadTheme(IOInterface.ElementTheme.DogBloodTorso);
