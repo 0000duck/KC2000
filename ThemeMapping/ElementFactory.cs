@@ -126,33 +126,6 @@ namespace ThemeMapping
 
             switch (element.ElementTheme)
             {
-                case ElementTheme.ShotGun:
-                    AmmoFirerer ammoGroup = new AmmoFirerer();
-                    _ammoObserver.RegisterAmmo(ElementTheme.ShotGun, ammoGroup);
-                    FirePositionCalculator weaponLengthCalculator = new FirePositionCalculator(0, 0.4, ammoGroup);
-                    worldElement = new ComplexWeapon(ammoGroup, new PermanentFireringWeapon(1.3, weaponLengthCalculator, new SoundPlayer(_eventToSoundMapper.GetSound(GameEvent.ShotGunPlayer), _soundObserver, NoiseLevel.High)));
-                    break;
-                case ElementTheme.ShotGunPlaceHolder:
-                    worldElement = new WeaponPlaceHolder
-                    {
-                         WeaponTheme = ElementTheme.ShotGun,
-                         WeaponCount = 1,
-                         AmmoTheme = ElementTheme.ShotShells
-                    };
-                    _weaponCollector.AddWeaponPlaceHolder((IWeaponPlaceHolder)worldElement);
-                    break;
-                case ElementTheme.ShotShells:
-                    worldElement = new ComplexAmmo(BulletManager, EnemyProvider, ListProviderProvider.GetProvider(), true, DestructionStrength.PlayerShotGunStrength, 8);
-                    break;
-                case ElementTheme.ShotShellsPlaceHolder:
-                    worldElement = new WeaponPlaceHolder
-                    {
-                         WeaponTheme = ElementTheme.ShotGun,
-                         WeaponCount = 0,
-                         AmmoTheme = ElementTheme.ShotShells
-                    };
-                    _weaponCollector.AddWeaponPlaceHolder((IWeaponPlaceHolder)worldElement);
-                    break;
                 case ElementTheme.PistolBulletPlaceHolder:
                     worldElement = new WeaponPlaceHolder
                     {
@@ -175,9 +148,9 @@ namespace ThemeMapping
                     worldElement = new ComplexAmmo(BulletManager, EnemyProvider, ListProviderProvider.GetProvider(), false, DestructionStrength.PlayerPistolStrength, 6);
                     break;
                 case ElementTheme.Pistol:
-                    ammoGroup = new AmmoFirerer();
+                    AmmoFirerer  ammoGroup = new AmmoFirerer();
                     _ammoObserver.RegisterAmmo(ElementTheme.Pistol, ammoGroup);
-                    weaponLengthCalculator = new FirePositionCalculator(0, 0.2, ammoGroup);
+                    FirePositionCalculator  weaponLengthCalculator = new FirePositionCalculator(0, 0.2, ammoGroup);
                     worldElement = new ComplexWeapon(ammoGroup, new LoadingWeapon(
                         new PermanentFireringWeapon(0.4, weaponLengthCalculator, new SoundPlayer(_eventToSoundMapper.GetSound(GameEvent.PistolShotPlayer), _soundObserver, NoiseLevel.High)), 6, 0.8));
                     break;
@@ -187,21 +160,8 @@ namespace ThemeMapping
                     weaponLengthCalculator = new FirePositionCalculator(-0.1, 0.3, ammoGroup);
                     worldElement = new ComplexWeapon(ammoGroup, new DelayedFireringWeapon(0.6, weaponLengthCalculator, 0.25, new SoundPlayer(_eventToSoundMapper.GetSound(GameEvent.FistPlayer), _soundObserver, NoiseLevel.Low)));
                     break;
-                case ElementTheme.ExplosiveBox:
-                    worldElement = new MovableExplodableElement(ExplosionManager, 150, 4, _elementCreatorProvider.GetElementCreator(), ListProviderProvider.GetProvider(), _complexElementFinder);
-                    break;
                 case ElementTheme.AmmoBox:
-                    worldElement = new AmmoBox(30, _elementCreatorProvider.GetElementCreator(), new List<ElementTheme> { ElementTheme.PistolBulletPlaceHolder, ElementTheme.ShotShellsPlaceHolder, ElementTheme.MGChainPlaceHolder }, ParticleManager, ListProviderProvider.GetProvider(), _complexElementFinder);
-                    break;
-                case ElementTheme.RocketBox:
-                    worldElement = new AmmoBox(30, _elementCreatorProvider.GetElementCreator(), new List<ElementTheme> { ElementTheme.RocketPlaceHolder }, ParticleManager, ListProviderProvider.GetProvider(), _complexElementFinder);
-                    break;
-                case ElementTheme.FireDeleter:
-                    worldElement = new ExplodableElement(ExplosionManager, 80, 2, _elementCreatorProvider.GetElementCreator());
-                    break;
-                case ElementTheme.SlidingDoor:
-                    worldElement = new SlidingDoor(element.StartPosition, ListProviderProvider.GetProvider());
-                    _doorOpener.AddDoor((IActivatable)worldElement);
+                    worldElement = new AmmoBox(30, _elementCreatorProvider.GetElementCreator(), new List<ElementTheme> { ElementTheme.PistolBulletPlaceHolder }, ParticleManager, ListProviderProvider.GetProvider(), _complexElementFinder);
                     break;
                 case ElementTheme.PlayerOne:
                     WeaponManager weaponManager = new WeaponManager(_multiWeaponRenderer, (IAmmoPerWeaponCounter) _ammoObserver, new List<WeaponSlot> 
@@ -213,30 +173,6 @@ namespace ThemeMapping
                         new WeaponSlot
                         {
                             WeaponTheme = ElementTheme.Pistol
-                        },
-                        new WeaponSlot
-                        {
-                            WeaponTheme = ElementTheme.Uzi
-                        },
-                        new WeaponSlot
-                        {
-                            WeaponTheme = ElementTheme.ShotGun
-                        },
-                        new WeaponSlot
-                        {
-                            WeaponTheme = ElementTheme.RocketThrower
-                        },
-                        new WeaponSlot
-                        {
-                            WeaponTheme = ElementTheme.GrenadeLauncher
-                        },
-                        new WeaponSlot
-                        {
-                            WeaponTheme = ElementTheme.MG
-                        },
-                        new WeaponSlot
-                        {
-                            WeaponTheme = ElementTheme.AtomaticMG
                         }
                     }, new WeaponSwitcher(0.6), ElementTheme.Fist);
 
@@ -248,16 +184,10 @@ namespace ThemeMapping
                     _weaponCollector.AddWeaponOwner((IElementGroup)worldElement);
                     _doorOpener.SetPlayer(worldElement);
                     break;
-                case ElementTheme.SoldierShotGun:
-                case ElementTheme.SoldierShotGunR:
-                case ElementTheme.SoldierShotGunF:
                 case ElementTheme.SoldierPistolF:
                 case ElementTheme.SoldierPistol:
                 case ElementTheme.SoldierPistolR:
                 case ElementTheme.Dog:
-                case ElementTheme.AutoMG:
-                    worldElement = _enemyFactory.CreateEnemy(element, EnemyProvider, ListProviderProvider.GetProvider(), _elementCreatorProvider.GetElementCreator());
-                    break;
                 case ElementTheme.GenericElement:
                     worldElement = new ImpulseProcessingAnimatableElement(ListProviderProvider.GetProvider(), _complexElementFinder);
                     break;
@@ -287,8 +217,6 @@ namespace ThemeMapping
                 case ElementTheme.BloodTorso:
                 case ElementTheme.Skull:
                 case ElementTheme.DogBloodTorso:
-                case ElementTheme.GiantTorso:
-                case ElementTheme.GiantSkull:
                 case ElementTheme.BloodyPart:
                 case ElementTheme.Bowls:
                     worldElement = new FlyingBodyPart(ListProviderProvider.GetProvider(), new StraightFlightSimulator(), 1600, 0.8, 0.5, _spriteFilteringcomplexElementFinder,
@@ -303,9 +231,6 @@ namespace ThemeMapping
                     break;
                 case ElementTheme.BleedingBody:
                     worldElement = new Material(Animation.VerySmallBodyExplosion, ParticleManager, new PositionOnRoomFieldModel());
-                    break;
-                case ElementTheme.BreakableWall:
-                    worldElement = new BreakableWall(36,30);
                     break;
             }
 

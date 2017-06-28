@@ -24,8 +24,7 @@ namespace BloodEffects
                 {
                     //if element can move, we can't create a sprite
                     if (visualAppearane.ElementTheme == IOInterface.ElementTheme.GenericElement ||
-                        visualAppearane.ElementTheme == IOInterface.ElementTheme.GenericElementWithoutCollision ||
-                        visualAppearane.ElementTheme == IOInterface.ElementTheme.ExplosiveBox)
+                        visualAppearane.ElementTheme == IOInterface.ElementTheme.GenericElementWithoutCollision)
                         continue;
                 }
 

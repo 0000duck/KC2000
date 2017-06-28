@@ -30,26 +30,11 @@ namespace LevelEditor
             {           
                 //case alle gruppen
                 case ElementTheme.InvisibleGroup:
-                case ElementTheme.CarGroup:
-                case ElementTheme.TokyoRail:
                     complexElement = new RotatableComposition { ElementTheme = element.ElementTheme, Orientation = element.Orientation };
                     complexElement.SetCenterPosition(element.StartPosition.PositionX, element.StartPosition.PositionY, element.StartPosition.PositionZ);
                     foreach (IElement subElement in element.SubElements)
                     {
                         IWorldElement child = Factory.CreateNewElement(subElement);
-
-                        if (child is IGroupElement && complexElement is IElementGroup)
-                        {
-                            ((IElementGroup)complexElement).AddChild((IGroupElement)child);
-                        }
-                    }
-                    break;
-                case ElementTheme.Gondel:
-                    complexElement = new RotatableComposition { ElementTheme = element.ElementTheme, Orientation = element.Orientation };
-                    complexElement.SetCenterPosition(element.StartPosition.PositionX, element.StartPosition.PositionY, element.StartPosition.PositionZ);
-                    foreach (IElement subElement in element.SubElements)
-                    {
-                        IWorldElement child = CreateNewElement(subElement);
 
                         if (child is IGroupElement && complexElement is IElementGroup)
                         {
@@ -70,13 +55,7 @@ namespace LevelEditor
                         }
                     }
                     break;
-                case ElementTheme.ShotGun:
                 case ElementTheme.Pistol:
-                case ElementTheme.MG:
-                case ElementTheme.AtomaticMG:
-                case ElementTheme.RocketThrower:
-                case ElementTheme.Uzi:
-                case ElementTheme.GrenadeLauncher:
                     complexElement = Factory.CreateNewElement(element);
                     if (element.SubElements != null)
                     {

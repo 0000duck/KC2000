@@ -57,11 +57,7 @@ namespace OpenTKPortation.Implementations
                 case ElementTheme.GenericElement:
                 case ElementTheme.GenericElementWithoutCollision:
                 case ElementTheme.GenericElementWithoutMovement:
-                case ElementTheme.SlidingDoor:
-                case ElementTheme.BreakableWall:
                 case ElementTheme.BleedingBody:
-                case ElementTheme.MovingPalm:
-                case ElementTheme.MovingTree:
                     if (!(element.Parameters is IVisualParameters))
                         throw new Exception("generic element has no visual appearance!");
 
@@ -77,8 +73,6 @@ namespace OpenTKPortation.Implementations
                         if (appearance.TextureCoordinateDirection.HasValue)
                             communicationElement = new LoopedAnimationSprite(AnimationLoader.LoadAnimation(appearance.TextureFolder), _textureChanger, element.StartPosition,
                                 new TextureTranslationDecorator(sprite, _textureTranslator, appearance.AnimationDurationPerImage, appearance.TextureCoordinateDirection.Value), new ComplexDegreeCalculator(Camera, new DegreeMapper()), appearance.AnimationDurationPerImage, _worldTranslator);
-                        else if (element.ElementTheme == ElementTheme.BreakableWall)
-                            communicationElement = new AnimationSprite(AnimationLoader.LoadAnimation(appearance.TextureFolder), _textureChanger, element.StartPosition, sprite, new ComplexDegreeCalculator(Camera, new DegreeMapper()), _worldTranslator);
                         else
                             communicationElement = new LoopedAnimationSprite(AnimationLoader.LoadAnimation(appearance.TextureFolder), _textureChanger, element.StartPosition, sprite, new ComplexDegreeCalculator(Camera, new DegreeMapper()), appearance.AnimationDurationPerImage, _worldTranslator);
                         
@@ -92,15 +86,6 @@ namespace OpenTKPortation.Implementations
                     }
                     break;
                 default:
-                    if (element.ElementTheme == ElementTheme.ExplosiveBox && element.Parameters is IVisualParameters)
-                    {
-                        appearance = element.Parameters as IVisualParameters;
-                        sprite = new Box(appearance, element.Orientation,_polygonRenderer);
-                        ITexture image = TextureLoader.LoadTexture(appearance.TextureFolder, false);
-                        communicationElement = new ImageSprite(image, _textureChanger, element.StartPosition, sprite, null, _worldTranslator);
-                        _imageElementSorter.AddImageElement((IDrawable)communicationElement, image);
-                        return communicationElement;
-                    }
                     if (element.ElementTheme == ElementTheme.Water && element.Parameters is IVisualParameters)
                     {
                         appearance = element.Parameters as IVisualParameters;

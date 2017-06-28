@@ -31,9 +31,9 @@ namespace GameInteraction.BaseImplementations
         {
             if (!IsVirtual)
             {
-                CommunicationElement.ChangePosition(Position.PositionX, Position.PositionY, Position.PositionZ);
+                CommunicationElement?.ChangePosition(Position.PositionX, Position.PositionY, Position.PositionZ);
 
-                CommunicationElement.RenderAnimation(AnimationBehaviour, AnimationPercent, Orientation, IsMarked);
+                CommunicationElement?.RenderAnimation(AnimationBehaviour, AnimationPercent, Orientation, IsMarked);
             }
         }
     }

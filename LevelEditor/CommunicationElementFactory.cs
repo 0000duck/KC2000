@@ -56,18 +56,7 @@ namespace LevelEditor
                 case ElementTheme.Fist:
                 case ElementTheme.Pistol:
                 case ElementTheme.PistolBullets:
-                case ElementTheme.ShotGun:
-                case ElementTheme.ShotShells:
-                case ElementTheme.MG:
-                case ElementTheme.MGChain:
-                case ElementTheme.AtomaticMG:
-                case ElementTheme.AtomaticMGChain:
-                case ElementTheme.RocketThrower:
-                case ElementTheme.RocketTriggerer:
-                case ElementTheme.GrenadeLauncher:
-                case ElementTheme.GrenadeTriggerer:
-                case ElementTheme.Uzi:
-                case ElementTheme.UziBullets:
+                
                     return null;
                 case ElementTheme.PlayerOne:
                     communicationElement = new PlayerCommunicationElement(PlayerCamera);

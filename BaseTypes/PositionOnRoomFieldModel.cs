@@ -39,6 +39,8 @@ namespace BaseTypes
 
         public bool EventuallyCollidesWith(ISimpleCollisionModel otherCollisionModel)
         {
+            if (otherCollisionModel == null)
+                return false;
             if ((X & otherCollisionModel.X) != 0 && (Y & otherCollisionModel.Y) != 0)
                 return true;
 

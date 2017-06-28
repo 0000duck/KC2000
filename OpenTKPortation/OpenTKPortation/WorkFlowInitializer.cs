@@ -53,9 +53,7 @@ namespace KillCommando
                 ((ILevelIdSwitcher)levelIdSwitcher).SetSpecificLevel(configuration.StartLevelId.Value);
 
             ScenarioAnimationLoader scenarioAnimationLoader = new ScenarioAnimationLoader(animationLoader, new ScenarioProvider(),
-                new List<string> { ElementTheme.SoldierRocket.ToString(), ElementTheme.SoldierShotGun.ToString(), ElementTheme.SoldierPistol.ToString(), ElementTheme.SoldierMG.ToString(), 
-                    ElementTheme.FlyingSoldierFlameThrower.ToString(), ElementTheme.Helicopter.ToString(), ElementTheme.HelicopterMGOnlyB.ToString(), ElementTheme.SoldierTank.ToString(), 
-                    ElementTheme.SoldierRobot.ToString(), ElementTheme.LastRobot.ToString() }, levelIdSwitcher);
+                new List<string> { ElementTheme.SoldierPistol.ToString()}, levelIdSwitcher);
 
             IThemeLoader themeLoader = new StrategyRemover(new ThemeLoader(scenarioAnimationLoader, "Content\\ElementThemes"));
 
@@ -94,39 +92,12 @@ namespace KillCommando
                 ElementTheme.SoldierPistol,
                 ElementTheme.SoldierPistolF,
                 ElementTheme.SoldierPistolR,
-                ElementTheme.SoldierRocket,
-                ElementTheme.SoldierRocketF,
-                ElementTheme.SoldierRocketR,
-                ElementTheme.SoldierShotGun,
-                ElementTheme.SoldierShotGunF,
-                ElementTheme.SoldierShotGunR,
-                ElementTheme.SoldierTank,
-                ElementTheme.SoldierMG,
-                ElementTheme.SoldierRobot,
-                ElementTheme.LastRobot,
-                ElementTheme.FlyingSoldierFlameThrower,
-                ElementTheme.Helicopter,
-                ElementTheme.HelicopterMGOnlyB,
+              
                 ElementTheme.Dog,
-                ElementTheme.AutoMG,
-                ElementTheme.Ninja,
-                ElementTheme.Capitalist1,
-                ElementTheme.Capitalist2,
-                ElementTheme.Capitalist3,
-                ElementTheme.AtomaticMGChainPlaceHolder,
-                ElementTheme.AtomaticMGPlaceHolder,
+               
                 ElementTheme.PistolPlaceHolder,
                 ElementTheme.PistolBulletPlaceHolder,
-                ElementTheme.ShotGunPlaceHolder,
-                ElementTheme.ShotShellsPlaceHolder,
-                ElementTheme.MGPlaceHolder,
-                ElementTheme.MGChainPlaceHolder,
-                ElementTheme.GrenadeLauncherPlaceHolder,
-                ElementTheme.GrenadePlaceHolder,
-                ElementTheme.RocketThrowerPlaceHolder,
-                ElementTheme.RocketPlaceHolder,
-                ElementTheme.UziPlaceHolder,
-                ElementTheme.UziBulletPlaceHolder,
+               
             });
 
             TextureTranslator textureTranslator = new TextureTranslator();
@@ -194,12 +165,6 @@ namespace KillCommando
                             loader.First().LoadLevel();
                         }), numbers);
             }
-
-            IntroRenderer introRenderer = new FrameworkImplementations.IntroRenderer(swapBuffer,
-                new TranslationAnimatedSprite(new ImageRectangle(((ITextureLoader)textureCacheMenu).LoadTexture("Content\\MenuThemes\\allcolors.bmp", false), textureChanger,
-                    new SurfaceRectangle(polygonRenderer, -2, -2, 5f, 15f, false, 40)), worldTranslator, new Position3D { PositionX = 0 }, new Position3D { PositionY = -8 }));
-            introRenderer.RenderAnimation();
-            TimeAndSpeedManager.Reset();
 
             GameModeProvider gameModeProvider = new GameModeProvider(new FrameworkImplementations.PressedKeyEncapsulator(Keys.Escape, pressedKeyDetector));
             gameModeProviderArray[0] = gameModeProvider;

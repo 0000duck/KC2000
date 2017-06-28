@@ -154,11 +154,6 @@ namespace OpenTKPortation
                 wallEffectManager, 
                 visualSoundRenderer
             });
-            if (floor != null)
-                elements.Add(floor);
-            if(sky != null)
-                elements.Add(sky);
-
             //player gui
             double digitSize = 0.04;
             IColorToPercentMapper colorToPercentMapper = new FrameworkImplementations.Screen.ColorToPercentMapper();
@@ -173,20 +168,7 @@ namespace OpenTKPortation
                 new SurfaceRectangle(_polygonRenderer, 0, 0, 1, 1, false)));
             weapons.Add(ElementTheme.Pistol, new StandardWeaponRenderer(ThemeLoader.LoadTheme(ElementTheme.Pistol), _textureChanger,
                 new SurfaceRectangle(_polygonRenderer, 0, 0, 1, 1, false), new GunFireRenderer(AnimationLoader.LoadAnimation("Content\\Animations\\GunFire"), _textureChanger, new SurfaceRectangle(_polygonRenderer, 0.18, 0.09, 0.5f, 0.5f, false), 8)));
-            weapons.Add(ElementTheme.Uzi, new StandardWeaponRenderer(ThemeLoader.LoadTheme(ElementTheme.Uzi), _textureChanger,
-                new SurfaceRectangle(_polygonRenderer, 0, 0, 1, 1, false), new GunFireRenderer(AnimationLoader.LoadAnimation("Content\\Animations\\GunFire"), _textureChanger, new SurfaceRectangle(_polygonRenderer, 0.18, 0.09, 0.5f, 0.5f, false), 8)));
-            weapons.Add(ElementTheme.ShotGun, new StandardWeaponRenderer(ThemeLoader.LoadTheme(ElementTheme.ShotGun), _textureChanger,
-                new SurfaceRectangle(_polygonRenderer, 0, 0, 1, 1, false), new GunFireRenderer(AnimationLoader.LoadAnimation("Content\\Animations\\GunFire"), _textureChanger, new SurfaceRectangle(_polygonRenderer, 0.20, 0.11, 0.5f, 0.5f, false), 8)));
-            weapons.Add(ElementTheme.RocketThrower, new StandardWeaponRenderer(ThemeLoader.LoadTheme(ElementTheme.RocketThrower), _textureChanger,
-                new SurfaceRectangle(_polygonRenderer, -0.42, 0, 1, 1, false), new GunFireRenderer(AnimationLoader.LoadAnimation("Content\\Animations\\GunFire"), _textureChanger, new SurfaceRectangle(_polygonRenderer, 0.13, 0.15, 0.5f, 0.5f, false), 8)));
-            weapons.Add(ElementTheme.GrenadeLauncher, new StandardWeaponRenderer(ThemeLoader.LoadTheme(ElementTheme.GrenadeLauncher), _textureChanger,
-                new SurfaceRectangle(_polygonRenderer, -0.25, 0, 1, 1, false),
-                new GunFireRenderer(AnimationLoader.LoadAnimation("Content\\Animations\\GunFire"), _textureChanger, new SurfaceRectangle(_polygonRenderer, -0.05, -0.05, 0.8f, 0.8f, false), 7)));
-            weapons.Add(ElementTheme.MG, new StandardWeaponRenderer(ThemeLoader.LoadTheme(ElementTheme.MG), _textureChanger,
-                new SurfaceRectangle(_polygonRenderer, 0, 0, 1, 1, false), new GunFireRenderer(AnimationLoader.LoadAnimation("Content\\Animations\\GunFire"), _textureChanger, new SurfaceRectangle(_polygonRenderer, 0.20, 0.15, 0.5f, 0.5f, false), 8)));
-            weapons.Add(ElementTheme.AtomaticMG, new StandardWeaponRenderer(ThemeLoader.LoadTheme(ElementTheme.AtomaticMG), _textureChanger,
-               new SurfaceRectangle(_polygonRenderer, -0.32, 0, 1, 1, false), new GunFireRenderer(AnimationLoader.LoadAnimation("Content\\Animations\\GunFire"), _textureChanger, new SurfaceRectangle(_polygonRenderer, 0.17, 0.12, 0.5f, 0.5f, false), 8)));
-            
+
             BloodRenderer bloodRenderer = new BloodRenderer(AnimationLoader.LoadAnimation("Content\\Animations\\PlayerBlood"), _textureChanger, new SurfaceRectangle(_polygonRenderer, -1, -0.5, 3f, 2f, false), _alphaRenderer, 0.5, 0.7, _playerHealthObserver, 1.5);
             Fader fader = new Fader(_textureLoader.LoadTexture("Content\\Images\\fadebg.png", false), _textureChanger, new SurfaceRectangle(_polygonRenderer, -1, -0.5, 3f, 2f, false), _alphaRenderer, 2, 4);
             LevelShutDown levelShutDown = new FrameworkImplementations.LevelShutDown(4, _switchToNextLevel, fader);
@@ -194,12 +176,6 @@ namespace OpenTKPortation
             Dictionary<ElementTheme, ICountRenderer> countRenderers = new Dictionary<ElementTheme, ICountRenderer>();
 
             IDrawable ammoBackground = new ImageRectangle(_textureLoader.LoadTexture("Content\\Images\\ammobg.png", false), _textureChanger, new SurfaceRectangle(_polygonRenderer, 0, 0, 0.25f, 0.125f, false));
-            countRenderers.Add(ElementTheme.AtomaticMG, new CountIncrementer(new MovingCountRenderer(new CountRenderer(_numbers, colorToPercentMapper, digitSize), ammoBackground, _worldTranslator), 0.05));
-            countRenderers.Add(ElementTheme.MG, new CountIncrementer(new MovingCountRenderer(new CountRenderer(_numbers, colorToPercentMapper, digitSize), ammoBackground, _worldTranslator), 0.05));
-            countRenderers.Add(ElementTheme.GrenadeLauncher, new CountIncrementer(new MovingCountRenderer(new CountRenderer(_numbers, colorToPercentMapper, digitSize), ammoBackground, _worldTranslator), 0.05));
-            countRenderers.Add(ElementTheme.RocketThrower, new CountIncrementer(new MovingCountRenderer(new CountRenderer(_numbers, colorToPercentMapper, digitSize), ammoBackground, _worldTranslator), 0.05));
-            countRenderers.Add(ElementTheme.ShotGun, new CountIncrementer(new MovingCountRenderer(new CountRenderer(_numbers, colorToPercentMapper, digitSize), ammoBackground, _worldTranslator), 0.05));
-            countRenderers.Add(ElementTheme.Uzi, new CountIncrementer(new MovingCountRenderer(new CountRenderer(_numbers, colorToPercentMapper, digitSize), ammoBackground, _worldTranslator), 0.05));
             countRenderers.Add(ElementTheme.Pistol, new CountIncrementer(new MovingCountRenderer( new CountRenderer(_numbers,colorToPercentMapper, digitSize), ammoBackground, _worldTranslator), 0.05));
             
             
@@ -344,61 +320,17 @@ namespace OpenTKPortation
                     ElementTheme.PistolPlaceHolder,
                     ElementTheme.Pistol,
                     ElementTheme.PistolBulletPlaceHolder,
-                    ElementTheme.ShotShells,
-                    ElementTheme.ShotShellsPlaceHolder,
-                    ElementTheme.ShotGun,
-                    ElementTheme.ShotGunPlaceHolder,
-                    ElementTheme.Rocket,
-                    ElementTheme.EnemyRocket,
-                    ElementTheme.EnemyGrenade,
-                    ElementTheme.RocketThrower,
-                    ElementTheme.RocketThrowerPlaceHolder,
-                    ElementTheme.RocketPlaceHolder,
-                    ElementTheme.RocketTriggerer,
-                    ElementTheme.GrenadeLauncherPlaceHolder,
-                    ElementTheme.GrenadeLauncher,
-                    ElementTheme.Grenade,
-                    ElementTheme.GrenadePlaceHolder,
-                    ElementTheme.GrenadeTriggerer,
-                    ElementTheme.FireBall,
-                    ElementTheme.MG,
-                    ElementTheme.MGPlaceHolder,
-                    ElementTheme.MGChain,
-                    ElementTheme.MGChainPlaceHolder,
-                    ElementTheme.AtomaticMG,
-                    ElementTheme.AtomaticMGChain,
-                    ElementTheme.AtomaticMGChainPlaceHolder,
-                    ElementTheme.AtomaticMGPlaceHolder,
-                    ElementTheme.Uzi,
-                    ElementTheme.UziBullets,
-                    ElementTheme.UziPlaceHolder,
-                    ElementTheme.UziBulletPlaceHolder,
                     ElementTheme.GenericElementWithoutCollision,
                     ElementTheme.StraightFlyingBloodSmall,
                     ElementTheme.StraightFlyingBloodVerySmall,
                     ElementTheme.FlyingBloodMedium,
                     ElementTheme.FlyingBloodSmall,
-                    ElementTheme.MovingPalm,
-                    ElementTheme.MovingCactus,
-                    ElementTheme.MovingTree
                 },
                 new List<ElementTheme>
                 {
                     ElementTheme.PlayerOne,
-                    ElementTheme.SoldierShotGun,
-                    ElementTheme.SoldierRocket,
                     ElementTheme.SoldierPistol,
-                    ElementTheme.SoldierMG,
-                    ElementTheme.FlyingSoldierFlameThrower,
-                    ElementTheme.Helicopter,
-                    ElementTheme.HelicopterMGOnlyB,
-                    ElementTheme.SoldierTank,
-                    ElementTheme.SoldierRobot,
-                    ElementTheme.LastRobot,
                     ElementTheme.Dog,
-                    ElementTheme.Ninja,
-                    ElementTheme.Gondel,
-                    ElementTheme.TokyoRail
                 }, 300, 10, _environmentProviders.FloorProvider.GetCollisionElements(levelId));
             collisionDetectionListProviderProvider.ListProvider = ListFillingFactoryForCollisionDetection;
 

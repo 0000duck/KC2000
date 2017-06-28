@@ -31,14 +31,15 @@ namespace Menu
             _textFactory = textFactory;
             _continueGame = continueGame;
 
-            MenuElements.Add(new MenuElement(textFactory.CreateText(0, 0.7, "NEW GAME")), ()=> ClickedSubPage(0));
+            MenuElements.Add(new MenuElement(textFactory.CreateText(0, 0.7, "EDIT")), () =>
+            {
+                gameStartInitializer.SetSkillLevel(SkillLevel.Easy);
+                gameStartInitializer.Start();
+
+            });
             MenuElements.Add(new MenuElement(textFactory.CreateText(0, 0.4, "QUIT")), ClickedOKQuit);
 
-            if (profileLoader.LoadProfile().NextLevel.HasValue)
-            {
-                _continue = new MenuElement(textFactory.CreateText(0, 0.55, "CONTINUE"));
-                MenuElements.Add(_continue, continueGame);
-            }
+
 
             _mouseController = mouseController;
             _pressedKeyDetector = pressedKeyDetector;

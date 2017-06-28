@@ -33,16 +33,9 @@ namespace FrameworkImplementations.Theme
 
             switch (elementTheme)
             {
-                case ElementTheme.SoldierShotGun:
-                case ElementTheme.SoldierRocket:
                 case ElementTheme.SoldierPistol:
-                case ElementTheme.SoldierMG:
                 case ElementTheme.FlyingShoe:
                 case ElementTheme.Dog:
-                case ElementTheme.Ninja:
-                case ElementTheme.Capitalist1:
-                case ElementTheme.Capitalist2:
-                case ElementTheme.Capitalist3:
                     return new FloorAnimationThemeDecorator(new Theme(animations));
                 default:
                     return new Theme(animations);

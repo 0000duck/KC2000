@@ -27,7 +27,6 @@ namespace BloodEffects
             Position3D position = center.Clone();
             position.PositionZ -= _distanceFromCeiling;
 
-            _elementCreator.EnqueueNewElement(new ElementImplementation { ElementTheme = ElementTheme.MGPart, StartPosition = position }, _randomDirectionThrower.ThrowElement);
         }
     }
 }

@@ -30,13 +30,11 @@ namespace BloodEffects
             Position3D position = center.Clone();
             position.PositionZ += _distanceToFloor;
 
-            _elementCreator.EnqueueNewElement(new ElementImplementation { ElementTheme = ElementTheme.GiantTorso, StartPosition = position }, _randomDirectionThrower.ThrowElement);
 
             if (_destructibleBodyProvider.GetDestructibleBody().BodyStatus != MainBodyStatus.NoHead)
             {
                 Position3D positionHead = position.Clone();
                 positionHead.PositionZ += 0.6;
-                _elementCreator.EnqueueNewElement(new ElementImplementation { ElementTheme = ElementTheme.GiantSkull, StartPosition = positionHead }, _randomDirectionThrower.ThrowElement);
             }
         }
     }

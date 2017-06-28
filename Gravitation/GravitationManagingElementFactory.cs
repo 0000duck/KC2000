@@ -24,14 +24,6 @@ namespace Gravity
         {
             IWorldElement worldElement = _factory.CreateNewElement(element);
 
-            switch (element.ElementTheme)
-            {
-                case ElementTheme.Ninja:
-                case ElementTheme.Grenade:
-                    _gravitationElements.Add(worldElement, new GravitationStatus());
-                    break;
-            }
-
             return worldElement;
         }
 

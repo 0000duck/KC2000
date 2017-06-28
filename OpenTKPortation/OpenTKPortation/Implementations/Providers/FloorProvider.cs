@@ -27,21 +27,6 @@ namespace OpenTKPortation.Implementations.Providers
         {
             switch (levelId)
             {
-                case 3:
-                    return new Floor(_textureLoader.LoadTexture("Content\\EnvironmentThemes\\Floors\\erde2.bmp", false), _textureChanger, _polygonRenderer, 300, 300, 0, 37.5f, 37.5f);
-                case 5:
-                    return new Floor(_textureLoader.LoadTexture("Content\\Images\\white.bmp", false), _textureChanger, _polygonRenderer, 300, 300, -1, 1f, 1f);
-                case 4:
-                    return new ListRenderer(new List<IDrawable> 
-                    { 
-                        new Floor(_textureLoader.LoadTexture("Content\\EnvironmentThemes\\Floors\\japan floor.bmp", false), _textureChanger, _polygonRenderer,300, 117, 0, 37.5f, 18.75f),
-                        new Floor(_textureLoader.LoadTexture("Content\\EnvironmentThemes\\Floors\\japan floor.bmp", false), _textureChanger, _polygonRenderer,300, 117, 0, 37.5f, 18.75f, startZ: 123)
-                    });
-                case 6:
-                case 7:
-                case 8:
-                case 9:
-                case 2:
                 default:
                     return null;
             }

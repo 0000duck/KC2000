@@ -17,36 +17,13 @@ namespace ThemeMapping.EnemyCreation
         {
             switch(character)
             {
-                case ElementTheme.Capitalist1:
-                case ElementTheme.Capitalist2:
-                case ElementTheme.Capitalist3:
-                case ElementTheme.Ninja:
-                    return new WeaponLooser(characterProvider, elementCreator, ElementTheme.UziPlaceHolder); 
-                case ElementTheme.SoldierMG:
-                    return new WeaponLooser(characterProvider, elementCreator,ElementTheme.MGPlaceHolder);
                 case ElementTheme.SoldierPistol:
                 case ElementTheme.SoldierPistolR:
                 case ElementTheme.SoldierPistolF:
                     return new WeaponLooser(characterProvider, elementCreator,ElementTheme.PistolPlaceHolder);
-                case ElementTheme.SoldierRocket:
-                case ElementTheme.SoldierRocketF:
-                case ElementTheme.SoldierRocketR:
-                    return new WeaponLooser(characterProvider, elementCreator,ElementTheme.RocketThrowerPlaceHolder);
-                case ElementTheme.Dog:
-                case ElementTheme.DogF:
-                case ElementTheme.FlyingSoldierFlameThrower:
-                case ElementTheme.Helicopter:
-                case ElementTheme.HelicopterMGOnlyB:
-                case ElementTheme.SoldierTank:
-                case ElementTheme.LastRobot:
-                    return new EmptyObserver();
-                case ElementTheme.SoldierRobot:
-                    return new WeaponLooser(characterProvider, elementCreator, ElementTheme.AtomaticMGPlaceHolder); 
-                case ElementTheme.SoldierShotGun:
-                case ElementTheme.SoldierShotGunF:
-                case ElementTheme.SoldierShotGunR:
                 default:
-                    return new WeaponLooser(characterProvider, elementCreator,ElementTheme.ShotGunPlaceHolder); 
+               return new EmptyObserver();
+
             }
         }
     }

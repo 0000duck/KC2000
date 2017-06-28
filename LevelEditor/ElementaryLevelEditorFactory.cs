@@ -61,7 +61,6 @@ namespace LevelEditor
                 case ElementTheme.GenericElement:
                 case ElementTheme.GenericElementWithoutCollision:
                 case ElementTheme.GenericElementWithoutMovement:
-                case ElementTheme.SlidingDoor:
                     if (element.Parameters.Shape == Shape.Circle)
                         worldElement = new GenericElementPlaceHolder(AnimationListProvider, ImageListProvider,
                             ((IVisualParameters)element.Parameters).IsAnimation, ((IVisualParameters)element.Parameters).AnimationDurationPerImage,
@@ -74,18 +73,6 @@ namespace LevelEditor
                 case ElementTheme.Fist:
                 case ElementTheme.Pistol:
                 case ElementTheme.PistolBullets:
-                case ElementTheme.ShotGun:
-                case ElementTheme.ShotShells:
-                case ElementTheme.MG:
-                case ElementTheme.MGChain:
-                case ElementTheme.AtomaticMG:
-                case ElementTheme.AtomaticMGChain:
-                case ElementTheme.RocketThrower:
-                case ElementTheme.RocketTriggerer:
-                case ElementTheme.GrenadeLauncher:
-                case ElementTheme.GrenadeTriggerer:
-                case ElementTheme.Uzi:
-                case ElementTheme.UziBullets:
                     worldElement = new InvisibleElement(ListProviderProvider.GetProvider(), new ComplexElementFinder(new DetectorOfOverlappingElements()));
                     break;
                 default:

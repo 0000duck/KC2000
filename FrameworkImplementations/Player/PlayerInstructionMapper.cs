@@ -51,19 +51,19 @@ namespace FrameworkImplementations.Player
             PlayerInstruction instruction = new PlayerInstruction();
 
             //keyboard
-            if (PressedKeyDetector.IsKeyDown(Keys.Up) || PressedKeyDetector.IsKeyDown(Keys.W))
+            if (PressedKeyDetector.IsKeyDown(Keys.Up))
             {
                 instruction.WalkForward = true;
             }
-            if (PressedKeyDetector.IsKeyDown(Keys.Down) || PressedKeyDetector.IsKeyDown(Keys.S))
+            if (PressedKeyDetector.IsKeyDown(Keys.Down))
             {
                 instruction.WalkBackward = true;
             }
-            if (PressedKeyDetector.IsKeyDown(Keys.Left) || PressedKeyDetector.IsKeyDown(Keys.A))
+            if (PressedKeyDetector.IsKeyDown(Keys.Left))
             {
                 instruction.WalkLeft = true;
             }
-            if (PressedKeyDetector.IsKeyDown(Keys.Right) || PressedKeyDetector.IsKeyDown(Keys.D))
+            if (PressedKeyDetector.IsKeyDown(Keys.Right))
             {
                 instruction.WalkRight = true;
             }
