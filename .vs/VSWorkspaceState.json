@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\OpenTKPortation"
+    "\\TextureConverter",
+    "\\TextureConverter\\Implementations",
+    "\\TextureConverter\\Providers"
   ],
-  "SelectedNode": "\\OpenTKPortation\\OpenTKPortation.sln",
+  "SelectedNode": "\\TextureConverter\\Implementations\\BitmapColorReplacer.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -10,6 +10,7 @@ namespace PaletteApplier
     {
         static void Main(string[] args)
         {
+            new DirectoryParser().ApplyPaletteForDirectory("Input", "Output");
         }
     }
 }
