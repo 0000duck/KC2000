@@ -10,6 +10,7 @@ namespace PaletteApplier
     class PaletteAplier
     {
         private const uint colorStep = 85;
+        //private const uint colorStep = 51;
 
         public Bitmap Apply(Bitmap source)
         {
