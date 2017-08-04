@@ -10,6 +10,26 @@
       <to TC1X="0" TC1Y="0" TC2X="0" TC2Y="12.5" TC3X="1" TC3Y="12.5" TC4X="1" TC4Y="0" />
     </VP>
   </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="150" PosY="200" PosZ="-0.15">
+    <VP tf="Content\EnvironmentThemes\Floors\erde2.bmp" ia="0" ad="0" sh="R" he="0.05" lx="140" ly="100" we="50">
+      <to TC1X="0" TC1Y="0" TC2X="15.5555555555556" TC2Y="0" TC3X="15.5555555555556" TC3Y="11.1111111111111" TC4X="0" TC4Y="11.1111111111111" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="40" PosY="200" PosZ="-0.15">
+    <VP tf="Content\EnvironmentThemes\Floors\erde2.bmp" ia="0" ad="0" sh="R" he="0.05" lx="80" ly="100" we="50">
+      <to TC1X="0" TC1Y="0" TC2X="10" TC2Y="0" TC3X="10" TC3Y="12.5" TC4X="0" TC4Y="12.5" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="260" PosY="200" PosZ="-0.15">
+    <VP tf="Content\EnvironmentThemes\Floors\erde2.bmp" ia="0" ad="0" sh="R" he="0.05" lx="80" ly="100" we="50">
+      <to TC1X="0" TC1Y="0" TC2X="8.88888888888889" TC2Y="0" TC3X="8.88888888888889" TC3Y="11.1111111111111" TC4X="0" TC4Y="11.1111111111111" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="150" PosY="349.95" PosZ="-0.15">
+    <VP tf="Content\EnvironmentThemes\Floors\erde2.bmp" ia="0" ad="0" sh="R" he="0.05" lx="300" ly="200" we="50">
+      <to TC1X="0" TC1Y="0" TC2X="33.3333333333333" TC2Y="0" TC3X="33.3333333333333" TC3Y="22.2222222222222" TC4X="0" TC4Y="22.2222222222222" />
+    </VP>
+  </Element>
   <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="220.375" PosY="200" PosZ="-0.15">
     <VP tf="Content\Images\zaun.png" ia="0" ad="0" sh="R" he="3" lx="0.4" ly="100" we="50">
       <nx TC1X="0" TC1Y="0" TC2X="50" TC2Y="0" TC3X="50" TC3Y="1.5" TC4X="0" TC4Y="1.5" />
@@ -28,6 +48,16 @@
   <Element Theme="GenericElementWithoutMovement" Orientation="Degree_270" PosX="187.175" PosY="250.2" PosZ="-0.15">
     <VP tf="Content\Images\zaun.png" ia="0" ad="0" sh="R" he="3" lx="0.4" ly="66.1000000000001" we="50">
       <nx TC1X="0" TC1Y="0" TC2X="33.05" TC2Y="0" TC3X="33.05" TC3Y="1.5" TC4X="0" TC4Y="1.5" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_90" PosX="150.225" PosY="149.7" PosZ="-0.15">
+    <VP tf="Content\Images\zaun.png" ia="0" ad="0" sh="R" he="3" lx="0.4" ly="140.3" we="50">
+      <nx TC1X="0" TC1Y="0" TC2X="70.1500000000001" TC2Y="0" TC3X="70.1500000000001" TC3Y="1.5" TC4X="0" TC4Y="1.5" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="149.5" PosY="100" PosZ="-0.15">
+    <VP tf="Content\EnvironmentThemes\Floors\erde2.bmp" ia="0" ad="0" sh="R" he="0.05" lx="301" ly="100" we="50">
+      <to TC1X="0" TC1Y="0" TC2X="33.4444444444444" TC2Y="0" TC3X="33.4444444444444" TC3Y="11.1111111111111" TC4X="0" TC4Y="11.1111111111111" />
     </VP>
   </Element>
   <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="155.5" PosY="142.5" PosZ="0">
@@ -112,7 +142,7 @@
       <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="2" TC4X="0" TC4Y="2" />
     </VP>
   </Element>
-  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_270" PosX="143.5" PosY="218" PosZ="0">
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_270" PosX="143.5" PosY="220.5" PosZ="0">
     <VP tf="Content\Images\mauergrau.bmp" ia="0" ad="0" sh="R" he="4" lx="1" ly="10" we="50">
       <bo TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="5" TC4X="0" TC4Y="5" />
       <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="5" TC4X="0" TC4Y="5" />

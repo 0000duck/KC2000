@@ -82,7 +82,7 @@ namespace KillCommando
             IExecuteble screenShotMaker = configuration.ScreenShotMaker ? new GifCamera("C:\\Screenshots\\trailer\\snow\\Pic", 50, 0.04, configuration.Resolution.X, configuration.Resolution.Y, pressedKeyDetector) : null;
             AlphaTester alphaTester = new AlphaTester();
             IPercentDrivenSprite fadeOutAnimation = new AnimationByPercentSprite(new AlphaChannelListRenderer(alphaTester, new List<IDrawable> { new SurfaceRectangle(polygonRenderer, -1, 0.0, 3f, 3f, false, textureOne: 10f) }),
-                animationLoaderMenu.LoadAnimation("Content\\Animations\\Black"), textureChanger, true);
+                animationLoaderMenu.LoadAnimation("Content\\Animations\\Street"), textureChanger, true);
 
             ProfileAccessor profileLoader = new ProfileAccessor("Profile", "StandardProfile", new FileSerializer());
 

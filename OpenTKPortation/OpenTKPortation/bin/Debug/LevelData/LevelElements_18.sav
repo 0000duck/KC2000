@@ -1,0 +1,859 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<LevelContent>
+  <Element Theme="InvisibleGroup" Orientation="Degree_0" PosX="245.55" PosY="114.05" PosZ="0">
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_270" PosX="245.55" PosY="114.05" PosZ="0">
+      <VP tf="Content\Images\containergrey.bmp" ia="0" ad="0" sh="R" he="6" lx="0.1" ly="71" we="50">
+        <nx TC1X="0" TC1Y="0" TC2X="11.8333333333333" TC2Y="0" TC3X="11.8333333333333" TC3Y="1" TC4X="0" TC4Y="1" />
+        <px TC1X="0" TC1Y="0" TC2X="11.8333333333333" TC2Y="0" TC3X="11.8333333333333" TC3Y="1" TC4X="0" TC4Y="1" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_270" PosX="245.55" PosY="114.05" PosZ="6">
+      <VP tf="Content\Images\gelander.png" ia="0" ad="0" sh="R" he="2.9" lx="0.1" ly="71" we="50">
+        <nx TC1X="0" TC1Y="0" TC2X="6.8079465429525" TC2Y="0" TC3X="6.8079465429525" TC3Y="1.04034919725" TC4X="0" TC4Y="1.04034919725" />
+        <px TC1X="0" TC1Y="0" TC2X="6.8079465429525" TC2Y="0" TC3X="6.8079465429525" TC3Y="1.04034919725" TC4X="0" TC4Y="1.04034919725" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_270" PosX="245.55" PosY="114.05" PosZ="8.9">
+      <VP tf="Content\Images\containergrey.bmp" ia="0" ad="0" sh="R" he="3" lx="0.1" ly="71" we="50">
+        <nx TC1X="0" TC1Y="0" TC2X="11.8333333333333" TC2Y="0" TC3X="11.8333333333333" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="11.8333333333333" TC2Y="0" TC3X="11.8333333333333" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+  </Element>
+  <Element Theme="InvisibleGroup" Orientation="Degree_0" PosX="210.1" PosY="149.5" PosZ="0">
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="210.1" PosY="149.5" PosZ="0">
+      <VP tf="Content\Images\containergrey.bmp" ia="0" ad="0" sh="R" he="6" lx="0.1" ly="71" we="50">
+        <px TC1X="0" TC1Y="0" TC2X="11.8333333333333" TC2Y="0" TC3X="11.8333333333333" TC3Y="1" TC4X="0" TC4Y="1" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="210.1" PosY="149.5" PosZ="6">
+      <VP tf="Content\Images\gelander.png" ia="0" ad="0" sh="R" he="2.9" lx="0.1" ly="71" we="50">
+        <px TC1X="0" TC1Y="0" TC2X="6.8079465429525" TC2Y="0" TC3X="6.8079465429525" TC3Y="1.04034919725" TC4X="0" TC4Y="1.04034919725" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="210.1" PosY="149.5" PosZ="8.9">
+      <VP tf="Content\Images\containergrey.bmp" ia="0" ad="0" sh="R" he="3" lx="0.1" ly="71" we="50">
+        <px TC1X="0" TC1Y="0" TC2X="11.8333333333333" TC2Y="0" TC3X="11.8333333333333" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="210.6" PosY="114.55" PosZ="-0.15">
+    <VP tf="Content\Images\grey3.bmp" ia="0" ad="0" sh="R" he="12" lx="1" ly="1" we="50">
+      <bo TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+    </VP>
+  </Element>
+  <Element Theme="InvisibleGroup" Orientation="Degree_0" PosX="245.6" PosY="184.95" PosZ="0">
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_90" PosX="245.6" PosY="184.95" PosZ="0">
+      <VP tf="Content\Images\containergrey.bmp" ia="0" ad="0" sh="R" he="6" lx="0.1" ly="71" we="50">
+        <nx TC1X="0" TC1Y="0" TC2X="11.8333333333333" TC2Y="0" TC3X="11.8333333333333" TC3Y="1" TC4X="0" TC4Y="1" />
+        <px TC1X="0" TC1Y="0" TC2X="11.8333333333333" TC2Y="0" TC3X="11.8333333333333" TC3Y="1" TC4X="0" TC4Y="1" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_90" PosX="245.6" PosY="184.95" PosZ="6">
+      <VP tf="Content\Images\gelander.png" ia="0" ad="0" sh="R" he="2.9" lx="0.1" ly="71" we="50">
+        <nx TC1X="0" TC1Y="0" TC2X="6.8079465429525" TC2Y="0" TC3X="6.8079465429525" TC3Y="1.04034919725" TC4X="0" TC4Y="1.04034919725" />
+        <px TC1X="0" TC1Y="0" TC2X="6.8079465429525" TC2Y="0" TC3X="6.8079465429525" TC3Y="1.04034919725" TC4X="0" TC4Y="1.04034919725" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_90" PosX="245.6" PosY="184.95" PosZ="8.9">
+      <VP tf="Content\Images\containergrey.bmp" ia="0" ad="0" sh="R" he="3" lx="0.1" ly="71" we="50">
+        <nx TC1X="0" TC1Y="0" TC2X="11.8333333333333" TC2Y="0" TC3X="11.8333333333333" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="11.8333333333333" TC2Y="0" TC3X="11.8333333333333" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="210.6" PosY="184.5" PosZ="-0.15">
+    <VP tf="Content\Images\grey3.bmp" ia="0" ad="0" sh="R" he="12" lx="1" ly="1" we="50">
+      <bo TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="245.55" PosY="149.5" PosZ="11.89">
+    <VP tf="Content\Images\white.bmp" ia="0" ad="0" sh="R" he="0.1" lx="71" ly="71" we="50">
+      <bo TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="178.05" PosY="166.5" PosZ="0">
+    <VP tf="Content\Images\kiste.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+      <bo TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+      <to TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+      <nx TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+      <px TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+      <nz TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+      <pz TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="210" PosY="149" PosZ="0">
+    <VP tf="Content\Images\grey3.bmp" ia="0" ad="0" sh="R" he="4" lx="1" ly="29" we="50">
+      <bo TC1X="0" TC1Y="0.24258732" TC2X="0.7" TC2Y="0.221328588" TC3X="0.7" TC3Y="44.386344318" TC4X="0" TC4Y="44.386344318" />
+      <to TC1X="0" TC1Y="0.24258732" TC2X="0.7" TC2Y="0.221328588" TC3X="0.7" TC3Y="44.386344318" TC4X="0" TC4Y="44.386344318" />
+      <nx TC1X="0" TC1Y="0.24258732" TC2X="27.7" TC2Y="0.221328588" TC3X="27.7" TC3Y="6.120626718" TC4X="0" TC4Y="6.120626718" />
+      <px TC1X="0" TC1Y="0.24258732" TC2X="27.7" TC2Y="0.221328588" TC3X="27.7" TC3Y="6.120626718" TC4X="0" TC4Y="6.120626718" />
+      <nz TC1X="0" TC1Y="0.24258732" TC2X="0.7" TC2Y="0.221328588" TC3X="0.7" TC3Y="6.120626718" TC4X="0" TC4Y="6.120626718" />
+      <pz TC1X="0" TC1Y="0.24258732" TC2X="0.7" TC2Y="0.221328588" TC3X="0.7" TC3Y="6.120626718" TC4X="0" TC4Y="6.120626718" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="209.65" PosY="139.5" PosZ="0">
+    <VP tf="Content\Images\garagedoor.bmp" ia="0" ad="0" sh="R" he="3.7" lx="0.7" ly="8.7" we="50">
+      <bo TC1X="0" TC1Y="0.24258732" TC2X="0.7" TC2Y="0.221328588" TC3X="0.7" TC3Y="44.386344318" TC4X="0" TC4Y="44.386344318" />
+      <to TC1X="0" TC1Y="0.24258732" TC2X="0.7" TC2Y="0.221328588" TC3X="0.7" TC3Y="44.386344318" TC4X="0" TC4Y="44.386344318" />
+      <nx TC1X="0" TC1Y="0.24258732" TC2X="27.7" TC2Y="0.221328588" TC3X="27.7" TC3Y="6.120626718" TC4X="0" TC4Y="6.120626718" />
+      <px TC1X="0" TC1Y="0.24258732" TC2X="27.7" TC2Y="0.221328588" TC3X="27.7" TC3Y="6.120626718" TC4X="0" TC4Y="6.120626718" />
+      <nz TC1X="0" TC1Y="0.24258732" TC2X="0.7" TC2Y="0.221328588" TC3X="0.7" TC3Y="6.120626718" TC4X="0" TC4Y="6.120626718" />
+      <pz TC1X="0" TC1Y="0.24258732" TC2X="0.7" TC2Y="0.221328588" TC3X="0.7" TC3Y="6.120626718" TC4X="0" TC4Y="6.120626718" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="209.65" PosY="158.5" PosZ="0">
+    <VP tf="Content\Images\garagedoor.bmp" ia="0" ad="0" sh="R" he="3.7" lx="0.7" ly="8.7" we="50">
+      <bo TC1X="0" TC1Y="0.24258732" TC2X="0.7" TC2Y="0.221328588" TC3X="0.7" TC3Y="44.386344318" TC4X="0" TC4Y="44.386344318" />
+      <to TC1X="0" TC1Y="0.24258732" TC2X="0.7" TC2Y="0.221328588" TC3X="0.7" TC3Y="44.386344318" TC4X="0" TC4Y="44.386344318" />
+      <nx TC1X="0" TC1Y="0.24258732" TC2X="27.7" TC2Y="0.221328588" TC3X="27.7" TC3Y="6.120626718" TC4X="0" TC4Y="6.120626718" />
+      <px TC1X="0" TC1Y="0.24258732" TC2X="27.7" TC2Y="0.221328588" TC3X="27.7" TC3Y="6.120626718" TC4X="0" TC4Y="6.120626718" />
+      <nz TC1X="0" TC1Y="0.24258732" TC2X="0.7" TC2Y="0.221328588" TC3X="0.7" TC3Y="6.120626718" TC4X="0" TC4Y="6.120626718" />
+      <pz TC1X="0" TC1Y="0.24258732" TC2X="0.7" TC2Y="0.221328588" TC3X="0.7" TC3Y="6.120626718" TC4X="0" TC4Y="6.120626718" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="209.65" PosY="149" PosZ="0">
+    <VP tf="Content\Images\garagedoor.bmp" ia="0" ad="0" sh="R" he="3.7" lx="0.7" ly="8.7" we="50">
+      <bo TC1X="0" TC1Y="0.24258732" TC2X="0.7" TC2Y="0.221328588" TC3X="0.7" TC3Y="44.386344318" TC4X="0" TC4Y="44.386344318" />
+      <to TC1X="0" TC1Y="0.24258732" TC2X="0.7" TC2Y="0.221328588" TC3X="0.7" TC3Y="44.386344318" TC4X="0" TC4Y="44.386344318" />
+      <nx TC1X="0" TC1Y="0.24258732" TC2X="27.7" TC2Y="0.221328588" TC3X="27.7" TC3Y="6.120626718" TC4X="0" TC4Y="6.120626718" />
+      <px TC1X="0" TC1Y="0.24258732" TC2X="27.7" TC2Y="0.221328588" TC3X="27.7" TC3Y="6.120626718" TC4X="0" TC4Y="6.120626718" />
+      <nz TC1X="0" TC1Y="0.24258732" TC2X="0.7" TC2Y="0.221328588" TC3X="0.7" TC3Y="6.120626718" TC4X="0" TC4Y="6.120626718" />
+      <pz TC1X="0" TC1Y="0.24258732" TC2X="0.7" TC2Y="0.221328588" TC3X="0.7" TC3Y="6.120626718" TC4X="0" TC4Y="6.120626718" />
+    </VP>
+  </Element>
+  <Element Theme="InvisibleGroup" Orientation="Degree_0" PosX="188" PosY="159.65" PosZ="0">
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="187.35" PosY="158.05" PosZ="0.15">
+      <VP tf="Content\Images\black.bmp" ia="0" ad="0" sh="R" he="0.2" lx="0.3" ly="2.3" we="6.9">
+        <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="188.65" PosY="158.05" PosZ="0.15">
+      <VP tf="Content\Images\black.bmp" ia="0" ad="0" sh="R" he="0.2" lx="0.3" ly="2.3" we="6.9">
+        <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="188.65" PosY="159.3" PosZ="0">
+      <VP tf="Content\Images\black.bmp" ia="0" ad="0" sh="R" he="3.3" lx="0.3" ly="0.2" we="9.90000000000001">
+        <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="187.35" PosY="159.3" PosZ="0">
+      <VP tf="Content\Images\black.bmp" ia="0" ad="0" sh="R" he="3.3" lx="0.3" ly="0.2" we="9.90000000000001">
+        <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="188" PosY="159.7" PosZ="0">
+      <VP tf="Content\Images\red.bmp" ia="0" ad="0" sh="R" he="1.3" lx="2" ly="0.6" we="78">
+        <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="188" PosY="160.5" PosZ="0">
+      <VP tf="Content\Images\red.bmp" ia="0" ad="0" sh="R" he="0.4" lx="2" ly="1" we="40">
+        <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="188" PosY="160.75" PosZ="0">
+      <VP tf="Content\Images\black.bmp" ia="0" ad="0" sh="R" he="0.9" lx="1" ly="0.5" we="22.5">
+        <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="188" PosY="161.05" PosZ="0.9">
+      <VP tf="Content\Images\black.bmp" ia="0" ad="0" sh="R" he="0.6" lx="1" ly="0.2" we="6">
+        <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="188" PosY="161.7" PosZ="0">
+      <VP tf="Content\Images\red.bmp" ia="0" ad="0" sh="R" he="1" lx="2" ly="1.4" we="140">
+        <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="174.55" PosY="155.5" PosZ="0">
+    <VP tf="Content\Images\kiste.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+      <bo TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+      <to TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+      <nx TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+      <px TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+      <nz TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+      <pz TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+    </VP>
+  </Element>
+  <Element Theme="InvisibleGroup" Orientation="Degree_0" PosX="199" PosY="130.65" PosZ="0">
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="199.65" PosY="132.25" PosZ="0.15">
+      <VP tf="Content\Images\black.bmp" ia="0" ad="0" sh="R" he="0.2" lx="0.3" ly="2.3" we="6.9">
+        <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="198.35" PosY="132.25" PosZ="0.15">
+      <VP tf="Content\Images\black.bmp" ia="0" ad="0" sh="R" he="0.2" lx="0.3" ly="2.3" we="6.9">
+        <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="198.35" PosY="131" PosZ="0">
+      <VP tf="Content\Images\black.bmp" ia="0" ad="0" sh="R" he="3.3" lx="0.3" ly="0.2" we="9.90000000000001">
+        <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="199.65" PosY="131" PosZ="0">
+      <VP tf="Content\Images\black.bmp" ia="0" ad="0" sh="R" he="3.3" lx="0.3" ly="0.2" we="9.90000000000001">
+        <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="199" PosY="130.6" PosZ="0">
+      <VP tf="Content\Images\red.bmp" ia="0" ad="0" sh="R" he="1.3" lx="2" ly="0.6" we="78">
+        <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="199" PosY="129.8" PosZ="0">
+      <VP tf="Content\Images\red.bmp" ia="0" ad="0" sh="R" he="0.4" lx="2" ly="1" we="40">
+        <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="199" PosY="129.55" PosZ="0">
+      <VP tf="Content\Images\black.bmp" ia="0" ad="0" sh="R" he="0.9" lx="1" ly="0.5" we="22.5">
+        <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="199" PosY="129.25" PosZ="0.9">
+      <VP tf="Content\Images\black.bmp" ia="0" ad="0" sh="R" he="0.6" lx="1" ly="0.2" we="6">
+        <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="199" PosY="128.6" PosZ="0">
+      <VP tf="Content\Images\red.bmp" ia="0" ad="0" sh="R" he="1" lx="2" ly="1.4" we="140">
+        <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <px TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <nz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+        <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+  </Element>
+  <Element Theme="InvisibleGroup" Orientation="Degree_0" PosX="180.55" PosY="158.75" PosZ="0">
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="180.05" PosY="157" PosZ="0">
+      <VP tf="Content\Images\kiste.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+        <bo TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+        <to TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+        <nx TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+        <px TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+        <nz TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+        <pz TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="181.05" PosY="158.5" PosZ="0">
+      <VP tf="Content\Images\kiste.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+        <bo TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+        <to TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+        <nx TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+        <px TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+        <nz TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+        <pz TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="181.05" PosY="160.5" PosZ="0">
+      <VP tf="Content\Images\kiste.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+        <bo TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+        <to TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+        <nx TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+        <px TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+        <nz TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+        <pz TC1X="0" TC1Y="0" TC2X="1" TC2Y="0" TC3X="1" TC3Y="1" TC4X="0" TC4Y="1" />
+      </VP>
+    </Element>
+  </Element>
+  <Element Theme="InvisibleGroup" Orientation="Degree_0" PosX="189.7" PosY="138.3" PosZ="0">
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="190.45" PosY="139.8" PosZ="0">
+      <VP tf="Content\Images\containergreen.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+        <bo TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <to TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nx TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <px TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <pz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="190.95" PosY="141.3" PosZ="0">
+      <VP tf="Content\Images\containerblue.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+        <bo TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <to TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nx TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <px TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <pz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="190.4" PosY="140.8" PosZ="1.4">
+      <VP tf="Content\Images\containerred.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+        <bo TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <to TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nx TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <px TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <pz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="189.95" PosY="137.8" PosZ="0">
+      <VP tf="Content\Images\containergreen.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+        <bo TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <to TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nx TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <px TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <pz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="190.7" PosY="137.5" PosZ="1.4">
+      <VP tf="Content\Images\containerblue.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+        <bo TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <to TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nx TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <px TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <pz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="190.45" PosY="136.3" PosZ="0">
+      <VP tf="Content\Images\containerred.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+        <bo TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <to TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nx TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <px TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <pz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="189.2" PosY="135.5" PosZ="1.4">
+      <VP tf="Content\Images\containerblue.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+        <bo TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <to TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nx TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <px TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <pz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="188.45" PosY="135.3" PosZ="0">
+      <VP tf="Content\Images\containergreen.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+        <bo TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <to TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nx TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <px TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <pz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+      </VP>
+    </Element>
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_90" PosX="174.55" PosY="149.5" PosZ="-0.1">
+    <VP tf="Content\Images\beton.bmp" ia="0" ad="0" sh="R" he="0.1" lx="71" ly="71" we="50">
+      <to TC1X="0" TC1Y="0" TC2X="10.1428571428571" TC2Y="0" TC3X="10.1428571428571" TC3Y="10.1428571428571" TC4X="0" TC4Y="10.1428571428571" />
+    </VP>
+  </Element>
+  <Element Theme="InvisibleGroup" Orientation="Degree_0" PosX="280.8" PosY="149.5" PosZ="0">
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="280.8" PosY="149.5" PosZ="0">
+      <VP tf="Content\Images\containergrey.bmp" ia="0" ad="0" sh="R" he="6" lx="0.1" ly="71" we="50">
+        <px TC1X="0" TC1Y="0" TC2X="11.8333333333333" TC2Y="0" TC3X="11.8333333333333" TC3Y="1" TC4X="0" TC4Y="1" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="280.8" PosY="149.5" PosZ="6">
+      <VP tf="Content\Images\gelander.png" ia="0" ad="0" sh="R" he="2.9" lx="0.1" ly="71" we="50">
+        <px TC1X="0" TC1Y="0" TC2X="6.8079465429525" TC2Y="0" TC3X="6.8079465429525" TC3Y="1.04034919725" TC4X="0" TC4Y="1.04034919725" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="280.8" PosY="149.5" PosZ="8.9">
+      <VP tf="Content\Images\containergrey.bmp" ia="0" ad="0" sh="R" he="3" lx="0.1" ly="71" we="50">
+        <px TC1X="0" TC1Y="0" TC2X="11.8333333333333" TC2Y="0" TC3X="11.8333333333333" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
+      </VP>
+    </Element>
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_90" PosX="126.05" PosY="265.5" PosZ="-0.1">
+    <VP tf="Content\Images\beton.bmp" ia="0" ad="0" sh="R" he="0.1" lx="197" ly="26" we="50">
+      <to TC1X="0" TC1Y="0" TC2X="28.1428571428571" TC2Y="0" TC3X="28.1428571428571" TC3Y="3.71428571428571" TC4X="0" TC4Y="3.71428571428571" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_90" PosX="126.05" PosY="68.5" PosZ="-0.1">
+    <VP tf="Content\Images\beton.bmp" ia="0" ad="0" sh="R" he="0.1" lx="197" ly="26" we="50">
+      <to TC1X="0" TC1Y="0" TC2X="28.1428571428571" TC2Y="0" TC3X="28.1428571428571" TC3Y="3.71428571428571" TC4X="0" TC4Y="3.71428571428571" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_90" PosX="214.05" PosY="31" PosZ="-0.1">
+    <VP tf="Content\Images\gras.bmp" ia="0" ad="0" sh="R" he="0.1" lx="166" ly="150" we="50">
+      <to TC1X="0" TC1Y="0" TC2X="41.5" TC2Y="0" TC3X="41.5" TC3Y="37.5" TC4X="0" TC4Y="37.5" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_90" PosX="214.05" PosY="268" PosZ="-0.1">
+    <VP tf="Content\Images\gras.bmp" ia="0" ad="0" sh="R" he="0.1" lx="166" ly="150" we="50">
+      <to TC1X="0" TC1Y="0" TC2X="41.5" TC2Y="0" TC3X="41.5" TC3Y="37.5" TC4X="0" TC4Y="37.5" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_90" PosX="69.05" PosY="149.5" PosZ="-0.1">
+    <VP tf="Content\Images\gras.bmp" ia="0" ad="0" sh="R" he="0.1" lx="386" ly="88" we="50">
+      <to TC1X="0" TC1Y="0" TC2X="64.3333333333333" TC2Y="0" TC3X="64.3333333333333" TC3Y="14.6666666666667" TC4X="0" TC4Y="14.6666666666667" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="211" PosY="111.5" PosZ="-0.05">
+    <VP tf="Content\Images\zaun2.png" ia="0" ad="0" sh="R" he="3" lx="0.1" ly="5" we="50">
+      <nx TC1X="0.25" TC1Y="0" TC2X="10.4431817414024" TC2Y="0" TC3X="10.4431817414024" TC3Y="1" TC4X="0.25" TC4Y="1" />
+      <px TC1X="0.25" TC1Y="0" TC2X="10.4431817414024" TC2Y="0" TC3X="10.4431817414024" TC3Y="1" TC4X="0.25" TC4Y="1" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_270" PosX="195.9" PosY="109" PosZ="0">
+    <VP tf="Content\Images\zaun2.png" ia="0" ad="0" sh="R" he="3" lx="0.1" ly="30" we="50">
+      <nx TC1X="0" TC1Y="0" TC2X="63.338076573863" TC2Y="0" TC3X="63.338076573863" TC3Y="0.99" TC4X="0" TC4Y="0.99" />
+      <px TC1X="0" TC1Y="0" TC2X="63.338076573863" TC2Y="0" TC3X="63.338076573863" TC3Y="0.99" TC4X="0" TC4Y="0.99" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="180.9" PosY="94.1" PosZ="0">
+    <VP tf="Content\Images\zaun2.png" ia="0" ad="0" sh="R" he="3" lx="0.1" ly="30" we="50">
+      <nx TC1X="0" TC1Y="0" TC2X="74.0024994425817" TC2Y="0" TC3X="74.0024994425817" TC3Y="1" TC4X="0" TC4Y="1" />
+      <px TC1X="0" TC1Y="0" TC2X="74.0024994425817" TC2Y="0" TC3X="74.0024994425817" TC3Y="1" TC4X="0" TC4Y="1" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_90" PosX="144.35" PosY="79.05" PosZ="0">
+    <VP tf="Content\Images\zaun2.png" ia="0" ad="0" sh="R" he="3" lx="0.1" ly="73" we="50">
+      <nx TC1X="0" TC1Y="0" TC2X="148.820453424476" TC2Y="0" TC3X="148.820453424476" TC3Y="1" TC4X="0" TC4Y="1" />
+      <px TC1X="0" TC1Y="0" TC2X="148.820453424476" TC2Y="0" TC3X="148.820453424476" TC3Y="1" TC4X="0" TC4Y="1" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_90" PosX="144.35" PosY="220" PosZ="0">
+    <VP tf="Content\Images\zaun2.png" ia="0" ad="0" sh="R" he="3" lx="0.1" ly="73" we="50">
+      <nx TC1X="0" TC1Y="0" TC2X="163.702498766923" TC2Y="0" TC3X="163.702498766923" TC3Y="1" TC4X="0" TC4Y="1" />
+      <px TC1X="0" TC1Y="0" TC2X="163.702498766923" TC2Y="0" TC3X="163.702498766923" TC3Y="1" TC4X="0" TC4Y="1" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="180.9" PosY="204.95" PosZ="0">
+    <VP tf="Content\Images\zaun2.png" ia="0" ad="0" sh="R" he="3" lx="0.1" ly="30" we="50">
+      <nx TC1X="0" TC1Y="0" TC2X="61.1590904484146" TC2Y="0" TC3X="61.1590904484146" TC3Y="1" TC4X="0" TC4Y="1" />
+      <px TC1X="0" TC1Y="0" TC2X="61.1590904484146" TC2Y="0" TC3X="61.1590904484146" TC3Y="1" TC4X="0" TC4Y="1" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="211" PosY="187.5" PosZ="0">
+    <VP tf="Content\Images\zaun2.png" ia="0" ad="0" sh="R" he="3" lx="0.1" ly="5" we="50">
+      <nx TC1X="0" TC1Y="0" TC2X="10.1931817414024" TC2Y="0" TC3X="10.1931817414024" TC3Y="1" TC4X="0" TC4Y="1" />
+      <px TC1X="0" TC1Y="0" TC2X="10.1931817414024" TC2Y="0" TC3X="10.1931817414024" TC3Y="1" TC4X="0" TC4Y="1" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_270" PosX="195.9" PosY="190" PosZ="0">
+    <VP tf="Content\Images\zaun2.png" ia="0" ad="0" sh="R" he="3" lx="0.1" ly="30" we="50">
+      <nx TC1X="0" TC1Y="0" TC2X="61.1590904484146" TC2Y="0" TC3X="61.1590904484146" TC3Y="1" TC4X="0" TC4Y="1" />
+      <px TC1X="0" TC1Y="0" TC2X="61.1590904484146" TC2Y="0" TC3X="61.1590904484146" TC3Y="1" TC4X="0" TC4Y="1" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="107.8" PosY="149.6" PosZ="0">
+    <VP tf="Content\Images\zaun2.png" ia="0" ad="0" sh="R" he="3" lx="0.1" ly="141" we="50">
+      <nx TC1X="0" TC1Y="0" TC2X="347.811747380134" TC2Y="0" TC3X="347.811747380134" TC3Y="1" TC4X="0" TC4Y="1" />
+      <px TC1X="0" TC1Y="0" TC2X="347.811747380134" TC2Y="0" TC3X="347.811747380134" TC3Y="1" TC4X="0" TC4Y="1" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="249" PosY="81.5" PosZ="0">
+    <VP tf="Content\Images\palme lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="237" PosY="71" PosZ="0">
+    <VP tf="Content\Images\palme2 lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="237" PosY="42.5" PosZ="0">
+    <VP tf="Content\Images\palme lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="209.5" PosY="56" PosZ="0">
+    <VP tf="Content\Images\palme lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="195" PosY="36.5" PosZ="0">
+    <VP tf="Content\Images\palme2 lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="186" PosY="18" PosZ="0">
+    <VP tf="Content\Images\palme2 lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="205.5" PosY="11" PosZ="0">
+    <VP tf="Content\Images\palme lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="155" PosY="-1" PosZ="0">
+    <VP tf="Content\Images\palme2 lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="164" PosY="17.5" PosZ="0">
+    <VP tf="Content\Images\palme2 lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="178.5" PosY="37" PosZ="0">
+    <VP tf="Content\Images\palme lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="62" PosY="-1" PosZ="0">
+    <VP tf="Content\Images\palme2 lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="71" PosY="17.5" PosZ="0">
+    <VP tf="Content\Images\palme2 lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="72" PosY="44" PosZ="0">
+    <VP tf="Content\Images\palme lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="242.5" PosY="276" PosZ="0">
+    <VP tf="Content\Images\palme lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="230.5" PosY="265.5" PosZ="0">
+    <VP tf="Content\Images\palme2 lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="230.5" PosY="237" PosZ="0">
+    <VP tf="Content\Images\palme lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="203" PosY="250.5" PosZ="0">
+    <VP tf="Content\Images\palme lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="188.5" PosY="231" PosZ="0">
+    <VP tf="Content\Images\palme2 lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="172" PosY="231.5" PosZ="0">
+    <VP tf="Content\Images\palme lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="38" PosY="82.5" PosZ="0">
+    <VP tf="Content\Images\palme lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="37" PosY="56" PosZ="0">
+    <VP tf="Content\Images\palme2 lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="31" PosY="205.5" PosZ="0">
+    <VP tf="Content\Images\palme lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="30" PosY="179" PosZ="0">
+    <VP tf="Content\Images\palme2 lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="65" PosY="167" PosZ="0">
+    <VP tf="Content\Images\palme lowres.png" ia="0" ad="0" sh="C" he="16" lx="16" ly="16" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="152.5" PosY="162.2" PosZ="0">
+    <VP tf="Content\Animations\Wheel" ia="1" ad="0.5" sh="C" he="1" lx="1" ly="1" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="151.5" PosY="162" PosZ="0.5">
+    <VP tf="Content\Images\grey2.bmp" ia="0" ad="0" sh="R" he="4.8" lx="1.3" ly="0.6" we="50">
+      <bo TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <to TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <nx TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <px TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <nz TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <pz TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="150.5" PosY="162.2" PosZ="0">
+    <VP tf="Content\Animations\Wheel" ia="1" ad="0.5" sh="C" he="1" lx="1" ly="1" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="152.5" PosY="165.2" PosZ="0">
+    <VP tf="Content\Animations\Wheel" ia="1" ad="0.5" sh="C" he="1" lx="1" ly="1" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_0" PosX="150.5" PosY="165.2" PosZ="0">
+    <VP tf="Content\Animations\Wheel" ia="1" ad="0.5" sh="C" he="1" lx="1" ly="1" we="50" />
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="151.5" PosY="162.5" PosZ="0.5">
+    <VP tf="Content\Images\grey2.bmp" ia="0" ad="0" sh="R" he="4.3" lx="1.3" ly="0.6" we="50">
+      <bo TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <to TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <nx TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <px TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <nz TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <pz TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="151.5" PosY="163" PosZ="0.5">
+    <VP tf="Content\Images\grey2.bmp" ia="0" ad="0" sh="R" he="3.7" lx="1.3" ly="0.6" we="50">
+      <bo TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <to TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <nx TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <px TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <nz TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <pz TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="151.5" PosY="163.5" PosZ="0.5">
+    <VP tf="Content\Images\grey2.bmp" ia="0" ad="0" sh="R" he="3.1" lx="1.3" ly="0.6" we="50">
+      <bo TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <to TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <nx TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <px TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <nz TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <pz TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="151.5" PosY="164" PosZ="0.5">
+    <VP tf="Content\Images\grey2.bmp" ia="0" ad="0" sh="R" he="2.5" lx="1.3" ly="0.6" we="50">
+      <bo TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <to TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <nx TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <px TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <nz TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <pz TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="151.5" PosY="164.5" PosZ="0.5">
+    <VP tf="Content\Images\grey2.bmp" ia="0" ad="0" sh="R" he="1.9" lx="1.3" ly="0.6" we="50">
+      <bo TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <to TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <nx TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <px TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <nz TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <pz TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="151.5" PosY="165" PosZ="0.5">
+    <VP tf="Content\Images\grey2.bmp" ia="0" ad="0" sh="R" he="1.3" lx="1.3" ly="0.6" we="50">
+      <bo TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <to TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <nx TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <px TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <nz TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <pz TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="151.5" PosY="165.5" PosZ="0.5">
+    <VP tf="Content\Images\grey2.bmp" ia="0" ad="0" sh="R" he="0.699999999999997" lx="1.3" ly="0.6" we="50">
+      <bo TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <to TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <nx TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <px TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <nz TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+      <pz TC1X="-0.01" TC1Y="0" TC2X="0.3969" TC2Y="0" TC3X="0.3969" TC3Y="0.405" TC4X="-0.0081" TC4Y="0.405" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="161.5" PosY="104" PosZ="0">
+    <VP tf="Content\Images\beton light2.bmp" ia="0" ad="0" sh="R" he="12.8" lx="6.3" ly="5.6" we="50">
+      <bo TC1X="0" TC1Y="0" TC2X="0.7875" TC2Y="0" TC3X="0.7875" TC3Y="0.7" TC4X="0" TC4Y="0.7" />
+      <to TC1X="0" TC1Y="0" TC2X="0.7875" TC2Y="0" TC3X="0.7875" TC3Y="0.7" TC4X="0" TC4Y="0.7" />
+      <nx TC1X="0" TC1Y="0" TC2X="0.7" TC2Y="0" TC3X="0.7" TC3Y="1.6" TC4X="0" TC4Y="1.6" />
+      <px TC1X="0" TC1Y="0" TC2X="0.7" TC2Y="0" TC3X="0.7" TC3Y="1.6" TC4X="0" TC4Y="1.6" />
+      <nz TC1X="0" TC1Y="0" TC2X="0.7875" TC2Y="0" TC3X="0.7875" TC3Y="1.6" TC4X="0" TC4Y="1.6" />
+      <pz TC1X="0" TC1Y="0" TC2X="0.7875" TC2Y="0" TC3X="0.7875" TC3Y="1.6" TC4X="0" TC4Y="1.6" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="161.5" PosY="104" PosZ="12.8">
+    <VP tf="Content\Images\beton light2.bmp" ia="0" ad="0" sh="R" he="2.8" lx="11.3" ly="10.6" we="50">
+      <bo TC1X="0" TC1Y="0" TC2X="1.4125" TC2Y="0" TC3X="1.4125" TC3Y="1.325" TC4X="0" TC4Y="1.325" />
+      <to TC1X="0" TC1Y="0" TC2X="1.4125" TC2Y="0" TC3X="1.4125" TC3Y="1.325" TC4X="0" TC4Y="1.325" />
+      <nx TC1X="0" TC1Y="0" TC2X="1.325" TC2Y="0" TC3X="1.325" TC3Y="0.35" TC4X="0" TC4Y="0.35" />
+      <px TC1X="0" TC1Y="0" TC2X="1.325" TC2Y="0" TC3X="1.325" TC3Y="0.35" TC4X="0" TC4Y="0.35" />
+      <nz TC1X="0" TC1Y="0" TC2X="1.4125" TC2Y="0" TC3X="1.4125" TC3Y="0.35" TC4X="0" TC4Y="0.35" />
+      <pz TC1X="0" TC1Y="0" TC2X="1.4125" TC2Y="0" TC3X="1.4125" TC3Y="0.35" TC4X="0" TC4Y="0.35" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="161.5" PosY="104" PosZ="19.4">
+    <VP tf="Content\Images\beton light2.bmp" ia="0" ad="0" sh="R" he="1.8" lx="11.3" ly="10.6" we="50">
+      <bo TC1X="0" TC1Y="0" TC2X="1.4125" TC2Y="0" TC3X="1.4125" TC3Y="1.325" TC4X="0" TC4Y="1.325" />
+      <to TC1X="0" TC1Y="0" TC2X="1.4125" TC2Y="0" TC3X="1.4125" TC3Y="1.325" TC4X="0" TC4Y="1.325" />
+      <nx TC1X="0" TC1Y="0" TC2X="1.325" TC2Y="0" TC3X="1.325" TC3Y="0.225" TC4X="0" TC4Y="0.225" />
+      <px TC1X="0" TC1Y="0" TC2X="1.325" TC2Y="0" TC3X="1.325" TC3Y="0.225" TC4X="0" TC4Y="0.225" />
+      <nz TC1X="0" TC1Y="0" TC2X="1.4125" TC2Y="0" TC3X="1.4125" TC3Y="0.225" TC4X="0" TC4Y="0.225" />
+      <pz TC1X="0" TC1Y="0" TC2X="1.4125" TC2Y="0" TC3X="1.4125" TC3Y="0.225" TC4X="0" TC4Y="0.225" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="161.5" PosY="104" PosZ="15.6">
+    <VP tf="Content\Images\gelander.png" ia="0" ad="0" sh="R" he="3.8" lx="11.3" ly="10.6" we="50">
+      <bo TC1X="0" TC1Y="0.06" TC2X="1.0297125" TC2Y="0.06" TC3X="1.0297125" TC3Y="1.385" TC4X="0" TC4Y="1.385" />
+      <to TC1X="0" TC1Y="0.06" TC2X="1.0297125" TC2Y="0.06" TC3X="1.0297125" TC3Y="1.385" TC4X="0" TC4Y="1.385" />
+      <nx TC1X="0" TC1Y="0.06" TC2X="0.965925" TC2Y="0.06" TC3X="0.965925" TC3Y="0.535" TC4X="0" TC4Y="0.535" />
+      <px TC1X="0" TC1Y="0.06" TC2X="0.965925" TC2Y="0.06" TC3X="0.965925" TC3Y="0.535" TC4X="0" TC4Y="0.535" />
+      <nz TC1X="0" TC1Y="0.06" TC2X="1.0297125" TC2Y="0.06" TC3X="1.0297125" TC3Y="0.535" TC4X="0" TC4Y="0.535" />
+      <pz TC1X="0" TC1Y="0.06" TC2X="1.0297125" TC2Y="0.06" TC3X="1.0297125" TC3Y="0.535" TC4X="0" TC4Y="0.535" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="156.15" PosY="109" PosZ="15.6">
+    <VP tf="Content\Images\beton light2.bmp" ia="0" ad="0" sh="R" he="3.8" lx="0.600000000000001" ly="0.6" we="50">
+      <bo TC1X="0" TC1Y="0" TC2X="0.0750000000000001" TC2Y="0" TC3X="0.0750000000000001" TC3Y="0.075" TC4X="0" TC4Y="0.075" />
+      <to TC1X="0" TC1Y="0" TC2X="0.0750000000000001" TC2Y="0" TC3X="0.0750000000000001" TC3Y="0.075" TC4X="0" TC4Y="0.075" />
+      <nx TC1X="0" TC1Y="0" TC2X="0.075" TC2Y="0" TC3X="0.075" TC3Y="0.475" TC4X="0" TC4Y="0.475" />
+      <px TC1X="0" TC1Y="0" TC2X="0.075" TC2Y="0" TC3X="0.075" TC3Y="0.475" TC4X="0" TC4Y="0.475" />
+      <nz TC1X="0" TC1Y="0" TC2X="0.0750000000000001" TC2Y="0" TC3X="0.0750000000000001" TC3Y="0.475" TC4X="0" TC4Y="0.475" />
+      <pz TC1X="0" TC1Y="0" TC2X="0.0750000000000001" TC2Y="0" TC3X="0.0750000000000001" TC3Y="0.475" TC4X="0" TC4Y="0.475" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="166.85" PosY="109" PosZ="15.6">
+    <VP tf="Content\Images\beton light2.bmp" ia="0" ad="0" sh="R" he="3.8" lx="0.600000000000001" ly="0.6" we="50">
+      <bo TC1X="0" TC1Y="0" TC2X="0.0750000000000001" TC2Y="0" TC3X="0.0750000000000001" TC3Y="0.075" TC4X="0" TC4Y="0.075" />
+      <to TC1X="0" TC1Y="0" TC2X="0.0750000000000001" TC2Y="0" TC3X="0.0750000000000001" TC3Y="0.075" TC4X="0" TC4Y="0.075" />
+      <nx TC1X="0" TC1Y="0" TC2X="0.075" TC2Y="0" TC3X="0.075" TC3Y="0.475" TC4X="0" TC4Y="0.475" />
+      <px TC1X="0" TC1Y="0" TC2X="0.075" TC2Y="0" TC3X="0.075" TC3Y="0.475" TC4X="0" TC4Y="0.475" />
+      <nz TC1X="0" TC1Y="0" TC2X="0.0750000000000001" TC2Y="0" TC3X="0.0750000000000001" TC3Y="0.475" TC4X="0" TC4Y="0.475" />
+      <pz TC1X="0" TC1Y="0" TC2X="0.0750000000000001" TC2Y="0" TC3X="0.0750000000000001" TC3Y="0.475" TC4X="0" TC4Y="0.475" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="166.85" PosY="99" PosZ="15.6">
+    <VP tf="Content\Images\beton light2.bmp" ia="0" ad="0" sh="R" he="3.8" lx="0.600000000000001" ly="0.6" we="50">
+      <bo TC1X="0" TC1Y="0" TC2X="0.0750000000000001" TC2Y="0" TC3X="0.0750000000000001" TC3Y="0.075" TC4X="0" TC4Y="0.075" />
+      <to TC1X="0" TC1Y="0" TC2X="0.0750000000000001" TC2Y="0" TC3X="0.0750000000000001" TC3Y="0.075" TC4X="0" TC4Y="0.075" />
+      <nx TC1X="0" TC1Y="0" TC2X="0.075" TC2Y="0" TC3X="0.075" TC3Y="0.475" TC4X="0" TC4Y="0.475" />
+      <px TC1X="0" TC1Y="0" TC2X="0.075" TC2Y="0" TC3X="0.075" TC3Y="0.475" TC4X="0" TC4Y="0.475" />
+      <nz TC1X="0" TC1Y="0" TC2X="0.0750000000000001" TC2Y="0" TC3X="0.0750000000000001" TC3Y="0.475" TC4X="0" TC4Y="0.475" />
+      <pz TC1X="0" TC1Y="0" TC2X="0.0750000000000001" TC2Y="0" TC3X="0.0750000000000001" TC3Y="0.475" TC4X="0" TC4Y="0.475" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="156.15" PosY="99" PosZ="15.6">
+    <VP tf="Content\Images\beton light2.bmp" ia="0" ad="0" sh="R" he="3.8" lx="0.600000000000001" ly="0.6" we="50">
+      <bo TC1X="0" TC1Y="0" TC2X="0.0750000000000001" TC2Y="0" TC3X="0.0750000000000001" TC3Y="0.075" TC4X="0" TC4Y="0.075" />
+      <to TC1X="0" TC1Y="0" TC2X="0.0750000000000001" TC2Y="0" TC3X="0.0750000000000001" TC3Y="0.075" TC4X="0" TC4Y="0.075" />
+      <nx TC1X="0" TC1Y="0" TC2X="0.075" TC2Y="0" TC3X="0.075" TC3Y="0.475" TC4X="0" TC4Y="0.475" />
+      <px TC1X="0" TC1Y="0" TC2X="0.075" TC2Y="0" TC3X="0.075" TC3Y="0.475" TC4X="0" TC4Y="0.475" />
+      <nz TC1X="0" TC1Y="0" TC2X="0.0750000000000001" TC2Y="0" TC3X="0.0750000000000001" TC3Y="0.475" TC4X="0" TC4Y="0.475" />
+      <pz TC1X="0" TC1Y="0" TC2X="0.0750000000000001" TC2Y="0" TC3X="0.0750000000000001" TC3Y="0.475" TC4X="0" TC4Y="0.475" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElementWithoutCollision" Orientation="Degree_90" PosX="105.05" PosY="68" PosZ="-0.6">
+    <VP tf="Content\Images\grey1.bmp" ia="0" ad="0" sh="R" he="0.1" lx="400" ly="100" we="50">
+      <to TC1X="0" TC1Y="0" TC2X="28.1428571428571" TC2Y="0" TC3X="28.1428571428571" TC3Y="3.71428571428571" TC4X="0" TC4Y="3.71428571428571" />
+    </VP>
+  </Element>
+  <Element Theme="InvisibleGroup" Orientation="Degree_0" PosX="199.2" PosY="142.3" PosZ="0">
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="198.7" PosY="144.5" PosZ="1.4">
+      <VP tf="Content\Images\containerblue.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+        <bo TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <to TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nx TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <px TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <pz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="198.95" PosY="144.8" PosZ="0">
+      <VP tf="Content\Images\containerblue.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+        <bo TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <to TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nx TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <px TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <pz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="198.45" PosY="143.3" PosZ="0">
+      <VP tf="Content\Images\containergreen.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+        <bo TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <to TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nx TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <px TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <pz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="199.95" PosY="141.8" PosZ="0">
+      <VP tf="Content\Images\containerred.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+        <bo TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <to TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nx TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <px TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <pz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="198.45" PosY="139.8" PosZ="0">
+      <VP tf="Content\Images\containerred.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+        <bo TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <to TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nx TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <px TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <pz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+      </VP>
+    </Element>
+  </Element>
+  <Element Theme="InvisibleGroup" Orientation="Degree_0" PosX="186.8" PosY="145.4" PosZ="-8.32667268468867E-17">
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="186.9" PosY="146.3" PosZ="-8.32667268468867E-17">
+      <VP tf="Content\Images\containerred.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+        <bo TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <to TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nx TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <px TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <pz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="186.7" PosY="144.5" PosZ="-8.32667268468867E-17">
+      <VP tf="Content\Images\containerblue.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+        <bo TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <to TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nx TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <px TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <pz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElementWithoutMovement" Orientation="Degree_180" PosX="186.9" PosY="145.3" PosZ="1.4">
+      <VP tf="Content\Images\containerred.bmp" ia="0" ad="0" sh="R" he="1.4" lx="1.4" ly="1.4" we="50">
+        <bo TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <to TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nx TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <px TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <nz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+        <pz TC1X="0.02" TC1Y="0" TC2X="1.02" TC2Y="0" TC3X="1.02" TC3Y="1" TC4X="0.02" TC4Y="1" />
+      </VP>
+    </Element>
+  </Element>
+</LevelContent>

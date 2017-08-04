@@ -1,6 +1,4 @@
-*.dll
 *.pdb
-*.png
 *.cache
 *.exe
 *.user
