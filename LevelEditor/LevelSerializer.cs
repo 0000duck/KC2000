@@ -32,6 +32,8 @@ namespace LevelEditor
 
             _fileSerializer.SaveFile(string.Format("LevelData\\SkillDetails\\{1}\\LevelElements_{0}_{1}.sav", levelSaveGame.LevelId, levelSaveGame.SkillName),
                 new LevelStateToXDocumentConverter().Convert(skillDependentElements));
+
+            ModelExporter.Export(geometry);
         }
     }
 }

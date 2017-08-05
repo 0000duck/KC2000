@@ -174,7 +174,7 @@
       <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="2" TC4X="0" TC4Y="2" />
     </VP>
   </Element>
-  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_270" PosX="149.5" PosY="220.5" PosZ="2">
+  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_270" PosX="149" PosY="220.5" PosZ="-1">
     <VP tf="Content\Images\mauergrau.bmp" ia="0" ad="0" sh="R" he="2" lx="1" ly="2" we="50">
       <bo TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="1" TC4X="0" TC4Y="1" />
       <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="1" TC4X="0" TC4Y="1" />
