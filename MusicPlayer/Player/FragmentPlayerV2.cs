@@ -6,7 +6,7 @@ using MusicPlayer.Songs;
 
 namespace MusicPlayer.Player
 {
-    public class FragmentPlayerV2
+    public class FragmentPlayerV2 : IPlayer
     {
         private SongElement _element;
         private int _currentIndex;
@@ -45,8 +45,6 @@ namespace MusicPlayer.Player
 
                 _millisecondsOfCurrentBeat -= _element.MilliSecondsPerBeat;
                 _millisecondsOfCurrentSound -= _element.MilliSecondsPerBeat;
-                //_millisecondsOfCurrentBeat = 0;
-                //_millisecondsOfCurrentSound = 0;
                 _currentIndex++;
                 _element.Sounds[_currentIndex].Play();
             }

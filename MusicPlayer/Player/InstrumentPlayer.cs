@@ -6,9 +6,9 @@ using MusicPlayer.Songs;
 
 namespace MusicPlayer.Player
 {
-    public class InstrumentPlayer
+    public class InstrumentPlayer : IPlayer
     {
-        private FragmentPlayerV2[] _players;
+        private IPlayer[] _players;
         private int _currentIndex;
 
         public InstrumentPlayer(Instrument instrument)

@@ -45,87 +45,23 @@ namespace MusicPlayer
                     case "1":
                         song = new SongOne();
                         break;
-                    case "2":
-                        song = new SongTwoMelody();
-                        break;
-                    case "3":
-                        song = new SongThree();
-                        break;
-                    case "4":
-                        song = new SongFour();
-                        break;
-                    case "5":
-                        song = new SongFive();
-                        break;
-                    case "6":
-                        song = new SongSix();
-                        break;
-                    case "7":
-                        song = new SongSeven();
-                        break;
-                    case "8":
-                        song = new Song8();
-                        break;
-                    case "9":
-                        song = new Song9();
-                        break;
-                    case "10":
-                        song = new Song10();
-                        break;
-                    case "11":
-                        song = new Song11();
-                        break;
-                    case "12":
-                        song = new Song12();
-                        break;
-                    case "13":
-                        song = new FinalSpeedMetal();
-                        break;
-                    case "14":
-                        song = new Song14();
-                        break;
-                    case "15":
-                        song = new Song15();
-                        break;
-                    case "16":
-                        song = new Song16();
-                        break;
-                    case "17":
-                        song = new Song17();
-                        break;
-                    case "18":
-                        song = new Song18();
-                        break;
-                    case "19":
-                        song = new Song19();
-                        break;
-                    case "20":
-                        song = new Song20();
-                        break;
-                    case "21":
-                        song = new Song21();
-                        break;
-                    case "30":
-                        song = new Guitar2();
-                        break;
-                    case "31":
-                        song = new Bass();
-                        break;
-                    case "32":
-                        song = new Drums();
-                        break;
                 }
+
+                ISoundFactory factory = new SoundFactory(new BufferLoader(new WavFileReader()), 120, 1.0f);
+                IPlayer endlessTonePlayer = new EndlessTonePlayer(new PitchFactorProvider().CreateBassNotes(),
+                  (IComplexSound) factory.LoadSound("Sound\\bass\\Eroh.wav", false, true),
+                   250, new[] { MelodyNotes.E1, MelodyNotes.E3, MelodyNotes.E9, MelodyNotes.G10, MelodyNotes.G12 });
 
                 Composition composition = new Converter().Convert(song, bass, guitar, pitchedGuitar, drumSounds, faded, driller);
 
-                CompositionPlayer player = new CompositionPlayer(composition);
+                CompositionPlayer player = new CompositionPlayer(composition, endlessTonePlayer);
 
                 player.Play();
 
-                player = new CompositionPlayer(composition);
+                player = new CompositionPlayer(composition, endlessTonePlayer);
                 player.Play();
 
-                player = new CompositionPlayer(composition);
+                player = new CompositionPlayer(composition, endlessTonePlayer);
                 player.Play();
             }
         }

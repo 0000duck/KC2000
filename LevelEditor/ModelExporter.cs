@@ -16,7 +16,7 @@ namespace LevelEditor
         public static void Export(List<IElement> geometry)
         {
             Model.Model model = new Model.Model();
-            model.Submodels = MapSubmodels(geometry);// new List <Submodel> { new Submodel { Texture = "sdsd.png" } };
+            model.Submodels = MapSubmodels(geometry);
             Save(model);
         }
 
