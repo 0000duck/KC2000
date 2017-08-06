@@ -1,8 +1,7 @@
 ﻿using Sound.Contracts;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+
 
 namespace MusicPlayer.Player
 {
@@ -50,6 +49,7 @@ namespace MusicPlayer.Player
                     return;
 
                 targetPitchFactor = _pitchfactors[_notes[_noteIndex]];
+                _durationOfCurrentNote = 0;
             }
             else
             {

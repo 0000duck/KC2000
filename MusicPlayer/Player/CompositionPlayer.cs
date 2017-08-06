@@ -11,15 +11,9 @@ namespace MusicPlayer.Player
     {
         List<IPlayer> _players;
 
-        public CompositionPlayer(Composition composition, IPlayer pitchPlayer)
+        public CompositionPlayer(List<IPlayer> players)
         {
-            _players = new List<IPlayer>();
-
-            foreach(Instrument instrument in composition.Instruments)
-            {
-                _players.Add(new InstrumentPlayer(instrument));
-            }
-            _players.Add(pitchPlayer);
+            _players = players;
         }
 
         public void Play()
