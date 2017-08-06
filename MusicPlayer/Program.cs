@@ -50,7 +50,7 @@ namespace MusicPlayer
                 ISoundFactory factory = new SoundFactory(new BufferLoader(new WavFileReader()), 120, 1.0f);
                 IPlayer endlessTonePlayer = new EndlessTonePlayer(new PitchFactorProvider().CreateBassNotes(),
                   (IComplexSound) factory.LoadSound("Sound\\bass\\Eroh.wav", false, true),
-                   1000, new[] { MelodyNotes.E1, MelodyNotes.E3, MelodyNotes.E1, MelodyNotes.E3, MelodyNotes.E1, MelodyNotes.E3, });
+                   500, new[] { MelodyNotes.E0, MelodyNotes.E3, MelodyNotes.E3, MelodyNotes.E3, MelodyNotes.E0, MelodyNotes.E0, });
 
                 Composition composition = new Converter().Convert(song, bass, guitar, pitchedGuitar, drumSounds, faded, driller);
 
@@ -59,7 +59,7 @@ namespace MusicPlayer
 
                 foreach (Instrument instrument in composition.Instruments)
                 {
-                    compositionPlayers.Add(new InstrumentPlayer(instrument));
+                    //compositionPlayers.Add(new InstrumentPlayer(instrument));
                 }
                 compositionPlayers.Add(endlessTonePlayer);
 

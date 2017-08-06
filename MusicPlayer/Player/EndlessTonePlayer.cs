@@ -13,6 +13,7 @@ namespace MusicPlayer.Player
         private int _noteIndex;
         private int _durationOfCurrentNote;
         private MelodyNotes[] _notes;
+        private float _lastPitchFactor;
 
         public EndlessTonePlayer(Dictionary<MelodyNotes, float> pitchfactors, 
             IComplexSound sound, 
@@ -44,6 +45,8 @@ namespace MusicPlayer.Player
 
             if (_durationOfCurrentNote >= _millisecondsPerTone)
             {
+                _lastPitchFactor = _pitchfactors[_notes[_noteIndex]];
+
                 _noteIndex++;
                 if (IsFinished())
                     return;
@@ -54,9 +57,12 @@ namespace MusicPlayer.Player
             else
             {
                 targetPitchFactor = _pitchfactors[_notes[_noteIndex]];
-                pitch = targetPitchFactor;
-
+                if (_lastPitchFactor == 0)
+                    _lastPitchFactor = targetPitchFactor;
             }
+            pitch = (_lastPitchFactor * (1 - ((float)_durationOfCurrentNote / _millisecondsPerTone)))
+                    + (targetPitchFactor * ((float)_durationOfCurrentNote / _millisecondsPerTone));
+
             _sound.SetSpeed(pitch);
 
             _durationOfCurrentNote += milliSeconds;
