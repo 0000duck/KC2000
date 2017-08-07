@@ -79,8 +79,8 @@ namespace LevelEditor
             foreach(Vertex v in pol.Vertices)
             {
                 v.Position.X += (float)startPosition.PositionX;
-                v.Position.Y += (float)startPosition.PositionY;
-                v.Position.Z += (float)startPosition.PositionZ;
+                v.Position.Y += (float)startPosition.PositionZ;
+                v.Position.Z += (float)startPosition.PositionY;
             }
         }
 

@@ -150,17 +150,17 @@ namespace LevelEditor
             triangle.Vertices = new List<Vertex>();
             triangle.Vertices.Add(new Vertex
             {
-                Position = position1,
+                Position = new VertexPosition { X = position1.X, Y = position1.Y, Z = position1.Z },
                 TextureCoordinate = new VertexTextureCoordinate { X = (float)textureCoordinate1.X, Y = (float)textureCoordinate1.Y }
             });
             triangle.Vertices.Add(new Vertex
             {
-                Position = position2,
+                Position = new VertexPosition { X = position2.X, Y = position2.Y, Z = position2.Z },
                 TextureCoordinate = new VertexTextureCoordinate { X = (float)textureCoordinate2.X, Y = (float)textureCoordinate2.Y }
             });
             triangle.Vertices.Add(new Vertex
             {
-                Position = position3,
+                Position = new VertexPosition { X = position3.X, Y = position3.Y, Z = position3.Z },
                 TextureCoordinate = new VertexTextureCoordinate { X = (float)textureCoordinate3.X, Y = (float)textureCoordinate3.Y }
             });
 

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <LevelContent>
-  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="-1.5" PosY="0" PosZ="0">
-    <VP tf="Content\Images\absperrung.png" ia="0" ad="0" sh="R" he="1" lx="1" ly="8" we="50">
+  <Element Theme="GenericElement" Orientation="Degree_0" PosX="0.5" PosY="-2" PosZ="0">
+    <VP tf="Content\Images\absperrung.png" ia="0" ad="0" sh="R" he="3" lx="1" ly="1" we="150">
       <bo TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
       <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
       <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
@@ -10,8 +10,8 @@
       <pz TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
     </VP>
   </Element>
-  <Element Theme="GenericElementWithoutMovement" Orientation="Degree_0" PosX="1.5" PosY="-1" PosZ="0">
-    <VP tf="Content\Images\absperrung.png" ia="0" ad="0" sh="R" he="4" lx="1" ly="1" we="50">
+  <Element Theme="GenericElement" Orientation="Degree_0" PosX="-0.5" PosY="1" PosZ="0">
+    <VP tf="Content\Images\absperrung.png" ia="0" ad="0" sh="R" he="1" lx="1" ly="3" we="150">
       <bo TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
       <to TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
       <nx TC1X="0" TC1Y="0" TC2X="0.5" TC2Y="0" TC3X="0.5" TC3Y="0.5" TC4X="0" TC4Y="0.5" />
