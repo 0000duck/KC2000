@@ -49,8 +49,11 @@ namespace MusicPlayer
 
                 ISoundFactory factory = new SoundFactory(new BufferLoader(new WavFileReader()), 120, 1.0f);
                 IPlayer endlessTonePlayer = new EndlessTonePlayer(new PitchFactorProvider().CreateBassNotes(),
-                  (IComplexSound) factory.LoadSound("Sound\\bass\\Eroh.wav", false, true),
-                   500, new[] { MelodyNotes.E0, MelodyNotes.E3, MelodyNotes.E3, MelodyNotes.E3, MelodyNotes.E0, MelodyNotes.E0, });
+                  (IComplexSound) factory.LoadSound("Sound\\minute220faser.wav", false, true),
+                   500, new[] { MelodyNotes.E0, MelodyNotes.E3, MelodyNotes.E3, MelodyNotes.E3, MelodyNotes.E0, MelodyNotes.E0,
+                   MelodyNotes.G0, MelodyNotes.G3,MelodyNotes.G5,MelodyNotes.G3,MelodyNotes.G3,MelodyNotes.G6
+                   ,MelodyNotes.G3,MelodyNotes.G2,MelodyNotes.G3, MelodyNotes.G3,MelodyNotes.G5,MelodyNotes.G3,
+                   MelodyNotes.E3, MelodyNotes.E3, });
 
                 Composition composition = new Converter().Convert(song, bass, guitar, pitchedGuitar, drumSounds, faded, driller);
 
