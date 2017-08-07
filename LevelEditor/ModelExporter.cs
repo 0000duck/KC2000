@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using BaseTypes;
 
 namespace LevelEditor
 {
@@ -26,6 +27,11 @@ namespace LevelEditor
             serializer.NullValueHandling = NullValueHandling.Ignore;
 
             string fileName = System.Configuration.ConfigurationManager.AppSettings["ModelFileName"];
+            if (File.Exists($"models\\{fileName}.mod"))
+            {
+                File.Delete($"models\\{fileName}.mod");
+            }
+            
             using (StreamWriter sw = new StreamWriter($"models\\{fileName}.mod"))
             using (JsonWriter writer = new JsonTextWriter(sw))
             {
@@ -42,15 +48,23 @@ namespace LevelEditor
             Dictionary<string, List<IElement>> groupedElements = GroupElements(geometry);
 
             PolygonExporter polygonExporter = new PolygonExporter();
+
             foreach (string texture in groupedElements.Keys)
             {
-                Submodel subModel = new Submodel { Texture = texture };
+                Submodel subModel = new Submodel { Texture = texture.Split('\\').Last() };
 
                 List<Polygon> polygons = new List<Polygon>();
 
                 foreach(IElement element in groupedElements[texture])
                 {
-                    polygons.AddRange(polygonExporter.CreatePolygons((IVisualParameters)element.Parameters, element.Orientation));
+                    List<Polygon> subPolygons = polygonExporter.CreatePolygons((IVisualParameters)element.Parameters, element.Orientation);
+
+                    foreach(Polygon pol in subPolygons)
+                    {
+                        AddPosition(pol, element.StartPosition);
+                    }
+
+                    polygons.AddRange(subPolygons);
                 }
 
                 subModel.Polygons = polygons;
@@ -58,6 +72,16 @@ namespace LevelEditor
             }
             
             return models;
+        }
+
+        private static void AddPosition(Polygon pol, Position3D startPosition)
+        {
+            foreach(Vertex v in pol.Vertices)
+            {
+                v.Position.X += (float)startPosition.PositionX;
+                v.Position.Y += (float)startPosition.PositionY;
+                v.Position.Z += (float)startPosition.PositionZ;
+            }
         }
 
         private static Dictionary<string, List<IElement>> GroupElements(List<IElement> geometry)
