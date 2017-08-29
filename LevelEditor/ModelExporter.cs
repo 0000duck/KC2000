@@ -16,8 +16,13 @@ namespace LevelEditor
     {
         public static void Export(List<IElement> geometry)
         {
-            Model.Model model = new Model.Model();
-            model.Submodels = MapSubmodels(geometry);
+            CenterizeModel(geometry);
+
+            Model.Model model = new Model.Model
+            {
+                Submodels = MapSubmodels(geometry),
+                CollisionModel = CollisionModelExporter.GetShape(geometry)
+            };
             Save(model);
         }
 
@@ -42,8 +47,6 @@ namespace LevelEditor
         private static List<Submodel> MapSubmodels(List<IElement> geometry)
         {
             List <Submodel> models = new List<Submodel>();
-
-            CenterizeModel(geometry);
 
             Dictionary<string, List<IElement>> groupedElements = GroupElements(geometry);
 

@@ -8,5 +8,7 @@ namespace LevelEditor.Model
     public class Model
     {
         public IEnumerable<Submodel> Submodels { set; get; }
+
+        public ComplexShape CollisionModel { set; get; }
     }
 }

@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CollisionModelExporter.cs" />
     <Compile Include="CommunicationElements\EditorAnimationSprite.cs" />
     <Compile Include="CommunicationElements\EditorImageSprite.cs" />
     <Compile Include="Contracts\IDoorWayCreator.cs" />
