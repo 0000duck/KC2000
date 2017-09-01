@@ -13,7 +13,7 @@ namespace LevelEditor.Model
         public IEnumerable<Polygon> Polygons { set; get; }
     }
 
-    public sealed class Triangle
+    public class Triangle
     {
         public double[] Corner1 { set; get; }
 
@@ -22,14 +22,14 @@ namespace LevelEditor.Model
         public double[] Corner3 { set; get; }
     }
 
-    public sealed class Face
+    public class Face
     {
         public double[] Normal { set; get; }
 
         public Triangle[] Triangles { set; get; }
     }
 
-    public sealed class Cuboid
+    public class Cuboid
     {
         public double SideLengthY { set; get; }
 
@@ -49,7 +49,7 @@ namespace LevelEditor.Model
         public double Z { set; get; }
     }
 
-    public sealed class ComplexShape
+    public class ComplexShape
     {
         public double RadiusXZ { set; get; }
 
