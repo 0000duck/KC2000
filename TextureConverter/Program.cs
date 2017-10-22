@@ -13,9 +13,9 @@ namespace TextureConverter
         static void Main(string[] args)
         {
             //for stndard textures
-            //ColorReplacementProcessor processor = new ColorReplacementProcessor(new BitmapColorReplacer());
-            //List<IReplacementColor> list = new List<IReplacementColor> { new WhiteToTransparencyChanger() };
-            //processor.ProcessAllBitmapsInFolder("mixedstuff", "mixedstuffOutput", list);
+            ColorReplacementProcessor processor = new ColorReplacementProcessor(new BitmapColorReplacer());
+            List<IReplacementColor> list = new List<IReplacementColor> { new WhiteToTransparencyChanger() };
+            processor.ProcessAllBitmapsInFolder("mixedstuff", "mixedstuffOutput", list);
 
             //ReplaceColorsForSoldier("C:\\Users\\Eingeschränkt\\Documents\\Visual Studio 2010\\Projects\\TextureMerger\\bin\\Debug\\Output\\SoldierShotGun",
             //"SoldierShotGun", new StandardReplacementColorProvider());
@@ -44,8 +44,8 @@ namespace TextureConverter
             //ReplaceColorsForSoldier("C:\\Users\\Eingeschränkt\\Documents\\Visual Studio 2010\\Projects\\TextureMerger\\bin\\Debug\\Output\\SoldierRobot",
             //    "SoldierRobot", new GiantReplacementColorProvider());
 
-            ReplaceColorsForSoldier("C:\\Users\\Eingeschränkt\\Documents\\Visual Studio 2010\\Projects\\TextureMerger\\bin\\Debug\\Output\\LastRobot",
-                "LastRobot", new GiantReplacementColorProvider());
+            //ReplaceColorsForSoldier("C:\\Users\\Eingeschränkt\\Documents\\Visual Studio 2010\\Projects\\TextureMerger\\bin\\Debug\\Output\\LastRobot",
+            //    "LastRobot", new GiantReplacementColorProvider());
             //CharacterColorReplacementProcessor processorCharacters = new CharacterColorReplacementProcessor(new BitmapColorReplacer(), new WhiteToTransparencyChanger());
             //List<IReplacementColor> list = new List<IReplacementColor> 
             //{  

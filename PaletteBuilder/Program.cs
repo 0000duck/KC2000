@@ -12,7 +12,7 @@ namespace PaletteBuilder
         static void Main(string[] args)
         {
             //Palette64lg();
-            PaletteRows();
+            Palette8();
         }
         static void PaletteRows()
         {
@@ -202,6 +202,35 @@ namespace PaletteBuilder
 
             palette.Save("test2.bmp");
         }
+
+        static void Palette8()
+        {
+            Bitmap palette = new Bitmap(8, 8);
+            int x = 0;
+            int y = 0;
+
+            for (int r = 0; r < 256; r += 255)
+            {
+                for (int g = 0; g < 256; g += 255)
+                {
+                    for (int b = 0; b < 256; b += 255)
+                    {
+                        Color color = Color.FromArgb(r, g, b);
+                        palette.SetPixel(x, y, color);
+                        x++;
+
+                        if (x > 7)
+                        {
+                            x = 0;
+                            y++;
+                        }
+                    }
+                }
+            }
+
+            palette.Save("8 colors.bmp");
+        }
+
         static void Palette125()
         {
             Bitmap palette = new Bitmap(12, 12);
