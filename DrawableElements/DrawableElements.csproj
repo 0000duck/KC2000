@@ -52,6 +52,7 @@
     <Compile Include="ImageElementSorter.cs" />
     <Compile Include="AnimationSprite.cs" />
     <Compile Include="AnimationByPercentSprite.cs" />
+    <Compile Include="MarkedCenter.cs" />
     <Compile Include="PercentDrivenList.cs" />
     <Compile Include="StrechedRectangle.cs" />
     <Compile Include="LoopedTranslation.cs" />

@@ -109,6 +109,8 @@ namespace LevelEditor
             if (sky != null)
                 elements.Add(sky);
 
+            elements.Add(new MarkedCenter());
+
             IMessageRenderer target = MessageRendererFactory.CreateMessageRenderer(0.48, 0.48);
             target.RenderMessage("O");
             IMessageRenderer headerRenderer = MessageRendererFactory.CreateMessageRenderer(-0.3, 0.15);

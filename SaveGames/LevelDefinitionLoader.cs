@@ -23,18 +23,26 @@ namespace SaveGames
         {
             if(!Directory.Exists("LevelData"))
                 return null;
-            
-            string fileNameGeometry = string.Format("LevelData\\LevelElements_{0}.sav", levelId);
+
+
+            string name = $"LevelData\\{System.Configuration.ConfigurationManager.AppSettings["ModelFileName"]}.sav";
+
+            string fileNameGeometryFallback = "LevelData\\LevelElements_100.sav";
             string fileNameSkillDependentElements = string.Format("LevelData\\SkillDetails\\{1}\\LevelElements_{0}_{1}.sav", levelId, skillLevel.ToString());
 
-            if (!File.Exists(fileNameGeometry))
-                 return null;
+           
          
             XDocumentToLevelStateConverter xDocumentToLevelStateConverter = new XDocumentToLevelStateConverter();
 
             LevelSaveGame levelSaveGame = new LevelSaveGame();
             levelSaveGame.LevelId = levelId;
-            levelSaveGame.AllElements = xDocumentToLevelStateConverter.Convert(_fileSerializer.LoadFile(fileNameGeometry));
+
+
+            if (File.Exists(name))
+                levelSaveGame.AllElements = xDocumentToLevelStateConverter.Convert(_fileSerializer.LoadFile(name));
+            else
+                levelSaveGame.AllElements = xDocumentToLevelStateConverter.Convert(_fileSerializer.LoadFile(fileNameGeometryFallback));
+
             if (File.Exists(fileNameSkillDependentElements))
                 levelSaveGame.AllElements.AddRange(xDocumentToLevelStateConverter.Convert(_fileSerializer.LoadFile(fileNameSkillDependentElements)));
             

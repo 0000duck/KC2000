@@ -27,7 +27,7 @@ namespace LevelEditor
             List<IElement> geometry = _levelElementSplitter.GetGeometry(levelSaveGame.AllElements);
             List<IElement> skillDependentElements = _levelElementSplitter.GetSkillDependentElements(levelSaveGame.AllElements);
             
-            _fileSerializer.SaveFile(string.Format("LevelData\\LevelElements_{0}.sav", levelSaveGame.LevelId),
+            _fileSerializer.SaveFile($"LevelData\\{System.Configuration.ConfigurationManager.AppSettings["ModelFileName"]}.sav",
                 new LevelStateToXDocumentConverter().Convert(geometry));
 
             _fileSerializer.SaveFile(string.Format("LevelData\\SkillDetails\\{1}\\LevelElements_{0}_{1}.sav", levelSaveGame.LevelId, levelSaveGame.SkillName),

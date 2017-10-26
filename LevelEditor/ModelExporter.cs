@@ -16,6 +16,8 @@ namespace LevelEditor
     {
         public static void Export(List<IElement> geometry)
         {
+            geometry = RemoveInvisibleGroups(geometry);
+
             CenterizeModel(geometry);
             List<Face> faces = new List<Face>();
 
@@ -28,6 +30,21 @@ namespace LevelEditor
             model.CollisionModel.Faces = faces.ToArray();
 
             Save(model);
+        }
+
+        private static List<IElement> RemoveInvisibleGroups(IEnumerable<IElement> geometry)
+        {
+            List<IElement> withoutGroups = new List<IElement>();
+
+            foreach (IElement element in geometry)
+            {
+                if (element.ElementTheme != ElementTheme.InvisibleGroup)
+                    withoutGroups.Add(element);
+                else
+                    withoutGroups.AddRange(RemoveInvisibleGroups(element.SubElements));
+            }
+
+            return withoutGroups;
         }
 
         private static void Save(Model.Model model)

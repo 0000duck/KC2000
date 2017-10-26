@@ -9,7 +9,7 @@ namespace LevelEditor.Elements
     {
         public static double SizeChange = 1;
 
-        public static double SizeChangeSmall = 0.1;
+        public static double SizeChangeSmall = 0.1; // 0.0625;
 
         public static double PositionChange = 0.50;
 

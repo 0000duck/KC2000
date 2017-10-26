@@ -71,23 +71,24 @@ namespace LevelEditor.Elements
 
         private void ManipulateTextureCoordinates(List<ISide> sides, ILevelEditorInstruction levelEditorInstruction)
         {
+            double texcoordFactor = 1.0 / 64.0; 
             foreach (ISide side in sides)
             {
                 if (levelEditorInstruction.MoveBackward)
                 {
-                    MoveSide(side, 0, -0.01);
+                    MoveSide(side, 0, -texcoordFactor);
                 }
                 if (levelEditorInstruction.MoveForward)
                 {
-                    MoveSide(side, 0, 0.01);
+                    MoveSide(side, 0, texcoordFactor);
                 }
                 if (levelEditorInstruction.MoveLeft)
                 {
-                    MoveSide(side, -0.01, 0);
+                    MoveSide(side, -texcoordFactor, 0);
                 }
                 if (levelEditorInstruction.MoveRight)
                 {
-                    MoveSide(side, 0.01, 0);
+                    MoveSide(side, texcoordFactor, 0);
                 }
                 if (levelEditorInstruction.RotateLeft)
                 {
