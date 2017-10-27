@@ -18,7 +18,7 @@ namespace LevelEditor
         {
             geometry = RemoveInvisibleGroups(geometry);
 
-            CenterizeModel(geometry);
+            //CenterizeModel(geometry);
             List<Face> faces = new List<Face>();
 
             Model.Model model = new Model.Model

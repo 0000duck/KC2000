@@ -20,7 +20,7 @@ namespace DrawableElements
 
         void IDrawable.Draw()
         {
-            LightCollection.Enable();
+            //LightCollection.Enable();
             Drawable.Draw();
             LightCollection.Disable();
         }

@@ -98,35 +98,35 @@ namespace LevelEditor.Elements
                 {
                     RotateCorners(side, false);
                 }
-                if (levelEditorInstruction.MoveUp)
-                {
-                    Scale(side, 0.1, 0.1);
-                }
-                if (levelEditorInstruction.MoveDown)
-                {
-                    Scale(side, -0.1, -0.1);
-                }
-                if (levelEditorInstruction.TextureIncreaseX)
-                {
-                    Scale(side, 0.1, 0);
-                }
-                if (levelEditorInstruction.TextureIncreaseY)
-                {
-                    Scale(side, 0, 0.1);
-                }
-                if (levelEditorInstruction.TextureDecreaseX)
-                {
-                    Scale(side, -0.1, 0);
-                }
-                if (levelEditorInstruction.TextureDecreaseY)
-                {
-                    Scale(side, 0, -0.1);
-                }
+                //if (levelEditorInstruction.MoveUp)
+                //{
+                //    Scale(side, 0.1, 0.1);
+                //}
+                //if (levelEditorInstruction.MoveDown)
+                //{
+                //    Scale(side, -0.1, -0.1);
+                //}
+                //if (levelEditorInstruction.TextureIncreaseX)
+                //{
+                //    Scale(side, 0.1, 0);
+                //}
+                //if (levelEditorInstruction.TextureIncreaseY)
+                //{
+                //    Scale(side, 0, 0.1);
+                //}
+                //if (levelEditorInstruction.TextureDecreaseX)
+                //{
+                //    Scale(side, -0.1, 0);
+                //}
+                //if (levelEditorInstruction.TextureDecreaseY)
+                //{
+                //    Scale(side, 0, -0.1);
+                //}
                 if (levelEditorInstruction.MirrorX)
                 {
                     MirrorX(side);
                 }
-                if (levelEditorInstruction.MirrorX)
+                if (levelEditorInstruction.MirrorY)
                 {
                     MirrorY(side);
                 }
