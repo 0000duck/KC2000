@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<LevelContent>
+  <Element Theme="GenericElement" Orientation="Degree_0" PosX="0.84375" PosY="0" PosZ="0">
+    <VP tf="Content\Images\gun.bmp" ia="0" ad="0" sh="R" he="0.5625" lx="0.375" ly="0.125" we="1.318359375">
+      <bo TC1X="0" TC1Y="0" TC2X="0.1875" TC2Y="0" TC3X="0.1875" TC3Y="0.125" TC4X="0" TC4Y="0.125" />
+      <nx TC1X="-0.15625" TC1Y="0.640625" TC2X="-0.03125" TC2Y="0.640625" TC3X="-0.03125" TC3Y="0.921875" TC4X="-0.15625" TC4Y="0.921875" />
+      <px TC1X="-0.140625" TC1Y="0.671875" TC2X="-0.015625" TC2Y="0.671875" TC3X="-0.015625" TC3Y="0.953125" TC4X="-0.140625" TC4Y="0.953125" />
+      <nz TC1X="-0.75" TC1Y="0.1875" TC2X="-0.5625" TC2Y="0.1875" TC3X="-0.5625" TC3Y="0.46875" TC4X="-0.75" TC4Y="0.46875" />
+      <pz TC1X="0.4375" TC1Y="0.1875" TC2X="0.25" TC2Y="0.1875" TC3X="0.25" TC3Y="0.46875" TC4X="0.4375" TC4Y="0.46875" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElement" Orientation="Degree_0" PosX="1.28125" PosY="0" PosZ="0.25">
+    <VP tf="Content\Images\gun.bmp" ia="0" ad="0" sh="R" he="0.6875" lx="0.5" ly="0.25" we="4.296875">
+      <bo TC1X="-0.03125" TC1Y="0.125" TC2X="0.21875" TC2Y="0.125" TC3X="0.21875" TC3Y="0.25" TC4X="-0.03125" TC4Y="0.25" />
+      <to TC1X="0.25" TC1Y="-0.375" TC2X="0" TC2Y="-0.375" TC3X="0" TC3Y="-0.25" TC4X="0.25" TC4Y="-0.25" />
+      <nx TC1X="-0.09375" TC1Y="0" TC2X="0.03125" TC2Y="0" TC3X="0.03125" TC3Y="0.34375" TC4X="-0.09375" TC4Y="0.34375" />
+      <px TC1X="-0.125" TC1Y="0" TC2X="0" TC2Y="0" TC3X="0" TC3Y="0.34375" TC4X="-0.125" TC4Y="0.34375" />
+      <nz TC1X="0" TC1Y="0" TC2X="0.25" TC2Y="0" TC3X="0.25" TC3Y="0.34375" TC4X="0" TC4Y="0.34375" />
+      <pz TC1X="0.25" TC1Y="0" TC2X="0" TC2Y="0" TC3X="0" TC3Y="0.34375" TC4X="0.25" TC4Y="0.34375" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElement" Orientation="Degree_0" PosX="0.59375" PosY="0" PosZ="0.5625">
+    <VP tf="Content\Images\gun.bmp" ia="0" ad="0" sh="R" he="0.375" lx="0.875" ly="0.25" we="4.1015625">
+      <bo TC1X="-0.4375" TC1Y="-0.25" TC2X="0" TC2Y="-0.25" TC3X="0" TC3Y="-0.125" TC4X="-0.4375" TC4Y="-0.125" />
+      <to TC1X="0.25" TC1Y="-0.375" TC2X="0.6875" TC2Y="-0.375" TC3X="0.6875" TC3Y="-0.25" TC4X="0.25" TC4Y="-0.25" />
+      <nx TC1X="0" TC1Y="0" TC2X="0.125" TC2Y="0" TC3X="0.125" TC3Y="0.1875" TC4X="0" TC4Y="0.1875" />
+      <nz TC1X="0.25" TC1Y="0" TC2X="0.6875" TC2Y="0" TC3X="0.6875" TC3Y="0.1875" TC4X="0.25" TC4Y="0.1875" />
+      <pz TC1X="0.6875" TC1Y="0" TC2X="0.25" TC2Y="0" TC3X="0.25" TC3Y="0.1875" TC4X="0.6875" TC4Y="0.1875" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElement" Orientation="Degree_0" PosX="0.3125" PosY="0" PosZ="0.3125">
+    <VP tf="Content\Images\gun.bmp" ia="0" ad="0" sh="R" he="0.0625" lx="0.3125" ly="0.125" we="0.1220703125">
+      <bo TC1X="0" TC1Y="0.140625" TC2X="0.1875" TC2Y="0.140625" TC3X="0.1875" TC3Y="0.265625" TC4X="0" TC4Y="0.265625" />
+      <to TC1X="0" TC1Y="0.140625" TC2X="0.1875" TC2Y="0.140625" TC3X="0.1875" TC3Y="0.265625" TC4X="0" TC4Y="0.265625" />
+      <nx TC1X="0" TC1Y="0.046875" TC2X="0.125" TC2Y="0.046875" TC3X="0.125" TC3Y="0.078125" TC4X="0" TC4Y="0.078125" />
+      <px TC1X="0" TC1Y="0" TC2X="0.125" TC2Y="0" TC3X="0.125" TC3Y="0.03125" TC4X="0" TC4Y="0.03125" />
+      <nz TC1X="0" TC1Y="0.046875" TC2X="0.1875" TC2Y="0.046875" TC3X="0.1875" TC3Y="0.078125" TC4X="0" TC4Y="0.078125" />
+      <pz TC1X="0" TC1Y="0.046875" TC2X="0.1875" TC2Y="0.046875" TC3X="0.1875" TC3Y="0.078125" TC4X="0" TC4Y="0.078125" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElement" Orientation="Degree_0" PosX="0.1875" PosY="0" PosZ="0.3125">
+    <VP tf="Content\Images\gun.bmp" ia="0" ad="0" sh="R" he="0.25" lx="0.0625" ly="0.125" we="0.09765625">
+      <bo TC1X="0" TC1Y="0.140625" TC2X="0.1875" TC2Y="0.140625" TC3X="0.1875" TC3Y="0.265625" TC4X="0" TC4Y="0.265625" />
+      <to TC1X="0" TC1Y="0.140625" TC2X="0.1875" TC2Y="0.140625" TC3X="0.1875" TC3Y="0.265625" TC4X="0" TC4Y="0.265625" />
+      <nx TC1X="0" TC1Y="0.046875" TC2X="0.125" TC2Y="0.046875" TC3X="0.125" TC3Y="0.078125" TC4X="0" TC4Y="0.078125" />
+      <px TC1X="0" TC1Y="0" TC2X="0.125" TC2Y="0" TC3X="0.125" TC3Y="0.03125" TC4X="0" TC4Y="0.03125" />
+      <nz TC1X="0" TC1Y="0.046875" TC2X="0.1875" TC2Y="0.046875" TC3X="0.1875" TC3Y="0.078125" TC4X="0" TC4Y="0.078125" />
+      <pz TC1X="0" TC1Y="0.046875" TC2X="0.1875" TC2Y="0.046875" TC3X="0.1875" TC3Y="0.078125" TC4X="0" TC4Y="0.078125" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElement" Orientation="Degree_0" PosX="0.40625" PosY="0" PosZ="0.3125">
+    <VP tf="Content\Images\gun.bmp" ia="0" ad="0" sh="R" he="0.25" lx="0.0625" ly="0.125" we="0.09765625">
+      <bo TC1X="0" TC1Y="0.140625" TC2X="0.1875" TC2Y="0.140625" TC3X="0.1875" TC3Y="0.265625" TC4X="0" TC4Y="0.265625" />
+      <to TC1X="0" TC1Y="0.140625" TC2X="0.1875" TC2Y="0.140625" TC3X="0.1875" TC3Y="0.265625" TC4X="0" TC4Y="0.265625" />
+      <nx TC1X="0" TC1Y="0.046875" TC2X="0.125" TC2Y="0.046875" TC3X="0.125" TC3Y="0.078125" TC4X="0" TC4Y="0.078125" />
+      <px TC1X="0" TC1Y="0" TC2X="0.125" TC2Y="0" TC3X="0.125" TC3Y="0.03125" TC4X="0" TC4Y="0.03125" />
+      <nz TC1X="0" TC1Y="0.046875" TC2X="0.1875" TC2Y="0.046875" TC3X="0.1875" TC3Y="0.078125" TC4X="0" TC4Y="0.078125" />
+      <pz TC1X="0" TC1Y="0.046875" TC2X="0.1875" TC2Y="0.046875" TC3X="0.1875" TC3Y="0.078125" TC4X="0" TC4Y="0.078125" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElement" Orientation="Degree_0" PosX="0.21875" PosY="0" PosZ="0.5">
+    <VP tf="Content\Images\gun.bmp" ia="0" ad="0" sh="R" he="0.0625" lx="0.25" ly="0.1875" we="0.146484375">
+      <bo TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.015625" TC2Y="-0.546875" TC3X="-0.015625" TC3Y="-0.453125" TC4X="-0.140625" TC4Y="-0.453125" />
+      <to TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.015625" TC2Y="-0.546875" TC3X="-0.015625" TC3Y="-0.453125" TC4X="-0.140625" TC4Y="-0.453125" />
+      <nx TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.046875" TC2Y="-0.546875" TC3X="-0.046875" TC3Y="-0.484375" TC4X="-0.140625" TC4Y="-0.484375" />
+      <px TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.046875" TC2Y="-0.546875" TC3X="-0.046875" TC3Y="-0.484375" TC4X="-0.140625" TC4Y="-0.484375" />
+      <nz TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.015625" TC2Y="-0.546875" TC3X="-0.015625" TC3Y="-0.484375" TC4X="-0.140625" TC4Y="-0.484375" />
+      <pz TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.015625" TC2Y="-0.546875" TC3X="-0.015625" TC3Y="-0.484375" TC4X="-0.140625" TC4Y="-0.484375" />
+    </VP>
+  </Element>
+  <Element Theme="GenericElement" Orientation="Degree_0" PosX="0.15625" PosY="0" PosZ="0.375">
+    <VP tf="Content\Images\gun.bmp" ia="0" ad="0" sh="R" he="0.125" lx="0.25" ly="0.1875" we="0.29296875">
+      <bo TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.015625" TC2Y="-0.546875" TC3X="-0.015625" TC3Y="-0.453125" TC4X="-0.140625" TC4Y="-0.453125" />
+      <to TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.015625" TC2Y="-0.546875" TC3X="-0.015625" TC3Y="-0.453125" TC4X="-0.140625" TC4Y="-0.453125" />
+      <nx TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.046875" TC2Y="-0.546875" TC3X="-0.046875" TC3Y="-0.484375" TC4X="-0.140625" TC4Y="-0.484375" />
+      <px TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.046875" TC2Y="-0.546875" TC3X="-0.046875" TC3Y="-0.484375" TC4X="-0.140625" TC4Y="-0.484375" />
+      <nz TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.015625" TC2Y="-0.546875" TC3X="-0.015625" TC3Y="-0.484375" TC4X="-0.140625" TC4Y="-0.484375" />
+      <pz TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.015625" TC2Y="-0.546875" TC3X="-0.015625" TC3Y="-0.484375" TC4X="-0.140625" TC4Y="-0.484375" />
+    </VP>
+  </Element>
+</LevelContent>

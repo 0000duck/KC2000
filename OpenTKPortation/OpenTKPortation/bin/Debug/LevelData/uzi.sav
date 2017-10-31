@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<LevelContent>
+  <Element Theme="InvisibleGroup" Orientation="Degree_0" PosX="0.125" PosY="0" PosZ="0">
+    <Element Theme="GenericElement" Orientation="Degree_0" PosX="-0.03125" PosY="0" PosZ="0.375">
+      <VP tf="Content\Images\uzi.bmp" ia="0" ad="0" sh="R" he="0.25" lx="0.25" ly="0.125" we="0.390625">
+        <bo TC1X="0.40625" TC1Y="0.25" TC2X="0.53125" TC2Y="0.25" TC3X="0.53125" TC3Y="0.3125" TC4X="0.40625" TC4Y="0.3125" />
+        <nx TC1X="0.40625" TC1Y="0.25" TC2X="0.46875" TC2Y="0.25" TC3X="0.46875" TC3Y="0.46875" TC4X="0.40625" TC4Y="0.46875" />
+        <px TC1X="0.40625" TC1Y="0.25" TC2X="0.46875" TC2Y="0.25" TC3X="0.46875" TC3Y="0.46875" TC4X="0.40625" TC4Y="0.46875" />
+        <nz TC1X="0.40625" TC1Y="0.25" TC2X="0.53125" TC2Y="0.25" TC3X="0.53125" TC3Y="0.46875" TC4X="0.40625" TC4Y="0.46875" />
+        <pz TC1X="0.40625" TC1Y="0.25" TC2X="0.53125" TC2Y="0.25" TC3X="0.53125" TC3Y="0.46875" TC4X="0.40625" TC4Y="0.46875" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElement" Orientation="Degree_0" PosX="0.21875" PosY="0" PosZ="0.6875">
+      <VP tf="Content\Images\uzi.bmp" ia="0" ad="0" sh="R" he="0.375" lx="1.0625" ly="0.25" we="4.98046875">
+        <bo TC1X="-0.34375" TC1Y="0.859375" TC2X="0.1875" TC2Y="0.859375" TC3X="0.1875" TC3Y="0.984375" TC4X="-0.34375" TC4Y="0.984375" />
+        <to TC1X="0.09375" TC1Y="0.734375" TC2X="0.625" TC2Y="0.734375" TC3X="0.625" TC3Y="0.859375" TC4X="0.09375" TC4Y="0.859375" />
+        <nx TC1X="0.09375" TC1Y="0.09375" TC2X="0.21875" TC2Y="0.09375" TC3X="0.21875" TC3Y="0.28125" TC4X="0.09375" TC4Y="0.28125" />
+        <px TC1X="-0.125" TC1Y="0.640625" TC2X="0" TC2Y="0.640625" TC3X="0" TC3Y="0.828125" TC4X="-0.125" TC4Y="0.828125" />
+        <nz TC1X="0.09375" TC1Y="0.09375" TC2X="0.625" TC2Y="0.09375" TC3X="0.625" TC3Y="0.28125" TC4X="0.09375" TC4Y="0.28125" />
+        <pz TC1X="0.625" TC1Y="0.09375" TC2X="0.09375" TC2Y="0.09375" TC3X="0.09375" TC3Y="0.28125" TC4X="0.625" TC4Y="0.28125" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElement" Orientation="Degree_0" PosX="-0.59375" PosY="0" PosZ="0.875">
+      <VP tf="Content\Images\uzi.bmp" ia="0" ad="0" sh="R" he="0.1875" lx="0.0625" ly="0.125" we="0.0732421875">
+        <bo TC1X="0" TC1Y="0.71875" TC2X="0.03125" TC2Y="0.71875" TC3X="0.03125" TC3Y="0.78125" TC4X="0" TC4Y="0.78125" />
+        <to TC1X="0" TC1Y="0.71875" TC2X="0.03125" TC2Y="0.71875" TC3X="0.03125" TC3Y="0.78125" TC4X="0" TC4Y="0.78125" />
+        <nx TC1X="0" TC1Y="0.71875" TC2X="0.0625" TC2Y="0.71875" TC3X="0.0625" TC3Y="0.84375" TC4X="0" TC4Y="0.84375" />
+        <px TC1X="0" TC1Y="0.71875" TC2X="0.0625" TC2Y="0.71875" TC3X="0.0625" TC3Y="0.84375" TC4X="0" TC4Y="0.84375" />
+        <nz TC1X="0" TC1Y="0.71875" TC2X="0.03125" TC2Y="0.71875" TC3X="0.03125" TC3Y="0.84375" TC4X="0" TC4Y="0.84375" />
+        <pz TC1X="0" TC1Y="0.71875" TC2X="0.03125" TC2Y="0.71875" TC3X="0.03125" TC3Y="0.84375" TC4X="0" TC4Y="0.84375" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElement" Orientation="Degree_0" PosX="0" PosY="0" PosZ="0.625">
+      <VP tf="Content\Images\uzi.bmp" ia="0" ad="0" sh="R" he="0.0625" lx="0.4375" ly="0.1875" we="0.25634765625">
+        <bo TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.015625" TC2Y="-0.546875" TC3X="-0.015625" TC3Y="-0.453125" TC4X="-0.140625" TC4Y="-0.453125" />
+        <to TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.015625" TC2Y="-0.546875" TC3X="-0.015625" TC3Y="-0.453125" TC4X="-0.140625" TC4Y="-0.453125" />
+        <nx TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.046875" TC2Y="-0.546875" TC3X="-0.046875" TC3Y="-0.484375" TC4X="-0.140625" TC4Y="-0.484375" />
+        <px TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.046875" TC2Y="-0.546875" TC3X="-0.046875" TC3Y="-0.484375" TC4X="-0.140625" TC4Y="-0.484375" />
+        <nz TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.015625" TC2Y="-0.546875" TC3X="-0.015625" TC3Y="-0.484375" TC4X="-0.140625" TC4Y="-0.484375" />
+        <pz TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.015625" TC2Y="-0.546875" TC3X="-0.015625" TC3Y="-0.484375" TC4X="-0.140625" TC4Y="-0.484375" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElement" Orientation="Degree_0" PosX="-0.03125" PosY="0" PosZ="0.5">
+      <VP tf="Content\Images\uzi.bmp" ia="0" ad="0" sh="R" he="0.125" lx="0.375" ly="0.1875" we="0.439453125">
+        <bo TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.015625" TC2Y="-0.546875" TC3X="-0.015625" TC3Y="-0.453125" TC4X="-0.140625" TC4Y="-0.453125" />
+        <to TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.015625" TC2Y="-0.546875" TC3X="-0.015625" TC3Y="-0.453125" TC4X="-0.140625" TC4Y="-0.453125" />
+        <nx TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.046875" TC2Y="-0.546875" TC3X="-0.046875" TC3Y="-0.484375" TC4X="-0.140625" TC4Y="-0.484375" />
+        <px TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.046875" TC2Y="-0.546875" TC3X="-0.046875" TC3Y="-0.484375" TC4X="-0.140625" TC4Y="-0.484375" />
+        <nz TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.015625" TC2Y="-0.546875" TC3X="-0.015625" TC3Y="-0.484375" TC4X="-0.140625" TC4Y="-0.484375" />
+        <pz TC1X="-0.140625" TC1Y="-0.546875" TC2X="-0.015625" TC2Y="-0.546875" TC3X="-0.015625" TC3Y="-0.484375" TC4X="-0.140625" TC4Y="-0.484375" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElement" Orientation="Degree_0" PosX="-0.4375" PosY="0" PosZ="0.75">
+      <VP tf="Content\Images\uzi.bmp" ia="0" ad="0" sh="R" he="0.3125" lx="0.25" ly="0.25" we="0.9765625">
+        <bo TC1X="0.625" TC1Y="0.09375" TC2X="0.75" TC2Y="0.09375" TC3X="0.75" TC3Y="0.21875" TC4X="0.625" TC4Y="0.21875" />
+        <to TC1X="0.640625" TC1Y="0.65625" TC2X="0.765625" TC2Y="0.65625" TC3X="0.765625" TC3Y="0.78125" TC4X="0.640625" TC4Y="0.78125" />
+        <nx TC1X="0.625" TC1Y="0.625" TC2X="0.75" TC2Y="0.625" TC3X="0.75" TC3Y="0.78125" TC4X="0.625" TC4Y="0.78125" />
+        <px TC1X="0.625" TC1Y="0.09375" TC2X="0.75" TC2Y="0.09375" TC3X="0.75" TC3Y="0.25" TC4X="0.625" TC4Y="0.25" />
+        <nz TC1X="0.625" TC1Y="0.09375" TC2X="0.75" TC2Y="0.09375" TC3X="0.75" TC3Y="0.25" TC4X="0.625" TC4Y="0.25" />
+        <pz TC1X="0.625" TC1Y="0.09375" TC2X="0.75" TC2Y="0.09375" TC3X="0.75" TC3Y="0.25" TC4X="0.625" TC4Y="0.25" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElement" Orientation="Degree_0" PosX="0.8125" PosY="0" PosZ="0.875">
+      <VP tf="Content\Images\uzi.bmp" ia="0" ad="0" sh="R" he="0.125" lx="0.25" ly="0.125" we="0.1953125">
+        <bo TC1X="0.125" TC1Y="0.09375" TC2X="0.25" TC2Y="0.09375" TC3X="0.25" TC3Y="0.15625" TC4X="0.125" TC4Y="0.15625" />
+        <to TC1X="0.125" TC1Y="0.09375" TC2X="0.25" TC2Y="0.09375" TC3X="0.25" TC3Y="0.15625" TC4X="0.125" TC4Y="0.15625" />
+        <nx TC1X="0.125" TC1Y="0.09375" TC2X="0.1875" TC2Y="0.09375" TC3X="0.1875" TC3Y="0.15625" TC4X="0.125" TC4Y="0.15625" />
+        <px TC1X="0.125" TC1Y="0.09375" TC2X="0.1875" TC2Y="0.09375" TC3X="0.1875" TC3Y="0.15625" TC4X="0.125" TC4Y="0.15625" />
+        <nz TC1X="0.125" TC1Y="0.09375" TC2X="0.25" TC2Y="0.09375" TC3X="0.25" TC3Y="0.15625" TC4X="0.125" TC4Y="0.15625" />
+        <pz TC1X="0.125" TC1Y="0.09375" TC2X="0.25" TC2Y="0.09375" TC3X="0.25" TC3Y="0.15625" TC4X="0.125" TC4Y="0.15625" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElement" Orientation="Degree_0" PosX="0" PosY="0" PosZ="0">
+      <VP tf="Content\Images\uzi.bmp" ia="0" ad="0" sh="R" he="0.375" lx="0.1875" ly="0.125" we="0.439453125">
+        <bo TC1X="0.40625" TC1Y="0.46875" TC2X="0.5" TC2Y="0.46875" TC3X="0.5" TC3Y="0.53125" TC4X="0.40625" TC4Y="0.53125" />
+        <nx TC1X="0.4375" TC1Y="0.46875" TC2X="0.5" TC2Y="0.46875" TC3X="0.5" TC3Y="0.65625" TC4X="0.4375" TC4Y="0.65625" />
+        <px TC1X="0.5" TC1Y="0.6875" TC2X="0.5625" TC2Y="0.6875" TC3X="0.5625" TC3Y="0.875" TC4X="0.5" TC4Y="0.875" />
+        <nz TC1X="0.40625" TC1Y="0.46875" TC2X="0.5" TC2Y="0.46875" TC3X="0.5" TC3Y="0.65625" TC4X="0.40625" TC4Y="0.65625" />
+        <pz TC1X="0.5" TC1Y="0.46875" TC2X="0.40625" TC2Y="0.46875" TC3X="0.40625" TC3Y="0.65625" TC4X="0.5" TC4Y="0.65625" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElement" Orientation="Degree_0" PosX="-0.65625" PosY="0" PosZ="0.5625">
+      <VP tf="Content\Images\uzi.bmp" ia="0" ad="0" sh="R" he="0.5" lx="0.0625" ly="0.125" we="0.1953125">
+        <bo TC1X="0" TC1Y="0.71875" TC2X="0.03125" TC2Y="0.71875" TC3X="0.03125" TC3Y="0.78125" TC4X="0" TC4Y="0.78125" />
+        <to TC1X="0" TC1Y="0.71875" TC2X="0.03125" TC2Y="0.71875" TC3X="0.03125" TC3Y="0.78125" TC4X="0" TC4Y="0.78125" />
+        <nx TC1X="0" TC1Y="0.71875" TC2X="0.0625" TC2Y="0.71875" TC3X="0.0625" TC3Y="0.84375" TC4X="0" TC4Y="0.84375" />
+        <px TC1X="0" TC1Y="0.71875" TC2X="0.0625" TC2Y="0.71875" TC3X="0.0625" TC3Y="0.84375" TC4X="0" TC4Y="0.84375" />
+        <nz TC1X="0" TC1Y="0.71875" TC2X="0.03125" TC2Y="0.71875" TC3X="0.03125" TC3Y="0.84375" TC4X="0" TC4Y="0.84375" />
+        <pz TC1X="0" TC1Y="0.71875" TC2X="0.03125" TC2Y="0.71875" TC3X="0.03125" TC3Y="0.84375" TC4X="0" TC4Y="0.84375" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElement" Orientation="Degree_0" PosX="0.5" PosY="0" PosZ="1">
+      <VP tf="Content\Images\uzi.bmp" ia="0" ad="0" sh="R" he="0.125" lx="0.25" ly="0.25" we="0.390625">
+        <bo TC1X="0.125" TC1Y="0.09375" TC2X="0.25" TC2Y="0.09375" TC3X="0.25" TC3Y="0.15625" TC4X="0.125" TC4Y="0.15625" />
+        <to TC1X="0.125" TC1Y="0.09375" TC2X="0.25" TC2Y="0.09375" TC3X="0.25" TC3Y="0.15625" TC4X="0.125" TC4Y="0.15625" />
+        <nx TC1X="0.125" TC1Y="0.09375" TC2X="0.1875" TC2Y="0.09375" TC3X="0.1875" TC3Y="0.15625" TC4X="0.125" TC4Y="0.15625" />
+        <px TC1X="0.125" TC1Y="0.09375" TC2X="0.1875" TC2Y="0.09375" TC3X="0.1875" TC3Y="0.15625" TC4X="0.125" TC4Y="0.15625" />
+        <nz TC1X="0.125" TC1Y="0.09375" TC2X="0.25" TC2Y="0.09375" TC3X="0.25" TC3Y="0.15625" TC4X="0.125" TC4Y="0.15625" />
+        <pz TC1X="0.125" TC1Y="0.09375" TC2X="0.25" TC2Y="0.09375" TC3X="0.25" TC3Y="0.15625" TC4X="0.125" TC4Y="0.15625" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElement" Orientation="Degree_0" PosX="-0.375" PosY="0" PosZ="1">
+      <VP tf="Content\Images\uzi.bmp" ia="0" ad="0" sh="R" he="0.125" lx="0.25" ly="0.25" we="0.390625">
+        <bo TC1X="0.125" TC1Y="0.09375" TC2X="0.25" TC2Y="0.09375" TC3X="0.25" TC3Y="0.15625" TC4X="0.125" TC4Y="0.15625" />
+        <to TC1X="0.125" TC1Y="0.09375" TC2X="0.25" TC2Y="0.09375" TC3X="0.25" TC3Y="0.15625" TC4X="0.125" TC4Y="0.15625" />
+        <nx TC1X="0.125" TC1Y="0.09375" TC2X="0.1875" TC2Y="0.09375" TC3X="0.1875" TC3Y="0.15625" TC4X="0.125" TC4Y="0.15625" />
+        <px TC1X="0.125" TC1Y="0.09375" TC2X="0.1875" TC2Y="0.09375" TC3X="0.1875" TC3Y="0.15625" TC4X="0.125" TC4Y="0.15625" />
+        <nz TC1X="0.125" TC1Y="0.09375" TC2X="0.25" TC2Y="0.09375" TC3X="0.25" TC3Y="0.15625" TC4X="0.125" TC4Y="0.15625" />
+        <pz TC1X="0.125" TC1Y="0.09375" TC2X="0.25" TC2Y="0.09375" TC3X="0.25" TC3Y="0.15625" TC4X="0.125" TC4Y="0.15625" />
+      </VP>
+    </Element>
+    <Element Theme="GenericElement" Orientation="Degree_0" PosX="0.21875" PosY="0" PosZ="0.5625">
+      <VP tf="Content\Images\uzi.bmp" ia="0" ad="0" sh="R" he="0.125" lx="0.125" ly="0.125" we="0.09765625">
+        <bo TC1X="0" TC1Y="0.71875" TC2X="0.03125" TC2Y="0.71875" TC3X="0.03125" TC3Y="0.78125" TC4X="0" TC4Y="0.78125" />
+        <to TC1X="0" TC1Y="0.71875" TC2X="0.03125" TC2Y="0.71875" TC3X="0.03125" TC3Y="0.78125" TC4X="0" TC4Y="0.78125" />
+        <nx TC1X="0" TC1Y="0.71875" TC2X="0.0625" TC2Y="0.71875" TC3X="0.0625" TC3Y="0.84375" TC4X="0" TC4Y="0.84375" />
+        <px TC1X="0" TC1Y="0.71875" TC2X="0.0625" TC2Y="0.71875" TC3X="0.0625" TC3Y="0.84375" TC4X="0" TC4Y="0.84375" />
+        <nz TC1X="0" TC1Y="0.71875" TC2X="0.03125" TC2Y="0.71875" TC3X="0.03125" TC3Y="0.84375" TC4X="0" TC4Y="0.84375" />
+        <pz TC1X="0" TC1Y="0.71875" TC2X="0.03125" TC2Y="0.71875" TC3X="0.03125" TC3Y="0.84375" TC4X="0" TC4Y="0.84375" />
+      </VP>
+    </Element>
+  </Element>
+</LevelContent>
